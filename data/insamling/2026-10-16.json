@@ -1,13 +1,14 @@
 {
  "releaseDate": "2026-10-16",
- "collectedAt": "2026-10-15T14:12:25+00:00",
+ "collectedAt": "2026-10-15T19:01:20+00:00",
  "sources": {
   "vinbanken": [
    "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946",
    "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
   ],
   "munskankarna": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
-  "finewines": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/"
+  "finewines": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+  "bkwine": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/"
  },
  "unmatched": {
   "vinbanken": []
@@ -16,7 +17,8 @@
   "wines": 37,
   "vinbanken": 18,
   "munskankarna": 34,
-  "finewines": 34
+  "finewines": 34,
+  "bkwine": 31
  },
  "wines": [
   {
@@ -57,45 +59,6 @@
    "value": 88.5
   },
   {
-   "sbNumber": "9231901",
-   "short": "92319",
-   "name": "Montefalco Rosso Arnaldo-Caprai",
-   "producer": "Arnaldo-Caprai",
-   "vintage": 2023,
-   "country": "Italien",
-   "region": "Montefalco",
-   "grapes": [
-    "Sangiovese",
-    "Merlot",
-    "Sagrantino"
-   ],
-   "type": "Rött vin",
-   "price": 179.0,
-   "volume": 750.0,
-   "image": "https://product-cdn.systembolaget.se/productimages/24478620/24478620_400.png",
-   "scores": {
-    "Vinbanken": {
-     "score": 91,
-     "scale": 100,
-     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
-    },
-    "Munskänkarna": {
-     "score": 14.0,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
-     "value": "Mer än prisvärt"
-    },
-    "Finewines": {
-     "score": 86.0,
-     "scale": 100,
-     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
-     "range": "85–87"
-    }
-   },
-   "avg": 88.4,
-   "value": 89.0
-  },
-  {
    "sbNumber": "9220801",
    "short": "92208",
    "name": "Château Montus",
@@ -129,10 +92,61 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "90–92"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
     }
    },
-   "avg": 91.6,
-   "value": 88.8
+   "avg": 91.8,
+   "value": 89.0
+  },
+  {
+   "sbNumber": "9231901",
+   "short": "92319",
+   "name": "Montefalco Rosso Arnaldo-Caprai",
+   "producer": "Arnaldo-Caprai",
+   "vintage": 2023,
+   "country": "Italien",
+   "region": "Montefalco",
+   "grapes": [
+    "Sangiovese",
+    "Merlot",
+    "Sagrantino"
+   ],
+   "type": "Rött vin",
+   "price": 179.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24478620/24478620_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 86.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "85–87"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "avg": 89.0,
+   "value": 89.6
   },
   {
    "sbNumber": "9116001",
@@ -166,10 +180,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 89.7,
-   "value": 88.4
+   "avg": 90.0,
+   "value": 88.7
   },
   {
    "sbNumber": "9035801",
@@ -203,10 +223,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 89.7,
-   "value": 89.4
+   "avg": 90.0,
+   "value": 89.7
   },
   {
    "sbNumber": "9535001",
@@ -235,10 +261,54 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "79–81"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 84.2,
-   "value": 83.4
+   "avg": 86.4,
+   "value": 85.6
+  },
+  {
+   "sbNumber": "9369201",
+   "short": "93692",
+   "name": "Casanuova di Nittardi Vigna Doghessa",
+   "producer": "Fattoria Nittardi",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Chianti Classico",
+   "grapes": [
+    "Sangiovese"
+   ],
+   "type": "Rött vin",
+   "price": 239.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/35654141/35654141_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "86–88"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 88.7,
+   "value": 87.7
   },
   {
    "sbNumber": "9465501",
@@ -278,38 +348,6 @@
    "value": 88.1
   },
   {
-   "sbNumber": "9369201",
-   "short": "93692",
-   "name": "Casanuova di Nittardi Vigna Doghessa",
-   "producer": "Fattoria Nittardi",
-   "vintage": 2024,
-   "country": "Italien",
-   "region": "Chianti Classico",
-   "grapes": [
-    "Sangiovese"
-   ],
-   "type": "Rött vin",
-   "price": 239.0,
-   "volume": 750.0,
-   "image": "https://product-cdn.systembolaget.se/productimages/35654141/35654141_400.png",
-   "scores": {
-    "Munskänkarna": {
-     "score": 14.0,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
-     "value": "Prisvärt"
-    },
-    "Finewines": {
-     "score": 87.0,
-     "scale": 100,
-     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
-     "range": "86–88"
-    }
-   },
-   "avg": 87.7,
-   "value": 86.7
-  },
-  {
    "sbNumber": "9512801",
    "short": "95128",
    "name": "Aalto",
@@ -336,10 +374,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "92–94"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 92.3,
-   "value": 86.7
+   "avg": 92.4,
+   "value": 86.8
   },
   {
    "sbNumber": "9250201",
@@ -370,47 +414,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "85–87"
-    }
-   },
-   "avg": 87.6,
-   "value": 86.0
-  },
-  {
-   "sbNumber": "9292801",
-   "short": "92928",
-   "name": "Turonia Albarino",
-   "producer": "Quinta de Couselo",
-   "vintage": 2024,
-   "country": "Spanien",
-   "region": "Rías Baixas",
-   "grapes": [
-    "Albariño"
-   ],
-   "type": "Vitt vin",
-   "price": 199.0,
-   "volume": 750.0,
-   "image": "https://product-cdn.systembolaget.se/productimages/62418708/62418708_400.png",
-   "scores": {
-    "Vinbanken": {
-     "score": 90,
-     "scale": 100,
-     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
     },
-    "Munskänkarna": {
-     "score": 13.5,
+    "BKWine": {
+     "score": 15.5,
      "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
-     "value": "Prisvärt"
-    },
-    "Finewines": {
-     "score": 85.0,
-     "scale": 100,
-     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
-     "range": "84–86"
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 87.5,
-   "value": 87.5
+   "avg": 88.7,
+   "value": 87.1
   },
   {
    "sbNumber": "9412201",
@@ -445,10 +458,59 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "95–97"
+    },
+    "BKWine": {
+     "score": 18.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 96.6,
-   "value": 81.4
+   "avg": 96.4,
+   "value": 81.2
+  },
+  {
+   "sbNumber": "9292801",
+   "short": "92928",
+   "name": "Turonia Albarino",
+   "producer": "Quinta de Couselo",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Rías Baixas",
+   "grapes": [
+    "Albariño"
+   ],
+   "type": "Vitt vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/62418708/62418708_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 85.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "84–86"
+    },
+    "BKWine": {
+     "score": 14.75,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 88.0,
+   "value": 88.0
   },
   {
    "sbNumber": "9258901",
@@ -483,10 +545,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "89–91"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
     }
    },
-   "avg": 90.3,
-   "value": 88.0
+   "avg": 90.0,
+   "value": 87.7
   },
   {
    "sbNumber": "9439501",
@@ -520,10 +588,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "89–91"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
     }
    },
-   "avg": 90.3,
-   "value": 89.0
+   "avg": 90.7,
+   "value": 89.4
   },
   {
    "sbNumber": "9229101",
@@ -588,10 +662,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "85–87"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 87.8,
-   "value": 88.4
+   "avg": 88.3,
+   "value": 88.9
   },
   {
    "sbNumber": "9203701",
@@ -618,10 +698,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "86–88"
+    },
+    "BKWine": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "-"
     }
    },
-   "avg": 86.4,
-   "value": 85.4
+   "avg": 87.1,
+   "value": 86.1
   },
   {
    "sbNumber": "9225701",
@@ -652,10 +738,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "89–91"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 90.4,
-   "value": 88.1
+   "avg": 90.6,
+   "value": 88.3
   },
   {
    "sbNumber": "9227601",
@@ -690,10 +782,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 89.7,
-   "value": 88.9
+   "avg": 90.0,
+   "value": 89.2
   },
   {
    "sbNumber": "9407401",
@@ -723,10 +821,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "87–89"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 88.6,
-   "value": 88.6
+   "avg": 89.1,
+   "value": 89.1
   },
   {
    "sbNumber": "9067901",
@@ -760,6 +864,12 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 15.33,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
    "avg": 90.6,
@@ -811,10 +921,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "86–88"
+    },
+    "BKWine": {
+     "score": 15.25,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
     }
    },
-   "avg": 88.5,
-   "value": 87.0
+   "avg": 89.1,
+   "value": 87.6
   },
   {
    "sbNumber": "9406501",
@@ -846,10 +962,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "87–89"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 88.8,
-   "value": 87.8
+   "avg": 89.3,
+   "value": 88.3
   },
   {
    "sbNumber": "9545801",
@@ -885,10 +1007,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 15.75,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 90.1,
-   "value": 88.3
+   "avg": 90.4,
+   "value": 88.6
   },
   {
    "sbNumber": "9223601",
@@ -920,10 +1048,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 89.5,
-   "value": 87.2
+   "avg": 90.2,
+   "value": 87.9
   },
   {
    "sbNumber": "9307901",
@@ -1008,10 +1142,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "87–89"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 89.4,
-   "value": 88.9
+   "avg": 89.5,
+   "value": 89.0
   },
   {
    "sbNumber": "9459401",
@@ -1064,10 +1204,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 88.8,
-   "value": 88.3
+   "avg": 89.3,
+   "value": 88.8
   },
   {
    "sbNumber": "9236201",
@@ -1096,10 +1242,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "89–91"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 90.8,
-   "value": 86.8
+   "avg": 91.1,
+   "value": 87.1
   },
   {
    "sbNumber": "9373301",
@@ -1128,10 +1280,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "91–93"
+    },
+    "BKWine": {
+     "score": 17.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
     }
    },
-   "avg": 93.1,
-   "value": 86.2
+   "avg": 93.4,
+   "value": 86.5
   },
   {
    "sbNumber": "9387401",
@@ -1161,10 +1319,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "91–93"
+    },
+    "BKWine": {
+     "score": 17.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 92.2,
-   "value": 85.9
+   "avg": 92.6,
+   "value": 86.3
   },
   {
    "sbNumber": "9441801",
@@ -1198,10 +1362,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "88–90"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
     }
    },
-   "avg": 90.6,
-   "value": 88.7
+   "avg": 90.9,
+   "value": 89.0
   },
   {
    "sbNumber": "9454601",
@@ -1230,10 +1400,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "90–92"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
     }
    },
-   "avg": 91.3,
-   "value": 85.4
+   "avg": 91.7,
+   "value": 85.8
   },
   {
    "sbNumber": "9453901",

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Samlar in ett släpp i Systembolagets tillfälliga sortiment och betyg från öppna källor.
+"""Samlar in ett släpp i Systembolagets tillfälliga sortiment och betyg från öppna källor
+(Vinbanken, Munskänkarna, Finewines och BKWine).
 
 Användning:
     python3 scripts/vinslappet_hamta.py              # nästa fredag
@@ -193,6 +194,29 @@ def finewines(date: str) -> tuple[dict, str | None]:
     return scores, url
 
 
+def bkwine(date: str, d: dt.date) -> tuple[dict, str]:
+    """BKWine Magazines månadsrapport. Jack Jakobsson provar hela månadens släpp på 20-skala.
+
+    Samma vin kan stå i flera tabeller (provat flera gånger), då används snittet.
+    """
+    url = (f"https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/"
+           f"{MONTHS[d.month - 1]}-{d.year}-systembolagets-nyheter-hela-provningen/")
+    page = get(url)
+    found: dict[str, list[tuple[float, str]]] = {}
+    for row in re.findall(r'(?s)<tr class="row-\d+">(.*?)</tr>', page):
+        cols = dict(re.findall(r'(?s)<td class="column-(\d)">(.*?)</td>', row))
+        if cols.get("5", "").strip() != date:
+            continue
+        # Oftast kort artikelnummer (90679), ibland hela (9220801).
+        nr = re.search(r"(\d{5})(?:\d{2})?<br />\s*[\d ]+ kr", cols.get("2", ""))
+        sc = re.search(r"(\d+,\d) p, ([^,]+),", html.unescape(cols.get("3", "")))
+        if nr and sc:
+            found.setdefault(nr.group(1), []).append((num(sc.group(1)), sc.group(2).strip()))
+    scores = {nr: {"score": round(sum(x for x, _ in v) / len(v), 2), "scale": 20, "url": url, "value": v[0][1]}
+              for nr, v in found.items()}
+    return scores, url
+
+
 # --- Urval -------------------------------------------------------------------------------
 
 def to_hundred(s: dict) -> float:
@@ -224,12 +248,15 @@ def main() -> None:
     vb, vb_urls = safe("Vinbanken", lambda: vinbanken(date, d), ([], []))
     mk, mk_url = safe("Munskänkarna", lambda: munskankarna(d), ({}, None))
     fw, fw_url = safe("Finewines", lambda: finewines(date), ({}, None))
+    bk, bk_url = safe("BKWine", lambda: bkwine(date, d), ({}, None))
     vb_unmatched = match_vinbanken(wines, vb)
     for w in wines:
         if w["sbNumber"] in mk:
             w["scores"]["Munskänkarna"] = mk[w["sbNumber"]]
         if w["short"] in fw:
             w["scores"]["Finewines"] = fw[w["short"]]
+        if w["short"] in bk:
+            w["scores"]["BKWine"] = bk[w["short"]]
 
     ranked = rank(wines)
     out = Path(__file__).resolve().parent.parent / "data" / "insamling" / f"{date}.json"
@@ -237,13 +264,13 @@ def main() -> None:
     out.write_text(json.dumps({
         "releaseDate": date,
         "collectedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "sources": {"vinbanken": vb_urls, "munskankarna": mk_url if mk else None, "finewines": fw_url},
+        "sources": {"vinbanken": vb_urls, "munskankarna": mk_url if mk else None, "finewines": fw_url, "bkwine": bk_url if bk else None},
         "unmatched": {"vinbanken": vb_unmatched},
-        "coverage": {"wines": len(wines), "vinbanken": len(vb) - len(vb_unmatched), "munskankarna": len(mk), "finewines": len(fw)},
+        "coverage": {"wines": len(wines), "vinbanken": len(vb) - len(vb_unmatched), "munskankarna": len(mk), "finewines": len(fw), "bkwine": len(bk)},
         "wines": wines,
     }, ensure_ascii=False, indent=1))
 
-    print(f"Släpp {date}: {len(wines)} viner. Betyg: Vinbanken {len(vb) - len(vb_unmatched)}, Munskänkarna {len(mk)}, Finewines {len(fw)}.")
+    print(f"Släpp {date}: {len(wines)} viner. Betyg: Vinbanken {len(vb) - len(vb_unmatched)}, Munskänkarna {len(mk)}, Finewines {len(fw)}, BKWine {len(bk)}.")
     for e in vb_unmatched:
         print(f"Kunde inte matcha Vinbanken: {e['name']} #{e['nr']} {e['price']} kr ({e['score']})")
     print(f"Sparat: {out}\n")

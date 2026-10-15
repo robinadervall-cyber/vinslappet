@@ -20,7 +20,7 @@ python3 scripts/vinslappet_hamta.py            # nästa fredag
 python3 scripts/vinslappet_hamta.py 2026-10-23 # eller ett givet datum
 ```
 
-Skriptet hämtar släppets viner från Systembolaget och betyg från Vinbanken, Munskänkarnas släpprovning och Finewines-forumets släpptråd. Resultatet hamnar i `data/insamling/<datum>.json` och en rangordnad lista skrivs ut.
+Skriptet hämtar släppets viner från Systembolaget och betyg från Vinbanken, Munskänkarnas släpprovning, Finewines-forumets släpptråd och BKWine Magazines månadsrapport (finns ofta först en bit in i månaden, så tidiga släpp kan sakna den). Resultatet hamnar i `data/insamling/<datum>.json` och en rangordnad lista skrivs ut.
 
 - Om en källa saknas (inte publicerad än, eller nätfel): säg det i meddelandet till Robin, kör inte om i en loop.
 - Om skriptet skriver "Kunde inte matcha Vinbanken": matcha för hand mot JSON-filen.

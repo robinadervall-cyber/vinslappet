@@ -49,7 +49,7 @@ Spara listan i `/mnt/project-files/vinslappet-rutin/kandidater-<datum>.md` och b
 ## 5. Bygg släppet
 
 Skapa gren `vinslappet/<datum>` från main. I `src/data/releases.ts`, lägg till ett nytt släpp först i listan:
-- `picks`: Robins fem i hans ordning, med `Wine`-objekt. Bild: `image` från insamlingen, annars utelämna `imageUrl`. Varje betyg med `url` till källan. Motivering 2–3 meningar med egna ord utifrån provningsnoterna, nämn tydlig oenighet mellan källor.
+- `picks`: Robins fem i hans ordning, med `Wine`-objekt. Bild: `image` från insamlingen, annars utelämna `imageUrl`. Varje betyg med `url` till källan. Motivering 2–3 meningar med egna ord utifrån provningsnoterna, nämn tydlig oenighet mellan källor. Lägg även in `food` (kort matförslag med egna ord utifrån `usage`/`foodSymbols` från Systembolaget och Vinbankens serveringstips, inga serveringstips i motiveringen), `drinkWindow` (`drink` från insamlingen: Vinbanken i första hand, annars BKWine) och `bottles` (från BKWine).
 - `bubblers`: övriga fem kandidater (eller de Robin anger), en mening plus betygen.
 - `title`, `intro` och `strength` utifrån släppet.
 

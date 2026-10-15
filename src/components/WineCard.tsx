@@ -1,4 +1,4 @@
-import { averageScore, formatPrice, isBudgetPick, systembolagetUrl } from "@/lib/scoring";
+import { averageScore, formatBottles, formatPrice, isBudgetPick, systembolagetUrl } from "@/lib/scoring";
 import type { Wine } from "@/lib/types";
 import { Bottle } from "./Bottle";
 import { ScoreRing } from "./ScoreRing";
@@ -23,10 +23,17 @@ export function WineCard({ wine, rank }: { wine: Wine; rank: number }) {
       </div>
 
       <div className={styles.body}>
-        <div className={styles.tags}>
-          {rank === 1 && <span className={styles.tagTop}>Släppets bästa</span>}
-          {isBudgetPick(wine) && <span className={styles.tagBudget}>Under 200 kr</span>}
-          <span className={styles.tag}>{wine.style}</span>
+        <div className={styles.top}>
+          <div className={styles.tags}>
+            {rank === 1 && <span className={styles.tagTop}>Släppets bästa</span>}
+            {isBudgetPick(wine) && <span className={styles.tagBudget}>Under 200 kr</span>}
+            <span className={styles.tag}>{wine.style}</span>
+          </div>
+          {wine.food && (
+            <p className={styles.food}>
+              <span className={styles.foodLabel}>Matförslag</span> {wine.food}
+            </p>
+          )}
         </div>
 
         <h3 className={styles.name}>
@@ -34,6 +41,12 @@ export function WineCard({ wine, rank }: { wine: Wine; rank: number }) {
           {wine.name} {wine.vintage ?? "NV"}
         </h3>
         <p className={styles.facts}>{facts.join(" · ")}</p>
+        {wine.drinkWindow && (
+          <p className={styles.drink}>
+            Drick {wine.drinkWindow.from}–{wine.drinkWindow.to}
+            <span className={styles.drinkSource}> enligt {wine.drinkWindow.source}</span>
+          </p>
+        )}
 
         <div className={styles.scores}>
           {wine.scores.map((s) => (
@@ -49,6 +62,7 @@ export function WineCard({ wine, rank }: { wine: Wine; rank: number }) {
             <a href={systembolagetUrl(wine.sbNumber)} className={styles.sbLink}>
               Art.nr {wine.sbNumber}
             </a>
+            {wine.bottles && <> · {formatBottles(wine.bottles)}</>}
             {avg !== null && <> · snitt {avg.toLocaleString("sv-SE")}/100</>}
           </span>
         </div>

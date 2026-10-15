@@ -27,6 +27,12 @@ export interface Wine {
   scores: CriticScore[];
   /** Vår motivering i 1–3 meningar. */
   verdict: string;
+  /** Kort matförslag med egna ord, t.ex. "Grillat lamm och nöt". */
+  food?: string;
+  /** När vinet är som bäst. Vinbanken i första hand, annars BKWine. */
+  drinkWindow?: { from: number; to: number; source: string };
+  /** Antal flaskor i släppet enligt BKWine eller Wine Table. */
+  bottles?: number;
 }
 
 /** Vin som nästan tog sig in bland köpförslagen. Visas bara som en textrad. */

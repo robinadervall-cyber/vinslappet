@@ -1,6 +1,6 @@
 {
  "releaseDate": "2026-10-16",
- "collectedAt": "2026-10-15T19:01:20+00:00",
+ "collectedAt": "2026-10-15T20:00:58+00:00",
  "sources": {
   "vinbanken": [
    "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946",
@@ -35,6 +35,13 @@
    "type": "Vitt vin",
    "price": 159.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt, eller till rätter av fisk eller kyckling, gärna sallader eller pizza.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grönsaker",
+    "Pizza"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24590958/24590958_400.png",
    "scores": {
     "Vinbanken": {
@@ -55,53 +62,13 @@
      "range": "85–87"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
    "avg": 87.2,
    "value": 88.5
-  },
-  {
-   "sbNumber": "9220801",
-   "short": "92208",
-   "name": "Château Montus",
-   "producer": "Alain Brumont",
-   "vintage": 2022,
-   "country": "Frankrike",
-   "region": "Madiran",
-   "grapes": [
-    "Cabernet franc",
-    "Cabernet sauvignon",
-    "Tannat"
-   ],
-   "type": "Rött vin",
-   "price": 325.0,
-   "volume": 750.0,
-   "image": "https://product-cdn.systembolaget.se/productimages/17073980/17073980_400.png",
-   "scores": {
-    "Vinbanken": {
-     "score": 92,
-     "scale": 100,
-     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
-    },
-    "Munskänkarna": {
-     "score": 16.0,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
-     "value": "Mer än prisvärt"
-    },
-    "Finewines": {
-     "score": 91.0,
-     "scale": 100,
-     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
-     "range": "90–92"
-    },
-    "BKWine": {
-     "score": 16.5,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "+"
-    }
-   },
-   "avg": 91.8,
-   "value": 89.0
   },
   {
    "sbNumber": "9231901",
@@ -119,6 +86,13 @@
    "type": "Rött vin",
    "price": 179.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24478620/24478620_400.png",
    "scores": {
     "Vinbanken": {
@@ -145,8 +119,72 @@
      "value": "+"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 16800,
    "avg": 89.0,
    "value": 89.6
+  },
+  {
+   "sbNumber": "9220801",
+   "short": "92208",
+   "name": "Château Montus",
+   "producer": "Alain Brumont",
+   "vintage": 2022,
+   "country": "Frankrike",
+   "region": "Madiran",
+   "grapes": [
+    "Cabernet franc",
+    "Cabernet sauvignon",
+    "Tannat"
+   ],
+   "type": "Rött vin",
+   "price": 325.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/17073980/17073980_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 91.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "90–92"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "bottles": 5400,
+   "avg": 91.8,
+   "value": 89.0
   },
   {
    "sbNumber": "9116001",
@@ -162,6 +200,13 @@
    "type": "Rött vin",
    "price": 249.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/22771663/22771663_400.png",
    "scores": {
     "Vinbanken": {
@@ -188,6 +233,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 5700,
    "avg": 90.0,
    "value": 88.7
   },
@@ -205,6 +256,13 @@
    "type": "Vitt vin",
    "price": 209.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt, eller till rätter av fisk eller skaldjur, exempelvis pizza.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Pizza",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24409539/24409539_400.png",
    "scores": {
     "Vinbanken": {
@@ -231,6 +289,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 5400,
    "avg": 90.0,
    "value": 89.7
   },
@@ -248,6 +312,13 @@
    "type": "Rött vin",
    "price": 229.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24470399/24470399_400.png",
    "scores": {
     "Munskänkarna": {
@@ -269,6 +340,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2033,
+    "to": 2037,
+    "source": "BKWine"
+   },
+   "bottles": 6600,
    "avg": 86.4,
    "value": 85.6
   },
@@ -286,6 +363,12 @@
    "type": "Rött vin",
    "price": 239.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/35654141/35654141_400.png",
    "scores": {
     "Munskänkarna": {
@@ -307,6 +390,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2032,
+    "to": 2036,
+    "source": "BKWine"
+   },
+   "bottles": 6000,
    "avg": 88.7,
    "value": 87.7
   },
@@ -324,6 +413,12 @@
    "type": "Vitt vin",
    "price": 189.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till rätter av fisk eller ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/56080335/56080335_400.png",
    "scores": {
     "Vinbanken": {
@@ -344,6 +439,11 @@
      "range": "85–87"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
    "avg": 87.8,
    "value": 88.1
   },
@@ -361,6 +461,13 @@
    "type": "Rött vin",
    "price": 529.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24395931/24395931_400.png",
    "scores": {
     "Munskänkarna": {
@@ -382,6 +489,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2033,
+    "to": 2037,
+    "source": "BKWine"
+   },
+   "bottles": 2400,
    "avg": 92.4,
    "value": 86.8
   },
@@ -401,6 +514,12 @@
    "type": "Vitt vin",
    "price": 262.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariska rätter eller till rätter av fisk eller kyckling.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/56578269/56578269_400.png",
    "scores": {
     "Munskänkarna": {
@@ -422,52 +541,14 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2028,
+    "to": 2030,
+    "source": "BKWine"
+   },
+   "bottles": 2400,
    "avg": 88.7,
    "value": 87.1
-  },
-  {
-   "sbNumber": "9412201",
-   "short": "94122",
-   "name": "Louis Roederer Cristal",
-   "producer": "Louis Roederer",
-   "vintage": 2018,
-   "country": "Frankrike",
-   "region": "Champagne",
-   "grapes": [
-    "Pinot noir",
-    "Chardonnay"
-   ],
-   "type": "Mousserande vin",
-   "price": 2799.0,
-   "volume": 750.0,
-   "image": "https://product-cdn.systembolaget.se/productimages/64795714/64795714_400.png",
-   "scores": {
-    "Vinbanken": {
-     "score": 98,
-     "scale": 100,
-     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
-    },
-    "Munskänkarna": {
-     "score": 18.5,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
-     "value": null
-    },
-    "Finewines": {
-     "score": 96.0,
-     "scale": 100,
-     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
-     "range": "95–97"
-    },
-    "BKWine": {
-     "score": 18.5,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "="
-    }
-   },
-   "avg": 96.4,
-   "value": 81.2
   },
   {
    "sbNumber": "9292801",
@@ -483,6 +564,13 @@
    "type": "Vitt vin",
    "price": 199.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur, exempelvis pizza.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Pizza",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/62418708/62418708_400.png",
    "scores": {
     "Vinbanken": {
@@ -509,8 +597,71 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 4800,
    "avg": 88.0,
    "value": 88.0
+  },
+  {
+   "sbNumber": "9412201",
+   "short": "94122",
+   "name": "Louis Roederer Cristal",
+   "producer": "Louis Roederer",
+   "vintage": 2018,
+   "country": "Frankrike",
+   "region": "Champagne",
+   "grapes": [
+    "Pinot noir",
+    "Chardonnay"
+   ],
+   "type": "Mousserande vin",
+   "price": 2799.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som aperitif eller till rätter av fisk, fågel eller skaldjur. ",
+   "foodSymbols": [
+    "Aperitif",
+    "Fisk",
+    "Fågel",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64795714/64795714_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 98,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 18.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": null
+    },
+    "Finewines": {
+     "score": 96.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "95–97"
+    },
+    "BKWine": {
+     "score": 18.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2027,
+    "to": 2038,
+    "source": "Vinbanken"
+   },
+   "bottles": 2400,
+   "avg": 96.4,
+   "value": 81.2
   },
   {
    "sbNumber": "9258901",
@@ -527,6 +678,11 @@
    "type": "Rött vin",
    "price": 299.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64768421/64768421_400.png",
    "scores": {
     "Vinbanken": {
@@ -553,6 +709,12 @@
      "value": "(=)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 2400,
    "avg": 90.0,
    "value": 87.7
   },
@@ -570,6 +732,12 @@
    "type": "Vitt vin",
    "price": 251.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur, gärna sallader.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795854/64795854_400.png",
    "scores": {
     "Vinbanken": {
@@ -596,6 +764,12 @@
      "value": "+"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 3160,
    "avg": 90.7,
    "value": 89.4
   },
@@ -611,6 +785,12 @@
    "type": "Rött vin",
    "price": 459.0,
    "volume": 750.0,
+   "usage": "Serveras vid18°C till mörkt kött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65159078/65159078_400.png",
    "scores": {
     "Munskänkarna": {
@@ -644,6 +824,12 @@
    "type": "Rött vin",
    "price": 179.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, gärna grillat eller grytor och stekar.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65330555/65330555_400.png",
    "scores": {
     "Vinbanken": {
@@ -670,6 +856,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 3000,
    "avg": 88.3,
    "value": 88.9
   },
@@ -685,6 +877,13 @@
    "type": "Mousserande vin",
    "price": 239.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som sällskapsdryck, till rätter av fisk eller ljust kött, eller med salta snacks. ",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Snacks",
+    "Sällskapsdryck"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/68154168/68154168_400.png",
    "scores": {
     "Munskänkarna": {
@@ -706,6 +905,12 @@
      "value": "-"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2028,
+    "source": "BKWine"
+   },
+   "bottles": 2400,
    "avg": 87.1,
    "value": 86.1
   },
@@ -725,6 +930,8 @@
    "type": "Rött vin",
    "price": 299.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Munskänkarna": {
@@ -746,6 +953,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2029,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
    "avg": 90.6,
    "value": 88.3
   },
@@ -764,6 +977,8 @@
    "type": "Rött vin",
    "price": 229.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Vinbanken": {
@@ -790,6 +1005,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 3240,
    "avg": 90.0,
    "value": 89.2
   },
@@ -808,6 +1029,8 @@
    "type": "Rött vin",
    "price": 199.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Munskänkarna": {
@@ -829,6 +1052,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2031,
+    "to": 2034,
+    "source": "BKWine"
+   },
+   "bottles": 3000,
    "avg": 89.1,
    "value": 89.1
   },
@@ -846,6 +1075,11 @@
    "type": "Rött vin",
    "price": 229.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/66658041/66658041_400.png",
    "scores": {
     "Vinbanken": {
@@ -872,6 +1106,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "bottles": 3600,
    "avg": 90.6,
    "value": 89.8
   },
@@ -889,6 +1129,8 @@
    "type": "Mousserande vin",
    "price": 849.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {},
    "avg": null,
@@ -908,6 +1150,12 @@
    "type": "Rött vin",
    "price": 259.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till smakrika vegetariska eller till rätter av fläsk- eller lammkött.",
+   "foodSymbols": [
+    "Fläsk",
+    "Grönsaker",
+    "Lamm"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65345036/65345036_400.png",
    "scores": {
     "Munskänkarna": {
@@ -929,6 +1177,12 @@
      "value": "(=)"
     }
    },
+   "drink": {
+    "from": 2030,
+    "to": 2032,
+    "source": "BKWine"
+   },
+   "bottles": 420,
    "avg": 89.1,
    "value": 87.6
   },
@@ -944,6 +1198,12 @@
    "type": "Vitt vin",
    "price": 239.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller kyckling.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65345061/65345061_400.png",
    "scores": {
     "Vinbanken": {
@@ -970,6 +1230,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2028,
+    "source": "Vinbanken"
+   },
+   "bottles": 420,
    "avg": 89.3,
    "value": 88.3
   },
@@ -989,6 +1255,12 @@
    "type": "Rött vin",
    "price": 275.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65942217/65942217_400.png",
    "scores": {
     "Vinbanken": {
@@ -1015,6 +1287,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 1800,
    "avg": 90.4,
    "value": 88.6
   },
@@ -1035,6 +1313,12 @@
    "type": "Rött vin",
    "price": 299.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/66873018/66873018_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1056,6 +1340,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2034,
+    "to": 2038,
+    "source": "BKWine"
+   },
+   "bottles": 324,
    "avg": 90.2,
    "value": 87.9
   },
@@ -1073,6 +1363,8 @@
    "type": "Rött vin",
    "price": 759.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {},
    "avg": null,
@@ -1092,6 +1384,8 @@
    "type": "Rött vin",
    "price": 659.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/66851373/66851373_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1124,6 +1418,12 @@
    "type": "Rött vin",
    "price": 219.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795836/64795836_400.png",
    "scores": {
     "Vinbanken": {
@@ -1150,6 +1450,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2030,
+    "source": "Vinbanken"
+   },
+   "bottles": 960,
    "avg": 89.5,
    "value": 89.0
   },
@@ -1167,6 +1473,8 @@
    "type": "Rött vin",
    "price": 879.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/64825617/64825617_400.png",
    "scores": {},
    "avg": null,
@@ -1186,6 +1494,13 @@
    "type": "Vitt vin",
    "price": 219.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller kyckling, gärna grillat.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grillat",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65147298/65147298_400.png",
    "scores": {
     "Vinbanken": {
@@ -1212,6 +1527,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 1500,
    "avg": 89.3,
    "value": 88.8
   },
@@ -1229,6 +1550,8 @@
    "type": "Rött vin",
    "price": 399.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Munskänkarna": {
@@ -1250,6 +1573,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2033,
+    "to": 2039,
+    "source": "BKWine"
+   },
+   "bottles": 960,
    "avg": 91.1,
    "value": 87.1
   },
@@ -1267,6 +1596,8 @@
    "type": "Rött vin",
    "price": 659.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Munskänkarna": {
@@ -1288,6 +1619,12 @@
      "value": "+"
     }
    },
+   "drink": {
+    "from": 2036,
+    "to": 2046,
+    "source": "BKWine"
+   },
+   "bottles": 720,
    "avg": 93.4,
    "value": 86.5
   },
@@ -1306,6 +1643,8 @@
    "type": "Rött vin",
    "price": 599.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Munskänkarna": {
@@ -1327,6 +1666,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2036,
+    "to": 2043,
+    "source": "BKWine"
+   },
+   "bottles": 1320,
    "avg": 92.6,
    "value": 86.3
   },
@@ -1344,6 +1689,8 @@
    "type": "Vitt vin",
    "price": 279.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Vinbanken": {
@@ -1370,6 +1717,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 960,
    "avg": 90.9,
    "value": 89.0
   },
@@ -1387,6 +1740,8 @@
    "type": "Vitt vin",
    "price": 559.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": null,
    "scores": {
     "Munskänkarna": {
@@ -1408,6 +1763,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2031,
+    "to": 2036,
+    "source": "BKWine"
+   },
+   "bottles": 480,
    "avg": 91.7,
    "value": 85.8
   },
@@ -1423,6 +1784,8 @@
    "type": "Starkvin",
    "price": 1499.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/37260728/37260728_400.png",
    "scores": {},
    "avg": null,

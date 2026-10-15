@@ -5,6 +5,9 @@ const sbImage = (productId: string) =>
 
 const VB9_ROTT = "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937";
 const VB9_VITT = "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-9-oktober-6936";
+const VB2_ROTT = "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923";
+const VB2_VITT = "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924";
+const MK2 = "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026";
 const MK9 = "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026";
 const BK_OKT =
   "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/";
@@ -423,6 +426,158 @@ export const releases: Release[] = [
         priceSek: 149,
         sbNumber: "9458701",
         note: "Ung och rödbärig cinsault från Chile, servera lätt sval. Vinbanken 88, Munskänkarna 13, BKWine 14,5.",
+      },
+    ],
+  },
+  {
+    slug: "2026-10-02",
+    releaseDate: "2026-10-02",
+    title: "Garnachafynd för 135 kronor och en pinot noir i toppklass",
+    strength: "medel",
+    intro:
+      "32 viner släpptes i det tillfälliga sortimentet. Det är ett litet släpp men med flera prisvärda röda viner från Rhône, Italien och Spanien. Vi har valt fem flaskor där provarna är överens, med en sydafrikansk pinot noir som släppets höjdpunkt och en garnacha för 135 kronor som Vinbanken kallar veckans, månadens och kanske årets fynd.",
+    isExample: false,
+    picks: [
+      {
+        id: "9501701",
+        name: "Crozes-Hermitage",
+        producer: "Yann Chave",
+        vintage: 2024,
+        country: "Frankrike",
+        region: "Norra Rhône",
+        grapes: ["Syrah"],
+        style: "rött",
+        priceSek: 259,
+        volumeMl: 750,
+        sbNumber: "9501701",
+        imageUrl: sbImage("24471824"),
+        scores: [
+          { source: "Vinbanken", score: 91, scale: 100, url: VB2_ROTT },
+          { source: "Munskänkarna", score: 15, scale: 20, url: MK2 },
+          { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Ekologisk syrah med björnbär, plommon, violer, svarta oliver och fina tanniner. BKWine ger plus för prisvärdheten och Wine Table kallar den otroligt lagringsduglig. Servera till en höstig svamp- och viltgryta.",
+      },
+      {
+        id: "9407801",
+        name: "Peter Max Pinot Noir",
+        producer: "Crystallum",
+        vintage: 2025,
+        country: "Sydafrika",
+        region: "Western Cape",
+        grapes: ["Pinot noir"],
+        style: "rött",
+        priceSek: 369,
+        volumeMl: 750,
+        sbNumber: "9407801",
+        imageUrl: sbImage("64825561"),
+        scores: [
+          { source: "Vinbanken", score: 92, scale: 100, url: VB2_ROTT },
+          { source: "Munskänkarna", score: 16, scale: 20, url: MK2 },
+          { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Sval och elegant pinot noir med hallon, smultron, körsbär och friska örter. Wine Table kallar den pinot noir av högsta internationella klass till en bråkdel av vad motsvarande bourgogne kostar.",
+      },
+      {
+        id: "9508301",
+        name: "Zestos Old Vine Garnacha",
+        producer: "Compañía de Vinos del Atlántico",
+        vintage: 2025,
+        country: "Spanien",
+        region: "Vinos de Madrid",
+        grapes: ["Garnacha"],
+        style: "rött",
+        priceSek: 135,
+        volumeMl: 750,
+        sbNumber: "9508301",
+        imageUrl: sbImage("24391164"),
+        scores: [
+          { source: "Vinbanken", score: 90, scale: 100, url: VB2_ROTT },
+          { source: "Munskänkarna", score: 13.5, scale: 20, url: MK2 },
+          { source: "BKWine", score: 13, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Veckans fynd. Garnacha från 50–70 år gamla stockar med mosade jordgubbar, smultron och granatäpple. Munskänkarna kallar den ett fynd i sin prisklass och Wine Table gör den till veckans husvin. Servera lätt kyld till pizza.",
+      },
+      {
+        id: "9131201",
+        name: "Pouilly-Fuissé Vieilles Vignes",
+        producer: "Domaine Cordier",
+        vintage: 2025,
+        country: "Frankrike",
+        region: "Mâconnais",
+        grapes: ["Chardonnay"],
+        style: "vitt",
+        priceSek: 399,
+        volumeMl: 750,
+        sbNumber: "9131201",
+        imageUrl: sbImage("24465267"),
+        scores: [
+          { source: "Vinbanken", score: 92, scale: 100, url: VB2_VITT },
+          { source: "Munskänkarna", score: 16, scale: 20, url: MK2 },
+          { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Släppets bästa vita. Fyllig chardonnay från gamla stockar med äpple, persika, citrus och fat, men med stram syra och lite sälta. Wine Table tycker att den smakar dyrare än den kostar. Servera till fisksoppa med saffran och aioli.",
+      },
+      {
+        id: "9415901",
+        name: "Langhe Nebbiolo",
+        producer: "Figli Luigi Oddero",
+        vintage: 2024,
+        country: "Italien",
+        region: "Piemonte",
+        grapes: ["Nebbiolo"],
+        style: "rött",
+        priceSek: 219,
+        volumeMl: 750,
+        sbNumber: "9415901",
+        imageUrl: sbImage("62856041"),
+        scores: [
+          { source: "Munskänkarna", score: 14, scale: 20, url: MK2 },
+          { source: "BKWine", score: 15.5, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Traditionell nebbiolo från La Morra och Castiglione Falletto med svart frukt, rosor och viol, hög syra och sträva tanniner. BKWine ger plus för prisvärdheten och Wine Table kallar den ett dunderköp.",
+      },
+    ],
+    bubblers: [
+      {
+        name: "Château La Branne",
+        vintage: 2023,
+        priceSek: 199,
+        sbNumber: "9297401",
+        note: "Bordeaux från Médoc som Wine Table kallar mycket prisvärd. Munskänkarna 14, BKWine 15,5.",
+      },
+      {
+        name: "Fèlsina Pagliarese Chianti Classico",
+        vintage: 2023,
+        priceSek: 209,
+        sbNumber: "9325001",
+        note: "Munskänkarna kallar den ett fynd i sin prisklass. Munskänkarna 15, BKWine 15,5.",
+      },
+      {
+        name: "4 Monos Cien Lanzas Cenicientos",
+        vintage: 2022,
+        priceSek: 259,
+        sbNumber: "9442701",
+        note: "Elegant och rödbärig garnacha från bergen runt Madrid. Vinbanken 91, Munskänkarna 15, BKWine 16.",
+      },
+      {
+        name: "Antonelli Montefalco Sagrantino",
+        vintage: 2020,
+        priceSek: 229,
+        sbNumber: "9001401",
+        note: "Stor och mogen sagrantino till ett mycket bra pris. James Suckling 93, Vinbanken 91, Munskänkarna 14, BKWine 16.",
+      },
+      {
+        name: "Louis Jadot Beaune Premier Cru Clos des Couchereaux",
+        vintage: 2024,
+        priceSek: 539,
+        sbNumber: "9420101",
+        note: "Elegant röd bourgogne med röda bär, körsbär och sandelträ, ovanligt bra pinot noir för pengarna. Vinbanken 93, Munskänkarna 17, BKWine 16,5.",
       },
     ],
   },

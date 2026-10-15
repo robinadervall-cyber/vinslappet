@@ -1,4 +1,4 @@
-import { formatReleaseDate } from "@/lib/scoring";
+import { formatPrice, formatReleaseDate, systembolagetUrl } from "@/lib/scoring";
 import type { Release } from "@/lib/types";
 import { SignupForm } from "./SignupForm";
 import { WineCard } from "./WineCard";
@@ -36,6 +36,25 @@ export function ReleaseView({ release }: { release: Release }) {
           <WineCard key={wine.id} wine={wine} rank={i + 1} />
         ))}
       </section>
+
+      {release.bubblers && release.bubblers.length > 0 && (
+        <section className={styles.bubblers} aria-labelledby="bubblare">
+          <h2 id="bubblare" className={styles.bubblersTitle}>
+            Bubblare
+          </h2>
+          <ol className={styles.bubblersList} start={release.picks.length + 1}>
+            {release.bubblers.map((b) => (
+              <li key={b.sbNumber}>
+                <a href={systembolagetUrl(b.sbNumber)} className={styles.bubblerName}>
+                  {b.name} {b.vintage ?? "NV"}
+                </a>
+                <span className={styles.bubblerPrice}> · {formatPrice(b.priceSek)}</span>
+                <p className={styles.bubblerNote}>{b.note}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
 
       <section className={styles.signup}>
         <SignupForm />

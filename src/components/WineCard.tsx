@@ -1,4 +1,4 @@
-import { averageScore, formatPrice, isBudgetPick } from "@/lib/scoring";
+import { averageScore, formatPrice, isBudgetPick, systembolagetUrl } from "@/lib/scoring";
 import type { Wine } from "@/lib/types";
 import { Bottle } from "./Bottle";
 import { ScoreRing } from "./ScoreRing";
@@ -46,7 +46,9 @@ export function WineCard({ wine, rank }: { wine: Wine; rank: number }) {
         <div className={styles.footer}>
           <span className={styles.price}>{formatPrice(wine.priceSek)}</span>
           <span className={styles.meta}>
-            Art.nr {wine.sbNumber}
+            <a href={systembolagetUrl(wine.sbNumber)} className={styles.sbLink}>
+              Art.nr {wine.sbNumber}
+            </a>
             {avg !== null && <> · snitt {avg.toLocaleString("sv-SE")}/100</>}
           </span>
         </div>

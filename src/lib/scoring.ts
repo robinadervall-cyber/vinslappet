@@ -2,9 +2,13 @@ import type { CriticScore, Wine } from "./types";
 
 export const BUDGET_LIMIT_SEK = 200;
 
-/** Räknar om ett betyg till 100-skala. 20-skalan mappas linjärt så att 20 = 100. */
+/**
+ * Räknar om ett betyg till 100-skala. 20-skalan mappas som 65 + betyg × 5/3, så att 12 = 85,
+ * 15 = 90, 18 = 95 och 20 ≈ 98. Det följer Munskänkarnas egna band ("bra till mycket bra",
+ * "högklassigt", "exceptionellt") och hur 20-poängsbetyg brukar jämföras med 100-poängsbetyg.
+ */
 export function toHundred({ score, scale }: CriticScore): number {
-  return scale === 100 ? score : (score / 20) * 100;
+  return scale === 100 ? score : 65 + (score * 5) / 3;
 }
 
 /** Genomsnittligt betyg på 100-skala, eller null om inga betyg finns. */
@@ -38,4 +42,9 @@ export function formatReleaseDate(iso: string): string {
     month: "long",
     year: "numeric",
   });
+}
+
+/** Länk till varan hos Systembolaget utifrån artikelnumret. */
+export function systembolagetUrl(sbNumber: string): string {
+  return `https://www.systembolaget.se/${sbNumber.replace(/\D/g, "")}`;
 }

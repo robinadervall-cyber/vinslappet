@@ -71,3 +71,50 @@
   background: var(--surface-sunk);
   border-radius: 18px;
 }
+
+.bubblers {
+  margin-top: 40px;
+}
+
+.bubblersTitle {
+  margin: 0 0 4px;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.bubblersList {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.bubblersList li {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.bubblersList li::marker {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.bubblerName {
+  font-weight: 650;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.bubblerName:hover {
+  text-decoration: underline;
+}
+
+.bubblerPrice {
+  color: var(--text-soft);
+}
+
+.bubblerNote {
+  margin: 4px 0 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-soft);
+}

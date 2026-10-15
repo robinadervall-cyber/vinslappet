@@ -67,6 +67,13 @@ Från och med 16 okt: Claude tar fram 10 kandidater rangordnade enligt modellen 
 - Vercel bygger en förhandsversion per gren. Robin godkänner, sedan merge till main.
 - Motiveringar skrivs med egna ord utifrån provningsnoterna, inga kopierade texter.
 
+## Nyhetsbrev (Buttondown)
+
+- Anmälan: formuläret på sajten postar till `/api/prenumerera`, som lägger in adressen i Buttondown. Buttondown skickar ett bekräftelsemejl (dubbel opt-in).
+- Utskick: Vercel Cron (`vercel.json`) anropar `/api/nyhetsbrev` torsdagar 13:00 UTC. Är senaste släppet morgondagens skapas ett schemalagt utskick till kl. 16 svensk tid. Samma ämnesrad skapas aldrig två gånger.
+- Förhandsvisning: `/api/nyhetsbrev/forhandsvisning` (valfritt `?slapp=2026-10-16`).
+- Miljövariabler i Vercel: `BUTTONDOWN_API_KEY` och `CRON_SECRET`.
+
 ## Wine Table 16 okt (inklistrad av Robin, kvalitativ signal)
 
 - Tydligt positiv (+): Cristal, Château Montus ("magnifik kvalitet"), Kühn Quarz & Schiefer ("stort och elegant"), Juliusspital, Allram ("riktigt toppenköp"), Faiveley Gevrey, Gigondas La Louisiane, Pétalos, Son Antem.

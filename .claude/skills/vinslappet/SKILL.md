@@ -11,7 +11,7 @@ Svara Robin på svenska. Metoden i detalj står i `docs/vinslappet-rutin.md`. Ro
 
 - Torsdag kl. 12: kör steg 1–4 och meddela Robin med kandidatlistan.
 - Robin svarar med sina fem val och ordning, och eventuella justeringar. Gör steg 5–6.
-- Torsdag kl. 16: nyhetsbrevet går ut (när utskick finns på plats). Släppet ska då vara publicerat.
+- Torsdag kl. 16: nyhetsbrevet går ut via Buttondown. Släppet måste vara mergat till main före ca kl. 15 (vintertid 14), annars hinner Vercel Cron inte schemalägga det.
 
 ## 1. Samla in
 
@@ -58,3 +58,7 @@ Kör `npm run build` och `npm run lint`. Ta skärmbilder (dator och mobil) av st
 ## 6. Publicera
 
 Först när Robin godkänt: merga PR:en (squash) och kontrollera att https://vinslappet.vercel.app visar det nya släppet. Uppdatera `docs/vinslappet-rutin.md` om metoden ändrats.
+
+## 7. Nyhetsbrev
+
+Ingen åtgärd behövs normalt. Vercel Cron anropar `/api/nyhetsbrev` på torsdagar kl. 13 UTC. Är senaste släppet på main morgondagens schemaläggs utskicket i Buttondown till kl. 16 svensk tid, en gång per släpp. Förhandsvisning: https://vinslappet.vercel.app/api/nyhetsbrev/forhandsvisning. Godkänner Robin för sent för cron-körningen: säg det till Robin, som kan skicka utskicket från Buttondown (klistra in HTML från förhandsvisningen) eller hoppa över veckan.

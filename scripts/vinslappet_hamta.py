@@ -243,6 +243,18 @@ def to_hundred(s: dict) -> float:
     return s["score"] if s["scale"] == 100 else 65 + s["score"] * 5 / 3
 
 
+# Kvalitet först (Robin 2026-10-15): en fördubbling av priset kostar 1,5 poäng, viner över
+# taket rankas inte, och det bästa vinet under 200 kr får alltid en plats bland kandidaterna.
+PRICE_WEIGHT = 1.5
+PRICE_CAP = 1500
+BUDGET = 200
+
+
+def price_750(w: dict) -> float:
+    """Pris per 75 cl, så att halvflaskor inte ser billigare ut än de är."""
+    return w["price"] * 750 / w["volume"] if w.get("volume") else w["price"]
+
+
 def rank(wines: list[dict]) -> list[dict]:
     for w in wines:
         vals = [to_hundred(s) for s in w["scores"].values()]
@@ -250,8 +262,17 @@ def rank(wines: list[dict]) -> list[dict]:
             w["avg"] = w["value"] = None
             continue
         w["avg"] = round(sum(vals) / len(vals), 1)
-        w["value"] = round(w["avg"] - 4 * math.log2(w["price"] / 200) - (1.5 if len(vals) == 1 else 0), 1)
-    return sorted((w for w in wines if w["value"] is not None), key=lambda w: -w["value"])
+        w["value"] = round(w["avg"] - PRICE_WEIGHT * math.log2(price_750(w) / 200) - (1.5 if len(vals) == 1 else 0), 1)
+    return sorted((w for w in wines if w["value"] is not None and w["price"] <= PRICE_CAP), key=lambda w: -w["value"])
+
+
+def candidates(ranked: list[dict], n: int = 10) -> list[dict]:
+    """De n högst rankade, där det bästa vinet under 200 kr alltid är med."""
+    top = ranked[:n]
+    budget = next((w for w in ranked if w["price"] < BUDGET), None)
+    if budget and budget not in top:
+        top = top[:n - 1] + [budget]
+    return top
 
 
 def next_friday(today: dt.date) -> dt.date:
@@ -299,10 +320,22 @@ def main() -> None:
     for e in vb_unmatched:
         print(f"Kunde inte matcha Vinbanken: {e['name']} #{e['nr']} {e['price']} kr ({e['score']})")
     print(f"Sparat: {out}\n")
-    for i, w in enumerate(ranked[:15], 1):
+    def line(w: dict) -> str:
         src = ", ".join(f"{k} {v.get('range') or str(v['score']).replace('.', ',')}" for k, v in w["scores"].items())
-        print(f"{i:2}. {w['value']:5.1f}  {w['name']} {w['vintage'] or 'NV'} ({w['producer']}), "
-              f"{int(w['price'])} kr, {w['type']}, snitt {w['avg']}  [{src}]")
+        return (f"{w['value']:5.1f}  {w['name']} {w['vintage'] or 'NV'} ({w['producer']}), "
+                f"{int(w['price'])} kr, {w['type']}, snitt {w['avg']}  [{src}]")
+
+    top = candidates(ranked)
+    for i, w in enumerate(top, 1):
+        print(f"{i:2}. {line(w)}{'  <- budgetplats' if w not in ranked[:10] else ''}")
+    print("\nNärmast utanför:")
+    for w in [w for w in ranked if w not in top][:5]:
+        print(f"    {line(w)}")
+    over = [w for w in wines if w["price"] > PRICE_CAP and w.get("avg")]
+    if over:
+        print(f"\nÖver {PRICE_CAP} kr (nämns i ingressen om de sticker ut):")
+        for w in over:
+            print(f"    {w['name']} {w['vintage'] or 'NV'}, {int(w['price'])} kr, snitt {w['avg']}")
 
 
 if __name__ == "__main__":

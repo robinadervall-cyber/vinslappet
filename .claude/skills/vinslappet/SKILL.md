@@ -33,7 +33,9 @@ För de cirka tolv högst rankade vinerna: sök med WebSearch efter Wine Advocat
 ## 3. Rangordna
 
 - 20-skala till 100: `65 + betyg × 5/3`.
-- Snitt av alla betyg. Värde = `snitt − 4 × log2(pris / 200)` − 1,5 om bara en källa.
+- Snitt av alla betyg. Värde = `snitt − 1,5 × log2(pris per 75 cl / 200)` − 1,5 om bara en källa. Kvalitet går före pris.
+- Viner över 1 500 kr rankas inte, men nämns separat om de sticker ut.
+- Det bästa vinet under 200 kr har alltid en plats bland de tio (skriptet markerar det som budgetplats). Föreslå det till topp 5 om snittet är minst 88.
 - Wine Table (Cloudflare-spärrat, Robin klistrar ibland in texten) räknas inte in i snittet, men används som plus/neutral/minus och i motiveringar.
 
 ## 4. Meddela Robin
@@ -41,7 +43,7 @@ För de cirka tolv högst rankade vinerna: sök med WebSearch efter Wine Advocat
 Skicka i projekttråden:
 - Släppets storlek, vilka källor som fanns och en bedömning av släppets styrka (svagt, medel, starkt, mycket starkt).
 - Tio kandidater, numrerade: namn, årgång, pris, typ, snitt och betygen per källa. Minst ett vin under 200 kr ska finnas med.
-- Nämn dyra toppviner (som Cristal) separat om de sticker ut.
+- Nämn viner över 1 500 kr (som Cristal) separat om de sticker ut.
 - Be Robin svara med fem nummer i ordning. Övriga blir bubblare.
 
 Spara listan i `/mnt/project-files/vinslappet-rutin/kandidater-<datum>.md` och bifoga den.

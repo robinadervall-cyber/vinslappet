@@ -1,5 +1,5 @@
-import { averageScore, formatPrice, formatReleaseDate, formatScore, systembolagetUrl } from "./scoring";
-import type { Release } from "./types";
+import { averageScore, formatBottles, formatPrice, formatReleaseDate, formatScore, systembolagetUrl } from "./scoring";
+import type { Release, Wine } from "./types";
 
 export const SITE_URL = "https://vinslappet.vercel.app";
 export const SEND_HOUR = 16;
@@ -38,6 +38,17 @@ export function newsletterSubject(release: Release): string {
 const esc = (s: string) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+function extras(w: Wine): string {
+  const parts = [
+    w.food && `Matförslag: ${esc(w.food)}`,
+    w.drinkWindow && `Drick ${w.drinkWindow.from}–${w.drinkWindow.to}`,
+    w.bottles && formatBottles(w.bottles),
+  ].filter(Boolean);
+  return parts.length
+    ? `<p style="margin:0 0 8px;font-size:13px;color:#2b2420">${parts.join(" · ")}</p>`
+    : "";
+}
+
 /** Utskickets innehåll som HTML med inline-stilar, så att det ser likadant ut i alla mejlprogram. */
 export function newsletterHtml(release: Release): string {
   const releaseUrl = `${SITE_URL}/slapp/${release.slug}`;
@@ -53,6 +64,7 @@ export function newsletterHtml(release: Release): string {
 <p style="margin:0 0 6px;font-size:18px;font-weight:700;color:#2b2420"><a href="${systembolagetUrl(w.sbNumber)}" style="color:#7b1e32;text-decoration:none">${esc(w.name)} ${w.vintage ?? "NV"}</a></p>
 <p style="margin:0 0 8px;font-size:14px;color:#2b2420">${esc(w.producer)} · <strong>${formatPrice(w.priceSek)}</strong> · nr ${esc(w.sbNumber)}${avg ? ` · snittbetyg ${avg.toLocaleString("sv-SE")}` : ""}</p>
 <p style="margin:0 0 8px;font-size:15px;line-height:1.5;color:#2b2420">${esc(w.verdict)}</p>
+${extras(w)}
 <p style="margin:0;font-size:12px;color:#7a6f66">${scores}</p>
 </td></tr></table>`;
     })

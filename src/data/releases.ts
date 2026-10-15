@@ -80,6 +80,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Släppets mest samstämmigt höga betyg, och det till 229 kronor. Mörk frukt, läder och tobak från en stark Rioja-årgång. Går att dricka nu men håller gott in på 2030-talet.",
+        food: "Lamm- och nötkött",
+        drinkWindow: { from: 2026, to: 2034, source: "Vinbanken" },
+        bottles: 3600,
       },
       {
         id: "9220801",
@@ -102,6 +105,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Släppets lagringsvin. Kraftfull tannat med mörka bär, mocka, tobak och peppar, men med fin balans. Alla fyra svenska provare ger den högt, BKWine med plus för prisvärdhet, och den håller gott in på 2030-talet.",
+        food: "Grillat lamm, nöt och vilt",
+        drinkWindow: { from: 2026, to: 2034, source: "Vinbanken" },
+        bottles: 5400,
       },
       {
         id: "9231901",
@@ -144,7 +150,10 @@ export const releases: Release[] = [
           { source: "BKWine", score: 15.5, scale: 20, url: "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/" },
         ],
         verdict:
-          "Veckans fynd under 200 kronor. Djup och kraftfull med plommon, mörka körsbär och en touch av tjära. Finewines provare tycker att den är lite eldig, men övriga betyg är höga. Gör sig bäst till höstgryta med vilt och svamp.",
+          "Veckans fynd under 200 kronor. Djup och kraftfull med plommon, mörka körsbär och en touch av tjära. Finewines provare tycker att den är lite eldig, men övriga betyg är höga.",
+        food: "Höstgryta med vilt och svamp",
+        drinkWindow: { from: 2026, to: 2031, source: "Vinbanken" },
+        bottles: 16800,
       },
       {
         id: "9439501",
@@ -182,6 +191,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Stram och frisk torr Riesling med citrus, persika och en stenig mineralitet. Alla fyra svenska provare ger den högt betyg. Fin redan nu, men vinner på något år i källaren.",
+        food: "Fisk, skaldjur och sallader",
+        drinkWindow: { from: 2026, to: 2031, source: "Vinbanken" },
+        bottles: 3160,
       },
       {
         id: "9435901",
@@ -231,6 +243,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Ett av Spaniens säkraste värdeköp. Aromatisk och frisk med violer och röda bär, mer elegans än tyngd. Bara 960 flaskor, så det kan ta slut snabbt.",
+        food: "Grillat lamm och nöt",
+        drinkWindow: { from: 2026, to: 2030, source: "Vinbanken" },
+        bottles: 960,
       },
     ],
     bubblers: [
@@ -300,6 +315,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Veckans fynd. Vingården ligger alldeles intill Châteauneuf-du-Pape och vinet har mycket av samma stil: varm mogen frukt med vildhallon, körsbär, läder och lagerblad. Vinbanken och BKWine lyfter prisvärdheten och Wine Table kallar det ett prisvärt husvin.",
+        food: "Grytor och stekar av lamm och nöt",
+        drinkWindow: { from: 2026, to: 2031, source: "Vinbanken" },
+        bottles: 6000,
       },
       {
         id: "9263101",
@@ -319,7 +337,10 @@ export const releases: Release[] = [
           { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
         ],
         verdict:
-          "Munskänkarna kallar den ett fynd i sin prisklass och BKWine ger plus för prisvärdheten. En klassisk sangiovese från Montepulciano som passar till höstens kötträtter.",
+          "Munskänkarna kallar den ett fynd i sin prisklass och BKWine ger plus för prisvärdheten. En klassisk sangiovese från Montepulciano.",
+        food: "Grillat nöt, lamm och vilt",
+        drinkWindow: { from: 2033, to: 2037, source: "BKWine" },
+        bottles: 7800,
       },
       {
         id: "9514701",
@@ -346,7 +367,10 @@ export const releases: Release[] = [
           { source: "BKWine", score: 16.5, scale: 20, url: BK_OKT },
         ],
         verdict:
-          "Släppets bästa vita. Sauvignon blanc från kalkjordar i Steiermark med äpple, vinbärsblad, örter och klingande syra. Wine Table kallar det ett toppenvin och Falstaff ger 94 poäng. Servera till ceviche eller skaldjur.",
+          "Släppets bästa vita. Sauvignon blanc från kalkjordar i Steiermark med äpple, vinbärsblad, örter och klingande syra. Wine Table kallar det ett toppenvin och Falstaff ger 94 poäng.",
+        food: "Ceviche och skaldjur",
+        drinkWindow: { from: 2026, to: 2031, source: "Vinbanken" },
+        bottles: 480,
       },
       {
         id: "9222601",
@@ -367,7 +391,10 @@ export const releases: Release[] = [
           { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
         ],
         verdict:
-          "Charmig och djup pinot noir med björnbär, jordgubbar, körsbär och kryddor, där faten håller sig i bakgrunden. Vinbanken tycker att den kombinerar smakrikedom och elegans mycket bra. Gott till kyckling med ugnsbakade rotfrukter.",
+          "Charmig och djup pinot noir med björnbär, jordgubbar, körsbär och kryddor, där faten håller sig i bakgrunden. Vinbanken tycker att den kombinerar smakrikedom och elegans mycket bra.",
+        food: "Kyckling med rotfrukter, stekt fisk",
+        drinkWindow: { from: 2026, to: 2031, source: "Vinbanken" },
+        bottles: 13800,
       },
       {
         id: "9414901",
@@ -389,6 +416,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Släppets lagringsvin och Vinbankens lagringstips för veckan. Elegant Barolo med röda bär, blodapelsin och lagerblad, med djup och fin syra. Gott redan nu men håller in på 2030-talet.",
+        food: "Grytor och stekar av mörkt kött",
+        drinkWindow: { from: 2026, to: 2034, source: "Vinbanken" },
+        bottles: 1200,
       },
     ],
     bubblers: [
@@ -457,7 +487,10 @@ export const releases: Release[] = [
           { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
         ],
         verdict:
-          "Ekologisk syrah med björnbär, plommon, violer, svarta oliver och fina tanniner. BKWine ger plus för prisvärdheten och Wine Table kallar den otroligt lagringsduglig. Servera till en höstig svamp- och viltgryta.",
+          "Ekologisk syrah med björnbär, plommon, violer, svarta oliver och fina tanniner. BKWine ger plus för prisvärdheten och Wine Table kallar den otroligt lagringsduglig.",
+        food: "Svamp- och viltgryta, grillat lamm",
+        drinkWindow: { from: 2026, to: 2032, source: "Vinbanken" },
+        bottles: 7200,
       },
       {
         id: "9407801",
@@ -479,6 +512,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Sval och elegant pinot noir med hallon, smultron, körsbär och friska örter. Wine Table kallar den pinot noir av högsta internationella klass till en bråkdel av vad motsvarande bourgogne kostar.",
+        food: "Kyckling, fläskfilé och lättare lamm",
+        drinkWindow: { from: 2026, to: 2032, source: "Vinbanken" },
+        bottles: 1800,
       },
       {
         id: "9508301",
@@ -499,7 +535,10 @@ export const releases: Release[] = [
           { source: "BKWine", score: 13, scale: 20, url: BK_OKT },
         ],
         verdict:
-          "Veckans fynd. Garnacha från 50–70 år gamla stockar med mosade jordgubbar, smultron och granatäpple. Munskänkarna kallar den ett fynd i sin prisklass och Wine Table gör den till veckans husvin. Servera lätt kyld till pizza.",
+          "Veckans fynd. Garnacha från 50–70 år gamla stockar med mosade jordgubbar, smultron och granatäpple. Munskänkarna kallar den ett fynd i sin prisklass och Wine Table gör den till veckans husvin. Servera lätt kyld.",
+        food: "Pizza, fläsk och grönsaksrätter",
+        drinkWindow: { from: 2026, to: 2029, source: "Vinbanken" },
+        bottles: 24000,
       },
       {
         id: "9131201",
@@ -520,7 +559,10 @@ export const releases: Release[] = [
           { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
         ],
         verdict:
-          "Släppets bästa vita. Fyllig chardonnay från gamla stockar med äpple, persika, citrus och fat, men med stram syra och lite sälta. Wine Table tycker att den smakar dyrare än den kostar. Servera till fisksoppa med saffran och aioli.",
+          "Släppets bästa vita. Fyllig chardonnay från gamla stockar med äpple, persika, citrus och fat, men med stram syra och lite sälta. Wine Table tycker att den smakar dyrare än den kostar.",
+        food: "Fisksoppa, grillad fisk och kyckling",
+        drinkWindow: { from: 2029, to: 2033, source: "BKWine" },
+        bottles: 3600,
       },
       {
         id: "9415901",
@@ -541,6 +583,9 @@ export const releases: Release[] = [
         ],
         verdict:
           "Traditionell nebbiolo från La Morra och Castiglione Falletto med svart frukt, rosor och viol, hög syra och sträva tanniner. BKWine ger plus för prisvärdheten och Wine Table kallar den ett dunderköp.",
+        food: "Gräddig pasta, fläsk och lamm",
+        drinkWindow: { from: 2029, to: 2033, source: "BKWine" },
+        bottles: 4200,
       },
     ],
     bubblers: [

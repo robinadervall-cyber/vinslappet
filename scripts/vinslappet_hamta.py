@@ -105,6 +105,8 @@ def sb_release(date: str) -> list[dict]:
                 "type": p["categoryLevel2"],
                 "price": p["price"],
                 "volume": p["volume"],
+                "usage": p.get("usage"),
+                "foodSymbols": p.get("tasteSymbols") or [],
                 "image": (f"https://product-cdn.systembolaget.se/productimages/{p['productId']}/{p['productId']}_400.png"
                           if p["images"] else None),
                 "scores": {},
@@ -134,8 +136,10 @@ def vinbanken(date: str, d: dt.date) -> tuple[list[dict], list[str]]:
             name = " ".join(x for x in lines[max(0, i - 4):i] if not re.search(r"ml$|%$|^•", x))
             for j in range(i + 1, min(i + 12, len(lines) - 1)):
                 if re.fullmatch(r"\d{2,3}", lines[j]) and re.fullmatch(r"[\d ]+ kr", lines[j + 1]):
+                    drink = re.search(r"Drick (\d{4})\s*[-–]\s*(\d{4})", " ".join(lines[i + 1:j]))
                     entries.append({"nr": m.group(1), "name": name, "score": int(lines[j]), "scale": 100, "url": url,
-                                    "price": int(lines[j + 1].replace(" kr", "").replace(" ", ""))})
+                                    "price": int(lines[j + 1].replace(" kr", "").replace(" ", "")),
+                                    "drink": [int(drink.group(1)), int(drink.group(2))] if drink else None})
                     break
     return entries, urls
 
@@ -152,6 +156,8 @@ def match_vinbanken(wines: list[dict], entries: list[dict]) -> list[dict]:
             hit = cands[0] if len(cands) == 1 else None
         if hit:
             hit["scores"]["Vinbanken"] = {k: e[k] for k in ("score", "scale", "url")}
+            if e["drink"]:
+                hit["drink"] = {"from": e["drink"][0], "to": e["drink"][1], "source": "Vinbanken"}
         else:
             unmatched.append(e)
     return unmatched
@@ -194,15 +200,21 @@ def finewines(date: str) -> tuple[dict, str | None]:
     return scores, url
 
 
+# Dryckesfönster och flaskantal från BKWine, fylls av bkwine().
+extra: dict[str, dict] = {}
+
+
 def bkwine(date: str, d: dt.date) -> tuple[dict, str]:
     """BKWine Magazines månadsrapport. Jack Jakobsson provar hela månadens släpp på 20-skala.
 
-    Samma vin kan stå i flera tabeller (provat flera gånger), då används snittet.
+    Samma vin kan stå i flera tabeller (provat flera gånger), då används snittet. Varje rad har även
+    när vinet är som bäst ("2-5 år" från släppet, "nu-3 år") och hur många flaskor som släpps.
     """
     url = (f"https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/"
            f"{MONTHS[d.month - 1]}-{d.year}-systembolagets-nyheter-hela-provningen/")
     page = get(url)
     found: dict[str, list[tuple[float, str]]] = {}
+    extra.clear()
     for row in re.findall(r'(?s)<tr class="row-\d+">(.*?)</tr>', page):
         cols = dict(re.findall(r'(?s)<td class="column-(\d)">(.*?)</td>', row))
         if cols.get("5", "").strip() != date:
@@ -212,6 +224,14 @@ def bkwine(date: str, d: dt.date) -> tuple[dict, str]:
         sc = re.search(r"(\d+,\d) p, ([^,]+),", html.unescape(cols.get("3", "")))
         if nr and sc:
             found.setdefault(nr.group(1), []).append((num(sc.group(1)), sc.group(2).strip()))
+            win = re.search(r"(nu|\d+)\s*-\s*(\d+) år", html.unescape(cols.get("3", "")))
+            if win and nr.group(1) not in extra.get("drink", {}):
+                a = 0 if win.group(1) == "nu" else int(win.group(1))
+                extra.setdefault("drink", {})[nr.group(1)] = {"from": d.year + a, "to": d.year + int(win.group(2)),
+                                                             "source": "BKWine"}
+            bottles = re.search(r"(\d[\d ]*) st\b", html.unescape(cols.get("4", "")))
+            if bottles:
+                extra.setdefault("bottles", {})[nr.group(1)] = int(bottles.group(1).replace(" ", ""))
     scores = {nr: {"score": round(sum(x for x, _ in v) / len(v), 2), "scale": 20, "url": url, "value": v[0][1]}
               for nr, v in found.items()}
     return scores, url
@@ -257,6 +277,11 @@ def main() -> None:
             w["scores"]["Finewines"] = fw[w["short"]]
         if w["short"] in bk:
             w["scores"]["BKWine"] = bk[w["short"]]
+        # Vinbankens dryckesfönster går före BKWines.
+        if "drink" not in w and w["short"] in extra.get("drink", {}):
+            w["drink"] = extra["drink"][w["short"]]
+        if w["short"] in extra.get("bottles", {}):
+            w["bottles"] = extra["bottles"][w["short"]]
 
     ranked = rank(wines)
     out = Path(__file__).resolve().parent.parent / "data" / "insamling" / f"{date}.json"

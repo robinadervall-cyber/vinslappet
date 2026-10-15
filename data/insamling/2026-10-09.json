@@ -1,6 +1,6 @@
 {
  "releaseDate": "2026-10-09",
- "collectedAt": "2026-10-15T19:12:22+00:00",
+ "collectedAt": "2026-10-15T20:00:44+00:00",
  "sources": {
   "vinbanken": [
    "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937",
@@ -18,7 +18,11 @@
     "score": 91,
     "scale": 100,
     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937",
-    "price": 269
+    "price": 269,
+    "drink": [
+     2026,
+     2031
+    ]
    },
    {
     "nr": "95479",
@@ -26,7 +30,11 @@
     "score": 97,
     "scale": 100,
     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937",
-    "price": 2995
+    "price": 2995,
+    "drink": [
+     2026,
+     2035
+    ]
    },
    {
     "nr": "95481",
@@ -34,7 +42,11 @@
     "score": 96,
     "scale": 100,
     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937",
-    "price": 995
+    "price": 995,
+    "drink": [
+     2026,
+     2034
+    ]
    },
    {
     "nr": "95494",
@@ -42,7 +54,11 @@
     "score": 94,
     "scale": 100,
     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-9-oktober-6936",
-    "price": 849
+    "price": 849,
+    "drink": [
+     2026,
+     2034
+    ]
    }
   ]
  },
@@ -69,6 +85,13 @@
    "type": "Vitt vin",
    "price": 119.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller kyckling, exempelvis pizza.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grönsaker",
+    "Pizza"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24391163/24391163_400.png",
    "scores": {
     "Vinbanken": {
@@ -89,6 +112,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 16200,
    "avg": 87.4,
    "value": 90.4
   },
@@ -109,6 +138,13 @@
    "type": "Rött vin",
    "price": 269.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, exempelvis grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24393720/24393720_400.png",
    "scores": {
     "Munskänkarna": {
@@ -124,6 +160,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2033,
+    "to": 2037,
+    "source": "BKWine"
+   },
+   "bottles": 7800,
    "avg": 91.7,
    "value": 90.0
   },
@@ -141,6 +183,12 @@
    "type": "Rött vin",
    "price": 289.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till stekt fisk, till feta eller vilda fåglar, eller till inte alltför smakrika rätter av fläskkött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24392702/24392702_400.png",
    "scores": {
     "Vinbanken": {
@@ -161,6 +209,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 13800,
    "avg": 91.2,
    "value": 89.1
   },
@@ -178,6 +232,13 @@
    "type": "Mousserande vin",
    "price": 579.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som aperitif gärna med salta snacks eller till rätter av fisk eller skaldjur.",
+   "foodSymbols": [
+    "Aperitif",
+    "Fisk",
+    "Skaldjur",
+    "Snacks"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24389003/24389003_400.png",
    "scores": {
     "Vinbanken": {
@@ -198,6 +259,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 4800,
    "avg": 92.7,
    "value": 86.6
   },
@@ -216,6 +283,13 @@
    "type": "Rött vin",
    "price": 239.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/22793435/22793435_400.png",
    "scores": {
     "Vinbanken": {
@@ -223,6 +297,11 @@
      "scale": 100,
      "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937"
     }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
    },
    "avg": 91.0,
    "value": 88.5
@@ -239,6 +318,11 @@
    "type": "Mousserande vin",
    "price": 199.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som sällskapsdryck, gärna med salta snacks.",
+   "foodSymbols": [
+    "Snacks",
+    "Sällskapsdryck"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/56080390/56080390_400.png",
    "scores": {
     "Munskänkarna": {
@@ -254,6 +338,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "BKWine"
+   },
+   "bottles": 4800,
    "avg": 88.3,
    "value": 88.3
   },
@@ -272,6 +362,13 @@
    "type": "Rött vin",
    "price": 359.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillade.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/24478617/24478617_400.png",
    "scores": {
     "Vinbanken": {
@@ -292,6 +389,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 8400,
    "avg": 92.0,
    "value": 88.6
   },
@@ -309,6 +412,13 @@
    "type": "Rött vin",
    "price": 149.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till buffé eller till smakrika vegetariska rätter eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/44996315/44996315_400.png",
    "scores": {
     "Vinbanken": {
@@ -329,6 +439,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 7200,
    "avg": 87.9,
    "value": 89.6
   },
@@ -344,6 +460,13 @@
    "type": "Sake",
    "price": 189.0,
    "volume": 720.0,
+   "usage": "Serveras vid 6-18°C som aperitif, till sushi eller till andra japanska rätter.",
+   "foodSymbols": [
+    "Aperitif",
+    "Asiatiskt",
+    "Fisk",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64055733/64055733_400.png",
    "scores": {},
    "avg": null,
@@ -361,6 +484,13 @@
    "type": "Vitt vin",
    "price": 159.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur, exempelvis en buffé.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795750/64795750_400.png",
    "scores": {
     "Munskänkarna": {
@@ -376,6 +506,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2028,
+    "source": "BKWine"
+   },
+   "bottles": 4200,
    "avg": 87.5,
    "value": 88.8
   },
@@ -393,6 +529,12 @@
    "type": "Vitt vin",
    "price": 359.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/46553961/46553961_400.png",
    "scores": {
     "Munskänkarna": {
@@ -408,6 +550,12 @@
      "value": "+"
     }
    },
+   "drink": {
+    "from": 2028,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
    "avg": 92.1,
    "value": 88.7
   },
@@ -427,6 +575,13 @@
    "type": "Rött vin",
    "price": 159.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av fläsk- eller lammkött, exempelvis pizza.",
+   "foodSymbols": [
+    "Fläsk",
+    "Grönsaker",
+    "Lamm",
+    "Pizza"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64825670/64825670_400.png",
    "scores": {
     "Vinbanken": {
@@ -447,6 +602,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2027,
+    "source": "Vinbanken"
+   },
+   "bottles": 3600,
    "avg": 88.2,
    "value": 89.5
   },
@@ -465,6 +626,12 @@
    "type": "Rött vin",
    "price": 179.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, exempelvis pizza.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Pizza"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64084538/64084538_400.png",
    "scores": {
     "Munskänkarna": {
@@ -489,6 +656,11 @@
    "type": "Rött vin",
    "price": 169.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av lamm- eller nötkött, gärna grytor och stekar. ",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795839/64795839_400.png",
    "scores": {
     "Vinbanken": {
@@ -509,6 +681,12 @@
      "value": "+"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 6000,
    "avg": 89.5,
    "value": 90.5
   },
@@ -526,6 +704,13 @@
    "type": "Vitt vin",
    "price": 229.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till rätter av fisk eller skaldjur, gärna sallader, eller till syrliga getostar.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Ost",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64825585/64825585_400.png",
    "scores": {
     "Vinbanken": {
@@ -546,6 +731,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 3000,
    "avg": 90.1,
    "value": 89.3
   },
@@ -563,6 +754,13 @@
    "type": "Vitt vin",
    "price": 249.0,
    "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till smakrika rätter av fisk eller till rätter av ljust kött, eller till lättare rätter av lammkött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Lamm"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795885/64795885_400.png",
    "scores": {
     "Vinbanken": {
@@ -583,6 +781,12 @@
      "value": "(=)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2030,
+    "source": "Vinbanken"
+   },
+   "bottles": 2400,
    "avg": 90.1,
    "value": 88.8
   },
@@ -600,6 +804,12 @@
    "type": "Rött vin",
    "price": 179.0,
    "volume": 750.0,
+   "usage": "Serveras vid 14-16°C till vegetariskt eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795760/64795760_400.png",
    "scores": {
     "Munskänkarna": {
@@ -615,6 +825,12 @@
      "value": "(=)"
     }
    },
+   "drink": {
+    "from": 2027,
+    "to": 2029,
+    "source": "BKWine"
+   },
+   "bottles": 1800,
    "avg": 87.9,
    "value": 88.5
   },
@@ -632,6 +848,12 @@
    "type": "Rött vin",
    "price": 299.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor och stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/62856053/62856053_400.png",
    "scores": {
     "Munskänkarna": {
@@ -647,6 +869,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2028,
+    "to": 2034,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
    "avg": 90.0,
    "value": 87.7
   },
@@ -664,6 +892,12 @@
    "type": "Vitt vin",
    "price": 239.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariska rätter eller till rätter av fisk eller kyckling.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65911559/65911559_400.png",
    "scores": {
     "Vinbanken": {
@@ -684,6 +918,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 2400,
    "avg": 90.1,
    "value": 89.1
   },
@@ -701,6 +941,13 @@
    "type": "Vitt vin",
    "price": 489.0,
    "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till rätter av fläsk-, lamm- eller nötkött, gärna grillat.",
+   "foodSymbols": [
+    "Fläsk",
+    "Grillat",
+    "Lamm",
+    "Nöt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/66767148/66767148_400.png",
    "scores": {
     "Munskänkarna": {
@@ -716,6 +963,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2029,
+    "to": 2034,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
    "avg": 92.1,
    "value": 86.9
   },
@@ -733,6 +986,13 @@
    "type": "Rött vin",
    "price": 199.0,
    "volume": 750.0,
+   "usage": "Serveras vid 14-16°C till vegetariskt eller till rätter av ljust kött, exempelvis en buffé.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64606060/64606060_400.png",
    "scores": {},
    "avg": null,
@@ -750,6 +1010,13 @@
    "type": "Rött vin",
    "price": 189.0,
    "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till vegetariska rätter eller till rätter av ljust kött, exempelvis pizza eller tomatbaserad pasta.",
+   "foodSymbols": [
+    "Fläsk",
+    "Grönsaker",
+    "Pasta",
+    "Pizza"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64768416/64768416_400.png",
    "scores": {
     "Munskänkarna": {
@@ -765,6 +1032,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2028,
+    "to": 2031,
+    "source": "BKWine"
+   },
+   "bottles": 1800,
    "avg": 88.8,
    "value": 89.1
   },
@@ -782,6 +1055,12 @@
    "type": "Rött vin",
    "price": 399.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795724/64795724_400.png",
    "scores": {
     "Vinbanken": {
@@ -802,6 +1081,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "bottles": 1200,
    "avg": 92.1,
    "value": 88.1
   },
@@ -819,6 +1104,12 @@
    "type": "Vitt vin",
    "price": 199.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till rätter av fisk eller skaldjur, gärna sallader.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/66757580/66757580_400.png",
    "scores": {
     "Munskänkarna": {
@@ -834,6 +1125,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2028,
+    "to": 2031,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
    "avg": 88.8,
    "value": 88.8
   },
@@ -851,6 +1148,13 @@
    "type": "Rött vin",
    "price": 1199.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/67662500/67662500_400.png",
    "scores": {
     "Munskänkarna": {
@@ -866,6 +1170,12 @@
      "value": "(=)"
     }
    },
+   "drink": {
+    "from": 2034,
+    "to": 2039,
+    "source": "BKWine"
+   },
+   "bottles": 720,
    "avg": 94.2,
    "value": 83.9
   },
@@ -883,6 +1193,13 @@
    "type": "Rött vin",
    "price": 259.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av ljust kött, gärna kallskuret och småplock.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795734/64795734_400.png",
    "scores": {
     "Vinbanken": {
@@ -903,27 +1220,14 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2027,
+    "source": "Vinbanken"
+   },
+   "bottles": 1200,
    "avg": 90.0,
    "value": 88.5
-  },
-  {
-   "sbNumber": "9274001",
-   "short": "92740",
-   "name": "CU Bikicki",
-   "producer": "BIKICKI",
-   "vintage": 2023,
-   "country": "Serbien",
-   "region": null,
-   "grapes": [
-    "Pinot grigio"
-   ],
-   "type": "Vitt vin",
-   "price": 240.0,
-   "volume": 750.0,
-   "image": "https://product-cdn.systembolaget.se/productimages/64606147/64606147_400.png",
-   "scores": {},
-   "avg": null,
-   "value": null
   },
   {
    "sbNumber": "9514701",
@@ -939,6 +1243,8 @@
    "type": "Vitt vin",
    "price": 329.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/60857958/60857958_400.png",
    "scores": {
     "Vinbanken": {
@@ -959,8 +1265,35 @@
      "value": "+"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 480,
    "avg": 91.8,
    "value": 88.9
+  },
+  {
+   "sbNumber": "9274001",
+   "short": "92740",
+   "name": "CU Bikicki",
+   "producer": "BIKICKI",
+   "vintage": 2023,
+   "country": "Serbien",
+   "region": null,
+   "grapes": [
+    "Pinot grigio"
+   ],
+   "type": "Vitt vin",
+   "price": 240.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606147/64606147_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
   },
   {
    "sbNumber": "9115101",
@@ -979,6 +1312,13 @@
    "type": "Rött vin",
    "price": 645.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött eller till lagrade hårdostar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Ost",
+    "Vilt"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/60624610/60624610_400.png",
    "scores": {
     "Munskänkarna": {
@@ -994,6 +1334,12 @@
      "value": "(=)"
     }
    },
+   "drink": {
+    "from": 2029,
+    "to": 2041,
+    "source": "BKWine"
+   },
+   "bottles": 240,
    "avg": 92.5,
    "value": 85.7
   },
@@ -1011,6 +1357,8 @@
    "type": "Rött vin",
    "price": 499.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/66066840/66066840_400.png",
    "scores": {},
    "avg": null,
@@ -1031,6 +1379,8 @@
    "type": "Rött vin",
    "price": 349.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/66757608/66757608_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1046,6 +1396,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2030,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 600,
    "avg": 90.4,
    "value": 87.2
   },
@@ -1061,6 +1417,13 @@
    "type": "Starkvin",
    "price": 199.0,
    "volume": 750.0,
+   "usage": "Serveras vid 10-14°C som aperitif eller till småplock och kallskuret, exempelvis tapas, eller till svampsoppa.",
+   "foodSymbols": [
+    "Aperitif",
+    "Buffémat",
+    "Fläsk",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/66851296/66851296_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1076,6 +1439,12 @@
      "value": "+"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "BKWine"
+   },
+   "bottles": 500,
    "avg": 90.8,
    "value": 90.8
   },
@@ -1093,6 +1462,8 @@
    "type": "Vitt vin",
    "price": 325.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/65126363/65126363_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1108,6 +1479,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2031,
+    "to": 2034,
+    "source": "BKWine"
+   },
+   "bottles": 360,
    "avg": 90.4,
    "value": 87.6
   },
@@ -1125,6 +1502,13 @@
    "type": "Mousserande vin",
    "price": 649.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till rätter av fisk eller skaldjur eller till ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/65147330/65147330_400.png",
    "scores": {
     "Vinbanken": {
@@ -1145,6 +1529,12 @@
      "value": "(-)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2027,
+    "source": "Vinbanken"
+   },
+   "bottles": 300,
    "avg": 92.6,
    "value": 85.8
   },
@@ -1162,6 +1552,13 @@
    "type": "Vitt vin",
    "price": 289.0,
    "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till rätter av fisk eller skaldjur, exempelvis sallader eller pizza.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Pizza",
+    "Skaldjur"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795781/64795781_400.png",
    "scores": {
     "Vinbanken": {
@@ -1182,6 +1579,12 @@
      "value": "(+)"
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 480,
    "avg": 90.9,
    "value": 88.8
   },
@@ -1199,6 +1602,8 @@
    "type": "Rött vin",
    "price": 299.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/64795704/64795704_400.png",
    "scores": {},
    "avg": null,
@@ -1218,6 +1623,13 @@
    "type": "Rött vin",
    "price": 259.0,
    "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av ljust kött, gärna kallskuret och småplock.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795848/64795848_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1233,6 +1645,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2030,
+    "to": 2034,
+    "source": "BKWine"
+   },
+   "bottles": 624,
    "avg": 90.4,
    "value": 88.9
   },
@@ -1250,6 +1668,12 @@
    "type": "Vitt vin",
    "price": 269.0,
    "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till smakrika rätter av fisk eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/64795853/64795853_400.png",
    "scores": {
     "Vinbanken": {
@@ -1270,6 +1694,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 624,
    "avg": 90.6,
    "value": 88.9
   },
@@ -1287,6 +1717,8 @@
    "type": "Vitt vin",
    "price": 409.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/66757589/66757589_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1311,6 +1743,13 @@
    "type": "Starkvin",
    "price": 449.0,
    "volume": 500.0,
+   "usage": "Serveras vid 12-14°C som aperitif eller till rätter av ljust kött, gärna kallskuret och småplock.",
+   "foodSymbols": [
+    "Aperitif",
+    "Buffémat",
+    "Fläsk",
+    "Fågel"
+   ],
    "image": "https://product-cdn.systembolaget.se/productimages/63864854/63864854_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1326,6 +1765,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2026,
+    "to": 2036,
+    "source": "BKWine"
+   },
+   "bottles": 240,
    "avg": 93.8,
    "value": 89.1
   },
@@ -1343,6 +1788,8 @@
    "type": "Rött vin",
    "price": 399.0,
    "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
    "image": "https://product-cdn.systembolaget.se/productimages/66657664/66657664_400.png",
    "scores": {
     "Munskänkarna": {
@@ -1358,6 +1805,12 @@
      "value": "="
     }
    },
+   "drink": {
+    "from": 2032,
+    "to": 2036,
+    "source": "BKWine"
+   },
+   "bottles": 480,
    "avg": 91.7,
    "value": 87.7
   }

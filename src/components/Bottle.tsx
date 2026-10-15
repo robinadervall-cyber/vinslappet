@@ -7,6 +7,7 @@ const GLASS: Record<WineStyle, string> = {
   rosé: "var(--glass-rose)",
   mousserande: "var(--glass-sparkling)",
   sött: "var(--glass-white)",
+  starkvin: "var(--glass-white)",
 };
 
 /** Generisk flaska som platshållare tills riktiga produktbilder finns. */

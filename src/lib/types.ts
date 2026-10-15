@@ -1,4 +1,4 @@
-export type WineStyle = "rött" | "vitt" | "rosé" | "mousserande" | "sött";
+export type WineStyle = "rött" | "vitt" | "rosé" | "mousserande" | "sött" | "starkvin";
 
 export interface CriticScore {
   /** Källa, t.ex. "Wine Advocate" eller "Guía Peñín". */

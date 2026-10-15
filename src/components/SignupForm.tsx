@@ -3,14 +3,16 @@
 import { useState } from "react";
 import styles from "./SignupForm.module.css";
 
-/** Prototyp: formuläret sparar ingenting ännu. Kopplas mot Resend/Brevo i steg 4. */
-export function SignupForm() {
-  const [sent, setSent] = useState(false);
+type State = { kind: "idle" | "sending" | "done" } | { kind: "error"; message: string };
 
-  if (sent) {
+/** Anmälan till nyhetsbrevet. Adressen skickas till Buttondown, som mejlar en bekräftelselänk. */
+export function SignupForm() {
+  const [state, setState] = useState<State>({ kind: "idle" });
+
+  if (state.kind === "done") {
     return (
       <p className={styles.done} role="status">
-        Tack! I prototypen sparas ingen adress än, men så här kommer det att fungera.
+        Tack! Kolla din inkorg och klicka på länken i mejlet för att bekräfta prenumerationen.
       </p>
     );
   }
@@ -18,24 +20,42 @@ export function SignupForm() {
   return (
     <form
       className={styles.form}
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
-        setSent(true);
+        const form = new FormData(e.currentTarget);
+        setState({ kind: "sending" });
+        try {
+          const res = await fetch("/api/prenumerera", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email: form.get("email"), consent: form.get("consent") === "on" }),
+          });
+          if (res.ok) return setState({ kind: "done" });
+          const data = await res.json().catch(() => null);
+          setState({ kind: "error", message: data?.error ?? "Något gick fel, försök igen om en stund." });
+        } catch {
+          setState({ kind: "error", message: "Något gick fel, försök igen om en stund." });
+        }
       }}
     >
       <label className={styles.label} htmlFor="email">
         Få Vinsläppet i mejlen inför varje fredagssläpp
       </label>
       <div className={styles.row}>
-        <input id="email" type="email" required placeholder="din@epost.se" className={styles.input} />
-        <button type="submit" className={styles.button}>
-          Prenumerera
+        <input id="email" name="email" type="email" required placeholder="din@epost.se" className={styles.input} />
+        <button type="submit" className={styles.button} disabled={state.kind === "sending"}>
+          {state.kind === "sending" ? "Skickar…" : "Prenumerera"}
         </button>
       </div>
       <label className={styles.check}>
-        <input type="checkbox" required /> Jag har fyllt 25 år och godkänner{" "}
+        <input type="checkbox" name="consent" required /> Jag har fyllt 25 år och godkänner{" "}
         <a href="#integritet">integritetspolicyn</a>.
       </label>
+      {state.kind === "error" && (
+        <p className={styles.error} role="alert">
+          {state.message}
+        </p>
+      )}
     </form>
   );
 }

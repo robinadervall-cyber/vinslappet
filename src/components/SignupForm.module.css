@@ -58,3 +58,14 @@
     flex-direction: column;
   }
 }
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.error {
+  margin: 0;
+  font-size: 14px;
+  color: var(--accent-text);
+}

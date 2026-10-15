@@ -1,0 +1,1256 @@
+{
+ "releaseDate": "2026-10-16",
+ "collectedAt": "2026-10-15T14:12:25+00:00",
+ "sources": {
+  "vinbanken": [
+   "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946",
+   "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+  ],
+  "munskankarna": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+  "finewines": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/"
+ },
+ "unmatched": {
+  "vinbanken": []
+ },
+ "coverage": {
+  "wines": 37,
+  "vinbanken": 18,
+  "munskankarna": 34,
+  "finewines": 34
+ },
+ "wines": [
+  {
+   "sbNumber": "9481001",
+   "short": "94810",
+   "name": "Soave Classico Montesei",
+   "producer": "Le Battistelle",
+   "vintage": 2025,
+   "country": "Italien",
+   "region": "Soave",
+   "grapes": [
+    "Garganega"
+   ],
+   "type": "Vitt vin",
+   "price": 159.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24590958/24590958_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 86.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "85–87"
+    }
+   },
+   "avg": 87.2,
+   "value": 88.5
+  },
+  {
+   "sbNumber": "9231901",
+   "short": "92319",
+   "name": "Montefalco Rosso Arnaldo-Caprai",
+   "producer": "Arnaldo-Caprai",
+   "vintage": 2023,
+   "country": "Italien",
+   "region": "Montefalco",
+   "grapes": [
+    "Sangiovese",
+    "Merlot",
+    "Sagrantino"
+   ],
+   "type": "Rött vin",
+   "price": 179.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24478620/24478620_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 86.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "85–87"
+    }
+   },
+   "avg": 88.4,
+   "value": 89.0
+  },
+  {
+   "sbNumber": "9220801",
+   "short": "92208",
+   "name": "Château Montus",
+   "producer": "Alain Brumont",
+   "vintage": 2022,
+   "country": "Frankrike",
+   "region": "Madiran",
+   "grapes": [
+    "Cabernet franc",
+    "Cabernet sauvignon",
+    "Tannat"
+   ],
+   "type": "Rött vin",
+   "price": 325.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/17073980/17073980_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 91.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "90–92"
+    }
+   },
+   "avg": 91.6,
+   "value": 88.8
+  },
+  {
+   "sbNumber": "9116001",
+   "short": "91160",
+   "name": "Le Riche Cabernet Sauvignon",
+   "producer": "Le Riche Wines",
+   "vintage": 2024,
+   "country": "Sydafrika",
+   "region": "Coastal Region",
+   "grapes": [
+    "Cabernet sauvignon"
+   ],
+   "type": "Rött vin",
+   "price": 249.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/22771663/22771663_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 89.7,
+   "value": 88.4
+  },
+  {
+   "sbNumber": "9035801",
+   "short": "90358",
+   "name": "Juliusspital Würzburger Stein Silvaner Erste Lage",
+   "producer": "Juliusspital",
+   "vintage": 2025,
+   "country": "Tyskland",
+   "region": "Franken",
+   "grapes": [
+    "Silvaner"
+   ],
+   "type": "Vitt vin",
+   "price": 209.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24409539/24409539_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 89.7,
+   "value": 89.4
+  },
+  {
+   "sbNumber": "9535001",
+   "short": "95350",
+   "name": "L'Authentique Château Pineraie",
+   "producer": "Château Pineraie",
+   "vintage": 2022,
+   "country": "Frankrike",
+   "region": "Cahors",
+   "grapes": [
+    "Malbec"
+   ],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24470399/24470399_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 80.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "79–81"
+    }
+   },
+   "avg": 84.2,
+   "value": 83.4
+  },
+  {
+   "sbNumber": "9465501",
+   "short": "94655",
+   "name": "Allram Grüner Veltliner Strass",
+   "producer": "Weingut Allram",
+   "vintage": 2025,
+   "country": "Österrike",
+   "region": "Kamptal",
+   "grapes": [
+    "Grüner veltliner"
+   ],
+   "type": "Vitt vin",
+   "price": 189.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/56080335/56080335_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 86.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "85–87"
+    }
+   },
+   "avg": 87.8,
+   "value": 88.1
+  },
+  {
+   "sbNumber": "9369201",
+   "short": "93692",
+   "name": "Casanuova di Nittardi Vigna Doghessa",
+   "producer": "Fattoria Nittardi",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Chianti Classico",
+   "grapes": [
+    "Sangiovese"
+   ],
+   "type": "Rött vin",
+   "price": 239.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/35654141/35654141_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "86–88"
+    }
+   },
+   "avg": 87.7,
+   "value": 86.7
+  },
+  {
+   "sbNumber": "9512801",
+   "short": "95128",
+   "name": "Aalto",
+   "producer": "Bodega Aalto",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Ribera del Duero",
+   "grapes": [
+    "Tinto fino"
+   ],
+   "type": "Rött vin",
+   "price": 529.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24395931/24395931_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "Finewines": {
+     "score": 93.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "92–94"
+    }
+   },
+   "avg": 92.3,
+   "value": 86.7
+  },
+  {
+   "sbNumber": "9250201",
+   "short": "92502",
+   "name": "Lyckeri Kullabergs Vingård",
+   "producer": "Kullabergs Vingård",
+   "vintage": 2025,
+   "country": "Sverige",
+   "region": null,
+   "grapes": [
+    "Souvignier gris",
+    "Solaris",
+    "Muscaris"
+   ],
+   "type": "Vitt vin",
+   "price": 262.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/56578269/56578269_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 86.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "85–87"
+    }
+   },
+   "avg": 87.6,
+   "value": 86.0
+  },
+  {
+   "sbNumber": "9292801",
+   "short": "92928",
+   "name": "Turonia Albarino",
+   "producer": "Quinta de Couselo",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Rías Baixas",
+   "grapes": [
+    "Albariño"
+   ],
+   "type": "Vitt vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/62418708/62418708_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 85.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "84–86"
+    }
+   },
+   "avg": 87.5,
+   "value": 87.5
+  },
+  {
+   "sbNumber": "9412201",
+   "short": "94122",
+   "name": "Louis Roederer Cristal",
+   "producer": "Louis Roederer",
+   "vintage": 2018,
+   "country": "Frankrike",
+   "region": "Champagne",
+   "grapes": [
+    "Pinot noir",
+    "Chardonnay"
+   ],
+   "type": "Mousserande vin",
+   "price": 2799.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64795714/64795714_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 98,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 18.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": null
+    },
+    "Finewines": {
+     "score": 96.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "95–97"
+    }
+   },
+   "avg": 96.6,
+   "value": 81.4
+  },
+  {
+   "sbNumber": "9258901",
+   "short": "92589",
+   "name": "Son Antem Vespre",
+   "producer": "Bodega Son Antem",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Mallorca",
+   "grapes": [
+    "Syrah",
+    "Monastrell"
+   ],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64768421/64768421_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 90.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "89–91"
+    }
+   },
+   "avg": 90.3,
+   "value": 88.0
+  },
+  {
+   "sbNumber": "9439501",
+   "short": "94395",
+   "name": "Weingut Peter Jakob Kühn Riesling Trocken Quarz & Schiefer",
+   "producer": "Weingut Peter Jakob Kühn",
+   "vintage": 2023,
+   "country": "Tyskland",
+   "region": "Rheingau",
+   "grapes": [
+    "Riesling"
+   ],
+   "type": "Vitt vin",
+   "price": 251.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64795854/64795854_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 90.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "89–91"
+    }
+   },
+   "avg": 90.3,
+   "value": 89.0
+  },
+  {
+   "sbNumber": "9229101",
+   "short": "92291",
+   "name": "Châteauneuf du Pape Domaine de la Vieille Julienne",
+   "producer": "Domaine de la Vieille Julienne",
+   "vintage": 2022,
+   "country": "Frankrike",
+   "region": "Châteauneuf-du-Pape",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 459.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65159078/65159078_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 91.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "90–92"
+    }
+   },
+   "avg": 91.8,
+   "value": 87.0
+  },
+  {
+   "sbNumber": "9253101",
+   "short": "92531",
+   "name": "Cairanne Domaine Catherine le Goeuil",
+   "producer": "Domaine Catherine le Goevil",
+   "vintage": 2025,
+   "country": "Frankrike",
+   "region": "Cairanne",
+   "grapes": [
+    "Grenache",
+    "Syrah"
+   ],
+   "type": "Rött vin",
+   "price": 179.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65330555/65330555_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 86.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "85–87"
+    }
+   },
+   "avg": 87.8,
+   "value": 88.4
+  },
+  {
+   "sbNumber": "9203701",
+   "short": "92037",
+   "name": "Tubarão Pet Nat",
+   "producer": "Tubarão",
+   "vintage": 2025,
+   "country": "Portugal",
+   "region": null,
+   "grapes": [],
+   "type": "Mousserande vin",
+   "price": 239.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/68154168/68154168_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 12.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "86–88"
+    }
+   },
+   "avg": 86.4,
+   "value": 85.4
+  },
+  {
+   "sbNumber": "9225701",
+   "short": "92257",
+   "name": "Penfolds Bin 138",
+   "producer": "Penfolds",
+   "vintage": 2024,
+   "country": "Australien",
+   "region": "Adelaide",
+   "grapes": [
+    "Grenache",
+    "Mataro",
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 90.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "89–91"
+    }
+   },
+   "avg": 90.4,
+   "value": 88.1
+  },
+  {
+   "sbNumber": "9227601",
+   "short": "92276",
+   "name": "Penfolds Bin 8",
+   "producer": "Penfolds",
+   "vintage": 2024,
+   "country": "Australien",
+   "region": "South Australia",
+   "grapes": [
+    "Cabernet sauvignon",
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 89.7,
+   "value": 88.9
+  },
+  {
+   "sbNumber": "9407401",
+   "short": "94074",
+   "name": "Penfolds Bin 2",
+   "producer": "Penfolds",
+   "vintage": 2024,
+   "country": "Australien",
+   "region": "South Australia",
+   "grapes": [
+    "Mataro",
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "87–89"
+    }
+   },
+   "avg": 88.6,
+   "value": 88.6
+  },
+  {
+   "sbNumber": "9067901",
+   "short": "90679",
+   "name": "Finca Martelo Reserva",
+   "producer": "Torre de Oña",
+   "vintage": 2021,
+   "country": "Spanien",
+   "region": "Rioja",
+   "grapes": [
+    "Tempranillo"
+   ],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/66658041/66658041_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Fynd i sin prisklass"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 90.6,
+   "value": 89.8
+  },
+  {
+   "sbNumber": "9436401",
+   "short": "94364",
+   "name": "Larmandier-Bernier Terre de Vertus Premier Cru Brut Nature",
+   "producer": "Larmandier-Bernier",
+   "vintage": 2017,
+   "country": "Frankrike",
+   "region": "Champagne",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Mousserande vin",
+   "price": 849.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9371401",
+   "short": "93714",
+   "name": "Persan Princens Domaine Saint Germain",
+   "producer": "Domaine Saint Germain",
+   "vintage": 2025,
+   "country": "Frankrike",
+   "region": "Savoie",
+   "grapes": [
+    "Persan"
+   ],
+   "type": "Rött vin",
+   "price": 259.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65345036/65345036_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "86–88"
+    }
+   },
+   "avg": 88.5,
+   "value": 87.0
+  },
+  {
+   "sbNumber": "9406501",
+   "short": "94065",
+   "name": "Mondeuse Blanche Les Epeires",
+   "producer": "Domaine Saint Germain",
+   "vintage": 2025,
+   "country": "Frankrike",
+   "region": "Savoie",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 239.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65345061/65345061_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "87–89"
+    }
+   },
+   "avg": 88.8,
+   "value": 87.8
+  },
+  {
+   "sbNumber": "9545801",
+   "short": "95458",
+   "name": "Novecento Chianti Classico Riserva Dievole",
+   "producer": "Dievole",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Chianti Classico",
+   "grapes": [
+    "Sangiovese",
+    "Canaiolo",
+    "Colorino"
+   ],
+   "type": "Rött vin",
+   "price": 275.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65942217/65942217_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 90.1,
+   "value": 88.3
+  },
+  {
+   "sbNumber": "9223601",
+   "short": "92236",
+   "name": "Gigondas La Louisiane",
+   "producer": "Domaine Saint Damien",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Gigondas",
+   "grapes": [
+    "Grenache",
+    "Mourvèdre",
+    "Syrah",
+    "Cinsault"
+   ],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/66873018/66873018_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 89.5,
+   "value": 87.2
+  },
+  {
+   "sbNumber": "9307901",
+   "short": "93079",
+   "name": "RAEN Royal St Roberts Pinot Noir",
+   "producer": "Raen Winery",
+   "vintage": 2024,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 759.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9231501",
+   "short": "92315",
+   "name": "Gevrey-Chambertin Vieilles Vignes Domaine Faiveley",
+   "producer": "Domaine Faiveley",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Côte de Nuits",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 659.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/66851373/66851373_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 18.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 92.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "91–93"
+    }
+   },
+   "avg": 93.5,
+   "value": 86.6
+  },
+  {
+   "sbNumber": "9435901",
+   "short": "94359",
+   "name": "Pétalos Descendientes de J. Palacios",
+   "producer": "Descendientes de J Palacios",
+   "vintage": 2023,
+   "country": "Spanien",
+   "region": "Bierzo",
+   "grapes": [
+    "Mencía"
+   ],
+   "type": "Rött vin",
+   "price": 219.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64795836/64795836_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "87–89"
+    }
+   },
+   "avg": 89.4,
+   "value": 88.9
+  },
+  {
+   "sbNumber": "9459401",
+   "short": "94594",
+   "name": "Finca Dofí Álvaro Palacios",
+   "producer": "Alvaro Palacios",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Priorat",
+   "grapes": [
+    "Garnacha"
+   ],
+   "type": "Rött vin",
+   "price": 879.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64825617/64825617_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9372201",
+   "short": "93722",
+   "name": "Viberti Derthona Timorasso",
+   "producer": "Viberti Giovanni",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Colli Tortonesi",
+   "grapes": [
+    "Timorasso"
+   ],
+   "type": "Vitt vin",
+   "price": 219.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65147298/65147298_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 88.8,
+   "value": 88.3
+  },
+  {
+   "sbNumber": "9236201",
+   "short": "92362",
+   "name": "Penfolds Bin 128",
+   "producer": "Penfolds",
+   "vintage": 2024,
+   "country": "Australien",
+   "region": "Limestone Coast",
+   "grapes": [
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 399.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 90.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "89–91"
+    }
+   },
+   "avg": 90.8,
+   "value": 86.8
+  },
+  {
+   "sbNumber": "9373301",
+   "short": "93733",
+   "name": "Penfolds Bin 407",
+   "producer": "Penfolds",
+   "vintage": 2024,
+   "country": "Australien",
+   "region": "South Australia",
+   "grapes": [
+    "Cabernet sauvignon"
+   ],
+   "type": "Rött vin",
+   "price": 659.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Munskänkarna": {
+     "score": 17.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 92.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "91–93"
+    }
+   },
+   "avg": 93.1,
+   "value": 86.2
+  },
+  {
+   "sbNumber": "9387401",
+   "short": "93874",
+   "name": "Penfolds Bin 389",
+   "producer": "Penfolds",
+   "vintage": 2024,
+   "country": "Australien",
+   "region": "South Australia",
+   "grapes": [
+    "Cabernet sauvignon",
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 599.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 92.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "91–93"
+    }
+   },
+   "avg": 92.2,
+   "value": 85.9
+  },
+  {
+   "sbNumber": "9441801",
+   "short": "94418",
+   "name": "Penfolds Bin 311",
+   "producer": "Penfolds",
+   "vintage": 2025,
+   "country": "Australien",
+   "region": null,
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 279.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946"
+    },
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "88–90"
+    }
+   },
+   "avg": 90.6,
+   "value": 88.7
+  },
+  {
+   "sbNumber": "9454601",
+   "short": "94546",
+   "name": "Penfolds Reserve Bin A",
+   "producer": "Penfolds",
+   "vintage": 2025,
+   "country": "Australien",
+   "region": "Adelaide",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 559.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "Finewines": {
+     "score": 91.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+     "range": "90–92"
+    }
+   },
+   "avg": 91.3,
+   "value": 85.4
+  },
+  {
+   "sbNumber": "9453901",
+   "short": "94539",
+   "name": "Penfolds Great Grandfather 30 Year Old Rare Tawny",
+   "producer": "Penfolds",
+   "vintage": null,
+   "country": "Australien",
+   "region": "South Australia",
+   "grapes": [],
+   "type": "Starkvin",
+   "price": 1499.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/37260728/37260728_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  }
+ ]
+}

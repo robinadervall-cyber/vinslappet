@@ -207,7 +207,8 @@ def bkwine(date: str, d: dt.date) -> tuple[dict, str]:
         cols = dict(re.findall(r'(?s)<td class="column-(\d)">(.*?)</td>', row))
         if cols.get("5", "").strip() != date:
             continue
-        nr = re.search(r"(\d{5})<br />\s*[\d ]+ kr", cols.get("2", ""))
+        # Oftast kort artikelnummer (90679), ibland hela (9220801).
+        nr = re.search(r"(\d{5})(?:\d{2})?<br />\s*[\d ]+ kr", cols.get("2", ""))
         sc = re.search(r"(\d+,\d) p, ([^,]+),", html.unescape(cols.get("3", "")))
         if nr and sc:
             found.setdefault(nr.group(1), []).append((num(sc.group(1)), sc.group(2).strip()))

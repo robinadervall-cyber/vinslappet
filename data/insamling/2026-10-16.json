@@ -1,6 +1,6 @@
 {
  "releaseDate": "2026-10-16",
- "collectedAt": "2026-10-15T18:58:05+00:00",
+ "collectedAt": "2026-10-15T19:01:20+00:00",
  "sources": {
   "vinbanken": [
    "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946",
@@ -92,10 +92,16 @@
      "scale": 100,
      "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
      "range": "90–92"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
     }
    },
-   "avg": 91.6,
-   "value": 88.8
+   "avg": 91.8,
+   "value": 89.0
   },
   {
    "sbNumber": "9231901",

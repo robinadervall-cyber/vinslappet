@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import styles from "./SignupForm.module.css";
 
@@ -49,7 +50,7 @@ export function SignupForm() {
       </div>
       <label className={styles.check}>
         <input type="checkbox" name="consent" required /> Jag har fyllt 25 år och godkänner{" "}
-        <a href="#integritet">integritetspolicyn</a>.
+        <Link href="/integritet">integritetspolicyn</Link>.
       </label>
       {state.kind === "error" && (
         <p className={styles.error} role="alert">

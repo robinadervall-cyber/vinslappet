@@ -23,11 +23,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/arkiv">Tidigare släpp</Link>
           </nav>
           <main>{children}</main>
-          <footer className="footer" id="integritet">
+          <footer className="footer">
             <p>
               Vinsläppet riktar sig till dig som fyllt 25 år. Njut av alkohol med måtta.
             </p>
             <p>Vi är inte knutna till Systembolaget och tar inte betalt av producenter.</p>
+            <p>
+              <Link href="/integritet">Integritetspolicy</Link>
+            </p>
           </footer>
         </div>
       </body>

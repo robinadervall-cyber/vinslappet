@@ -6,7 +6,7 @@ import styles from "./WineCard.module.css";
 
 export function WineCard({ wine, rank }: { wine: Wine; rank: number }) {
   const avg = averageScore(wine);
-  const facts = [wine.region, wine.country, wine.grapes.join(", "), `${wine.volumeMl / 10} cl`];
+  const facts = [wine.region, wine.country, wine.grapes.join(", "), `${wine.volumeMl / 10} cl`].filter(Boolean);
 
   return (
     <article className={styles.card}>

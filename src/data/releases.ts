@@ -3,6 +3,12 @@ import type { Release } from "@/lib/types";
 const sbImage = (productId: string) =>
   `https://product-cdn.systembolaget.se/productimages/${productId}/${productId}_400.png`;
 
+const VB9_ROTT = "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937";
+const VB9_VITT = "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-9-oktober-6936";
+const MK9 = "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026";
+const BK_OKT =
+  "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/";
+
 /**
  * Släppdata. Sortiment och priser från Systembolagets produktsök, betyg från de källor som
  * anges på varje betyg. Se docs/vinslappet-rutin.md för hur urvalet görs.
@@ -259,6 +265,164 @@ export const releases: Release[] = [
         priceSek: 529,
         sbNumber: "9512801",
         note: "Finewines favorit bland de röda, elegant Ribera del Duero. Munskänkarna 16, Finewines 92–94, BKWine 16,5.",
+      },
+    ],
+  },
+  {
+    slug: "2026-10-09",
+    releaseDate: "2026-10-09",
+    title: "Rhône-fynd för 169 kronor och en sauvignon blanc i toppklass",
+    strength: "medel",
+    intro:
+      "41 viner släpptes i det tillfälliga sortimentet. Släppet är jämnt snarare än spektakulärt, men det finns flera köpvärda flaskor runt 200–400 kronor. Vi har valt fem viner som de svenska provarna är överens om, med en klassisk Rhône för 169 kronor överst. Den som vill lägga mer pengar hittar släppets mest hyllade vin i Flor de Pingus, men till 1 199 kronor.",
+    isExample: false,
+    picks: [
+      {
+        id: "9436201",
+        name: "Les Champauvins",
+        producer: "Domaine Grand Veneur, Alain Jaume",
+        vintage: 2023,
+        country: "Frankrike",
+        region: "Côtes du Rhône",
+        grapes: [],
+        style: "rött",
+        priceSek: 169,
+        volumeMl: 750,
+        sbNumber: "9436201",
+        imageUrl: sbImage("64795839"),
+        scores: [
+          { source: "Vinbanken", score: 91, scale: 100, url: VB9_ROTT },
+          { source: "Munskänkarna", score: 13, scale: 20, url: MK9 },
+          { source: "BKWine", score: 15.5, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Veckans fynd. Vingården ligger alldeles intill Châteauneuf-du-Pape och vinet har mycket av samma stil: varm mogen frukt med vildhallon, körsbär, läder och lagerblad. Vinbanken och BKWine lyfter prisvärdheten och Wine Table kallar det ett prisvärt husvin.",
+      },
+      {
+        id: "9263101",
+        name: "Vino Nobile di Montepulciano",
+        producer: "Poliziano",
+        vintage: 2023,
+        country: "Italien",
+        region: "Toscana",
+        grapes: ["Sangiovese", "Canaiolo", "Colorino", "Merlot"],
+        style: "rött",
+        priceSek: 269,
+        volumeMl: 750,
+        sbNumber: "9263101",
+        imageUrl: sbImage("24393720"),
+        scores: [
+          { source: "Munskänkarna", score: 16, scale: 20, url: MK9 },
+          { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Munskänkarna kallar den ett fynd i sin prisklass och BKWine ger plus för prisvärdheten. En klassisk sangiovese från Montepulciano som passar till höstens kötträtter.",
+      },
+      {
+        id: "9514701",
+        name: "Ehrenhausen Korallenkalk",
+        producer: "Weingut Tement",
+        vintage: 2023,
+        country: "Österrike",
+        region: "Südsteiermark",
+        grapes: ["Sauvignon blanc"],
+        style: "vitt",
+        priceSek: 329,
+        volumeMl: 750,
+        sbNumber: "9514701",
+        imageUrl: sbImage("60857958"),
+        scores: [
+          {
+            source: "Falstaff",
+            score: 94,
+            scale: 100,
+            url: "https://www.falstaff.com/en/wines/familienweingut-tement-2023-sauvignon-blanc-suedsteiermark-dac-ehrenhausen-korallenkalk-1",
+          },
+          { source: "Vinbanken", score: 92, scale: 100, url: VB9_VITT },
+          { source: "Munskänkarna", score: 15.5, scale: 20, url: MK9 },
+          { source: "BKWine", score: 16.5, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Släppets bästa vita. Sauvignon blanc från kalkjordar i Steiermark med äpple, vinbärsblad, örter och klingande syra. Wine Table kallar det ett toppenvin och Falstaff ger 94 poäng. Servera till ceviche eller skaldjur.",
+      },
+      {
+        id: "9222601",
+        name: "Santa Barbara County Pinot Noir",
+        producer: "Au Bon Climat",
+        vintage: 2024,
+        country: "USA",
+        region: "Kalifornien",
+        grapes: ["Pinot noir"],
+        style: "rött",
+        priceSek: 289,
+        volumeMl: 750,
+        sbNumber: "9222601",
+        imageUrl: sbImage("24392702"),
+        scores: [
+          { source: "Vinbanken", score: 92, scale: 100, url: VB9_ROTT },
+          { source: "Munskänkarna", score: 15, scale: 20, url: MK9 },
+          { source: "BKWine", score: 16, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Charmig och djup pinot noir med björnbär, jordgubbar, körsbär och kryddor, där faten håller sig i bakgrunden. Vinbanken tycker att den kombinerar smakrikedom och elegans mycket bra. Gott till kyckling med ugnsbakade rotfrukter.",
+      },
+      {
+        id: "9414901",
+        name: "Barolo",
+        producer: "Castello di Verduno",
+        vintage: 2022,
+        country: "Italien",
+        region: "Piemonte",
+        grapes: ["Nebbiolo"],
+        style: "rött",
+        priceSek: 399,
+        volumeMl: 750,
+        sbNumber: "9414901",
+        imageUrl: sbImage("64795724"),
+        scores: [
+          { source: "Vinbanken", score: 92, scale: 100, url: VB9_ROTT },
+          { source: "Munskänkarna", score: 16, scale: 20, url: MK9 },
+          { source: "BKWine", score: 16.5, scale: 20, url: BK_OKT },
+        ],
+        verdict:
+          "Släppets lagringsvin och Vinbankens lagringstips för veckan. Elegant Barolo med röda bär, blodapelsin och lagerblad, med djup och fin syra. Gott redan nu men håller in på 2030-talet.",
+      },
+    ],
+    bubblers: [
+      {
+        name: "Barbadillo Oloroso En Rama Criadera Selection",
+        vintage: null,
+        priceSek: 199,
+        sbNumber: "9061101",
+        note: "Torr sherry som Munskänkarna kallar ett fynd i sin prisklass. Munskänkarna 15,5, BKWine 15,5.",
+      },
+      {
+        name: "Iona Wild Ferment Sauvignon Blanc",
+        vintage: 2024,
+        priceSek: 229,
+        sbNumber: "9457101",
+        note: "Stram och frisk sauvignon blanc från Sydafrika med krusbär och citrus. Vinbanken 91, Munskänkarna 14,5, BKWine 15.",
+      },
+      {
+        name: "Psi",
+        vintage: 2023,
+        priceSek: 359,
+        sbNumber: "9231701",
+        note: "Rik och mörkbärig Ribera del Duero som är tillgänglig redan nu. Vinbanken 93, Munskänkarna 16, BKWine 15,5–16.",
+      },
+      {
+        name: "Faiveley Mercurey La Framboisière",
+        vintage: 2024,
+        priceSek: 399,
+        sbNumber: "9270501",
+        note: "Röd bourgogne som Wine Table tycker är värd sina kronor. Munskänkarna 16, BKWine 16.",
+      },
+      {
+        name: "Rústico Cinsault Viña Bouchon",
+        vintage: 2024,
+        priceSek: 149,
+        sbNumber: "9458701",
+        note: "Ung och rödbärig cinsault från Chile, servera lätt sval. Vinbanken 88, Munskänkarna 13, BKWine 14,5.",
       },
     ],
   },

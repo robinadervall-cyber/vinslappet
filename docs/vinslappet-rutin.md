@@ -55,13 +55,19 @@ Valda: de fem översta. Platserna 5–8 skiljer bara några tiondelar, så där 
 
 Notera: Finewines-tråden listar några viner (Marqués de Riscal GR 2016, Vajra Barbera Freisa, Wiemer m.fl.) som inte finns i Systembolagets lista för 16 okt. Systembolaget är facit.
 
-## 4. Publicering
+## 4. Robins val
+
+Från och med 16 okt: Claude tar fram 10 kandidater rangordnade enligt modellen ovan. Robin väljer de fem köpförslagen och deras ordning. Övriga fem visas som "Bubblare" (plats 6–10) med en textrad var, utan kort. Robin kan byta in viner utanför topp 10.
+
+16 okt valde Robin: 1 Finca Martelo, 2 Château Montus, 3 Caprai, 4 Kühn, 5 Pétalos. Bubblare: Penfolds Bin 8, Bin 311, Bin 2, Soave Montesei, Aalto (Juliusspital ströks).
+
+## 5. Publicering
 
 - Släppet läggs i `src/data/releases.ts` på en gren, aldrig direkt på main.
 - Vercel bygger en förhandsversion per gren. Robin godkänner, sedan merge till main.
 - Motiveringar skrivs med egna ord utifrån provningsnoterna, inga kopierade texter.
 
-## 5. Att lösa innan det blir en schemalagd rutin
+## 6. Att lösa innan det blir en schemalagd rutin
 
 - När ska körningen gå? Munskänkarna provar lördag och publicerar före släppet, Vinbanken publicerar mån–tis. Förslag: tisdag kväll för utkast.
 - Fler internationella betyg kräver fler handlarsidor per vin (tidskrävande). Kan begränsas till de 8–10 vinerna med högst svenska betyg.

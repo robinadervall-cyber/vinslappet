@@ -29,6 +29,17 @@ export interface Wine {
   verdict: string;
 }
 
+/** Vin som nästan tog sig in bland köpförslagen. Visas bara som en textrad. */
+export interface Bubbler {
+  name: string;
+  vintage: number | null;
+  priceSek: number;
+  /** Systembolagets artikelnummer. */
+  sbNumber: string;
+  /** Kort motivering med betyg, en mening eller två. */
+  note: string;
+}
+
 export type ReleaseStrength = "svagt" | "medel" | "starkt" | "mycket starkt";
 
 export interface Release {
@@ -40,6 +51,8 @@ export interface Release {
   intro: string;
   /** Rangordnade köpförslag, 1–5 st. */
   picks: Wine[];
+  /** Bubblare, plats 6–10, utan kort. */
+  bubblers?: Bubbler[];
   /** Sant så länge datan är påhittad exempeldata. */
   isExample: boolean;
 }

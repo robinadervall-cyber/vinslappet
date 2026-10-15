@@ -32,9 +32,9 @@ Regel: använd bara betyg som står för rätt årgång. Betyg för andra årgå
 
 1. Normalisera betyg till 100-skala. 20-skala: `65 + betyg × 5/3` (12 = 85, 15 = 90, 18 = 95, 20 ≈ 98), vilket följer Munskänkarnas egna band. Finns i `toHundred` i `src/lib/scoring.ts`. (Första versionen använde `50 + 2,5 × betyg`, men då straffades Munskänkarnas strängare skala för hårt.)
 2. Snittbetyg per vin.
-3. Värdepoäng = `snitt − 4 × log2(pris / 200)` − 1,5 om vinet bara har en källa. Det ger ett vin för 400 kr samma värde som ett vin för 200 kr med 4 poäng lägre snitt.
+3. Värdepoäng = `snitt − 1,5 × log2(pris per 75 cl / 200)` − 1,5 om vinet bara har en källa. Fokus är riktigt bra viner: ett vin för 400 kr behöver bara 1,5 poäng högre snitt än ett för 200 kr. Viner över 1 500 kr rankas inte men nämns i ingressen om de sticker ut. (Före 2026-10-15 var vikten 4, men då toppades listan av billiga viner och Robin valde ändå de bättre.)
 4. Släppets styrka styr antalet förslag: svagt 1–2, medel 3, starkt/mycket starkt 4–5. Bedöms på hur många viner som har snitt ≥ 91 och vad provarna skriver om släppet som helhet.
-5. Minst ett vin under 200 kr. Gärna minst ett vitt eller mousserande om något håller nivån.
+5. Minst ett vin under 200 kr: det bästa vinet under 200 kr får alltid en plats bland de tio kandidaterna, och föreslås till topp 5 om snittet är minst 88. Gärna minst ett vitt eller mousserande om något håller nivån.
 6. Ordning på sajten: det vin med högst snitt bland de tre högsta värdepoängen blir nr 1 ("Släppets bästa").
 
 Utfall 16 okt med Vinbanken, Munskänkarna, Finewines och hittade internationella betyg (topp 10):

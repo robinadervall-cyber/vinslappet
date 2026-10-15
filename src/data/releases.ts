@@ -14,7 +14,7 @@ export const releases: Release[] = [
     title: "Starkt släpp med tre röda fynd runt 200 kronor",
     strength: "starkt",
     intro:
-      "37 viner släpps i det tillfälliga sortimentet, och de svenska provarna är ovanligt eniga om att nivån är hög. Vi har valt fem flaskor där betygen är höga och priset rimligt, med en Rioja som har fått toppbetyg från fem håll. Vill du unna dig något större är Cristal 2018 släppets högst betygsatta vin, men till 2 799 kronor.",
+      "37 viner släpps i det tillfälliga sortimentet och nivån är hög, även om de svenska provarna inte alltid är överens om vilka flaskor som sticker ut. Vi har valt fem flaskor där betygen är höga och priset rimligt, med en Rioja som har fått höga betyg från sex håll. Vill du unna dig något större är Cristal 2018 släppets högst betygsatta vin, men till 2 799 kronor.",
     isExample: false,
     picks: [
       {
@@ -61,6 +61,12 @@ export const releases: Release[] = [
             scale: 20,
             url: "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
           },
+          {
+            source: "Finewines",
+            score: 89,
+            scale: 100,
+            url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+          },
         ],
         verdict:
           "Släppets mest samstämmigt höga betyg, och det till 229 kronor. Mörk frukt, läder och tobak från en stark Rioja-årgång. Går att dricka nu men håller gott in på 2030-talet.",
@@ -103,6 +109,12 @@ export const releases: Release[] = [
             scale: 20,
             url: "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
           },
+          {
+            source: "Finewines",
+            score: 88,
+            scale: 100,
+            url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+          },
         ],
         verdict:
           "Ett av Spaniens säkraste värdeköp. Aromatisk och frisk med violer och röda bär, mer elegans än tyngd. Bara 960 flaskor, så det kan ta slut snabbt.",
@@ -139,9 +151,15 @@ export const releases: Release[] = [
             scale: 20,
             url: "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
           },
+          {
+            source: "Finewines",
+            score: 86,
+            scale: 100,
+            url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+          },
         ],
         verdict:
-          "Veckans fynd under 200 kronor. Djup och kraftfull med plommon, mörka körsbär och en touch av tjära. Gör sig bäst till höstgryta med vilt och svamp.",
+          "Veckans fynd under 200 kronor. Djup och kraftfull med plommon, mörka körsbär och en touch av tjära. Finewines provare tycker att den är lite eldig, men övriga betyg är höga. Gör sig bäst till höstgryta med vilt och svamp.",
       },
       {
         id: "9035801",
@@ -169,38 +187,51 @@ export const releases: Release[] = [
             scale: 20,
             url: "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
           },
+          {
+            source: "Finewines",
+            score: 89,
+            scale: 100,
+            url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+          },
         ],
         verdict:
           "Släppets bästa vita i förhållande till priset. Ren och stram med gröna äpplen, citron och mineralsälta. Ett återkommande säkert kort till fisk och skaldjur.",
       },
       {
-        id: "9441801",
-        name: "Bin 311 Chardonnay",
-        producer: "Penfolds",
-        vintage: 2025,
-        country: "Australien",
-        region: "South Australia",
-        grapes: ["Chardonnay"],
+        id: "9439501",
+        name: "Riesling Trocken Quarz & Schiefer",
+        producer: "Peter Jakob Kühn",
+        vintage: 2023,
+        country: "Tyskland",
+        region: "Rheingau",
+        grapes: ["Riesling"],
         style: "vitt",
-        priceSek: 279,
+        priceSek: 251,
         volumeMl: 750,
-        sbNumber: "9441801",
+        sbNumber: "9439501",
+        imageUrl: sbImage("64795854"),
         scores: [
           {
             source: "Vinbanken",
-            score: 92,
+            score: 91,
             scale: 100,
             url: "https://vinbanken.se/artiklar/mousserande-och-vitt-vin-i-tillfalligt-sortiment-16-oktober-6946",
           },
           {
             source: "Munskänkarna",
-            score: 15.5,
+            score: 15,
             scale: 20,
             url: "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026",
           },
+          {
+            source: "Finewines",
+            score: 90,
+            scale: 100,
+            url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
+          },
         ],
         verdict:
-          "Mycket chardonnay för pengarna. Frisk med gröna äpplen, fläder och lite stenrök, där faten bara anas. Båda svenska provarpanelerna räknar den som ett av veckans bästa köp.",
+          "Stram och frisk torr Riesling med citrus, persika och en stenig mineralitet. Alla tre svenska provarna ger den högt betyg. Fin redan nu, men vinner på något år i källaren.",
       },
     ],
   },

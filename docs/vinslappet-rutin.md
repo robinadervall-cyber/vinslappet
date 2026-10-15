@@ -20,7 +20,7 @@ Första manuella körningen gjordes 2026-10-15 för släppet fredag 16 oktober 2
 | Vinbanken.se | Ja, öppet | Två artiklar om 16 okt (röda + mousserande/vitt) med 100-poängsbetyg, fyndmarkering och provarens egna köp. Bäst täckning: 20 av 37 viner. Publiceras måndag–tisdag före släppet. |
 | Munskänkarna (Vinlocus) | Ja, öppet | Egen provning per släpp: `/sv/vinlocus/tillfalligt-sortiment-<d>-<månad>-<år>` (t.ex. `tillfalligt-sortiment-16-oktober-2026`). 20-poängsbetyg plus prisvärdhetssymbol (Fynd i sin prisklass, Mer än prisvärt, Prisvärt, Ej prisvärt). 34 av 37 viner. Provas lördagen före släppet. Hitlistan (`/hitlista-<datum>/`) är ett mindre urval. Tips från Robin. |
 | Wine Table | Nej | 403 mot både curl och WebFetch. Syns i sökresultat, men inget om 16 okt ännu. |
-| Finewines.se | Nej | 403. |
+| Finewines.se (forum) | Ja, med webbläsar-User-Agent | Tråd per släpp, t.ex. `/threads/tillfaelligt-sortiment-20261016.9354/`. Patrik Sellin provar hela släppet ca tre veckor före och anger intervall (88-90p), vi använder mittvärdet. 33 viner. Kräver en full webbläsar-User-Agent i anropet, annars 403. Trådens id går inte att räkna ut, sök på forumet eller webben. Tips från Robin. |
 | Wine Advocate (Parker), Peñín, Suckling, Vinous, Decanter | Indirekt | Egna sidor kräver inloggning. Betyg hittades via vinhandlare som citerar dem (bodeboca.it, hedonism.co.uk). Varje betyg länkas till sidan där det hittades. |
 | Falstaff | Indirekt | 403 mot curl, men sidan syns i webbsök med betyg. |
 | Vivino, Wine-Searcher, CellarTracker, Jancis Robinson | Nej | 403. |
@@ -36,22 +36,24 @@ Regel: använd bara betyg som står för rätt årgång. Betyg för andra årgå
 5. Minst ett vin under 200 kr. Gärna minst ett vitt eller mousserande om något håller nivån.
 6. Ordning på sajten: det vin med högst snitt bland de tre högsta värdepoängen blir nr 1 ("Släppets bästa").
 
-Utfall 16 okt med Vinbanken, Munskänkarna och hittade internationella betyg (topp 10 av 31 viner med betyg):
+Utfall 16 okt med Vinbanken, Munskänkarna, Finewines och hittade internationella betyg (topp 10):
 
 | Värde | Vin | Pris | Snitt | Källor |
 |---|---|---|---|---|
-| 92,2 | Finca Martelo Reserva 2021 | 229 | 93,0 | 5 |
-| 91,1 | Caprai Montefalco Rosso 2023 | 179 | 90,4 | 3 |
-| 90,8 | Pétalos 2023 | 219 | 91,3 | 4 |
-| 89,8 | Juliusspital Silvaner 2025 | 209 | 90,1 | 2 |
-| 89,5 | Penfolds Bin 311 2025 | 279 | 91,4 | 2 |
-| 89,3 | Cairanne Le Goeuil 2025 | 179 | 88,7 | 2 |
-| 89,2 | Penfolds Bin 8 2024 | 229 | 90,0 | 2 |
-| 89,2 | Kühn Quarz & Schiefer 2023 | 251 | 90,5 | 2 |
-| 89,2 | Soave Montesei 2025 | 159 | 87,8 | 2 |
-| 89,1 | Allram Grüner Veltliner 2025 | 189 | 88,8 | 2 |
+| 91,5 | Finca Martelo Reserva 2021 | 229 | 92,3 | 6 |
+| 90,1 | Pétalos 2023 | 219 | 90,6 | 5 |
+| 90,0 | Caprai Montefalco Rosso 2023 | 179 | 89,3 | 4 |
+| 89,5 | Juliusspital Silvaner 2025 | 209 | 89,7 | 3 |
+| 89,0 | Kühn Quarz & Schiefer 2023 | 251 | 90,3 | 3 |
+| 88,9 | Penfolds Bin 8 2024 | 229 | 89,7 | 3 |
+| 88,8 | Château Montus 2022 | 325 | 91,6 | 3 |
+| 88,7 | Penfolds Bin 311 2025 | 279 | 90,6 | 3 |
+| 88,6 | Penfolds Bin 2 2024 | 199 | 88,6 | 2 |
+| 88,5 | Soave Montesei 2025 | 159 | 87,2 | 3 |
 
-Valda: de fem översta. Cristal 2018 (Vinbanken 98, Munskänkarna 18,5, 2 799 kr) nämns i ingressen men är inget värdeköp. Munskänkarnas egen symbol "Fynd i sin prisklass" gick bara till Finca Martelo, vilket stärker nr 1.
+Valda: de fem översta. Platserna 5–8 skiljer bara några tiondelar, så där är det en smaksak. Cristal 2018 (Vinbanken 98, Munskänkarna 18,5, Finewines 95-97, 2 799 kr) nämns i ingressen men är inget värdeköp. Finewines är tydligt svalare än övriga till Caprai (85-87) och mest positiv till Aalto (92-94) och Penfolds dyrare Bin-viner, men dem drar priset ner.
+
+Notera: Finewines-tråden listar några viner (Marqués de Riscal GR 2016, Vajra Barbera Freisa, Wiemer m.fl.) som inte finns i Systembolagets lista för 16 okt. Systembolaget är facit.
 
 ## 4. Publicering
 

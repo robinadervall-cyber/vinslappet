@@ -559,13 +559,6 @@ export const releases: Release[] = [
         note: "Munskänkarna kallar den ett fynd i sin prisklass. Munskänkarna 15, BKWine 15,5.",
       },
       {
-        name: "Springfield Estate Wild Yeast Chardonnay",
-        vintage: 2025,
-        priceSek: 209,
-        sbNumber: "9025901",
-        note: "Intensiv sydafrikansk chardonnay med persika och citrus. Vinbanken 89, Munskänkarna 14, BKWine 15,5.",
-      },
-      {
         name: "4 Monos Cien Lanzas Cenicientos",
         vintage: 2022,
         priceSek: 259,
@@ -578,6 +571,13 @@ export const releases: Release[] = [
         priceSek: 229,
         sbNumber: "9001401",
         note: "Stor och mogen sagrantino till ett mycket bra pris. James Suckling 93, Vinbanken 91, Munskänkarna 14, BKWine 16.",
+      },
+      {
+        name: "Louis Jadot Beaune Premier Cru Clos des Couchereaux",
+        vintage: 2024,
+        priceSek: 539,
+        sbNumber: "9420101",
+        note: "Elegant röd bourgogne med röda bär, körsbär och sandelträ, ovanligt bra pinot noir för pengarna. Vinbanken 93, Munskänkarna 17, BKWine 16,5.",
       },
     ],
   },

@@ -18,7 +18,7 @@ Första manuella körningen gjordes 2026-10-15 för släppet fredag 16 oktober 2
 | Källa | Nåbar | Vad den gav |
 |---|---|---|
 | Vinbanken.se | Ja, öppet | Två artiklar om 16 okt (röda + mousserande/vitt) med 100-poängsbetyg, fyndmarkering och provarens egna köp. Bäst täckning: 20 av 37 viner. Publiceras måndag–tisdag före släppet. |
-| Munskänkarna (Vinlocus) | Delvis | "Hitlista"-provningen (`/sv/vinlocus/hitlista-<datum>/`) är öppen med 20-poängsbetyg, 3 viner ur släppet. Övriga Vinlocus kräver troligen inloggning eller JS. |
+| Munskänkarna (Vinlocus) | Ja, öppet | Egen provning per släpp: `/sv/vinlocus/tillfalligt-sortiment-<d>-<månad>-<år>` (t.ex. `tillfalligt-sortiment-16-oktober-2026`). 20-poängsbetyg plus prisvärdhetssymbol (Fynd i sin prisklass, Mer än prisvärt, Prisvärt, Ej prisvärt). 34 av 37 viner. Provas lördagen före släppet. Hitlistan (`/hitlista-<datum>/`) är ett mindre urval. Tips från Robin. |
 | Wine Table | Nej | 403 mot både curl och WebFetch. Syns i sökresultat, men inget om 16 okt ännu. |
 | Finewines.se | Nej | 403. |
 | Wine Advocate (Parker), Peñín, Suckling, Vinous, Decanter | Indirekt | Egna sidor kräver inloggning. Betyg hittades via vinhandlare som citerar dem (bodeboca.it, hedonism.co.uk). Varje betyg länkas till sidan där det hittades. |
@@ -29,27 +29,29 @@ Regel: använd bara betyg som står för rätt årgång. Betyg för andra årgå
 
 ## 3. Urval
 
-1. Normalisera betyg till 100-skala. 20-skala: `50 + 2,5 × betyg` (16 ≈ 90, 18 = 95, 20 = 100). Finns i `toHundred` i `src/lib/scoring.ts`.
+1. Normalisera betyg till 100-skala. 20-skala: `65 + betyg × 5/3` (12 = 85, 15 = 90, 18 = 95, 20 ≈ 98), vilket följer Munskänkarnas egna band. Finns i `toHundred` i `src/lib/scoring.ts`. (Första versionen använde `50 + 2,5 × betyg`, men då straffades Munskänkarnas strängare skala för hårt.)
 2. Snittbetyg per vin.
 3. Värdepoäng = `snitt − 4 × log2(pris / 200)` − 1,5 om vinet bara har en källa. Det ger ett vin för 400 kr samma värde som ett vin för 200 kr med 4 poäng lägre snitt.
 4. Släppets styrka styr antalet förslag: svagt 1–2, medel 3, starkt/mycket starkt 4–5. Bedöms på hur många viner som har snitt ≥ 91 och vad provarna skriver om släppet som helhet.
 5. Minst ett vin under 200 kr. Gärna minst ett vitt eller mousserande om något håller nivån.
 6. Ordning på sajten: det vin med högst snitt bland de tre högsta värdepoängen blir nr 1 ("Släppets bästa").
 
-Utfall 16 okt (topp 8 av 20 viner med betyg):
+Utfall 16 okt med Vinbanken, Munskänkarna och hittade internationella betyg (topp 10 av 31 viner med betyg):
 
 | Värde | Vin | Pris | Snitt | Källor |
 |---|---|---|---|---|
-| 92,1 | Caprai Montefalco Rosso 2023 | 179 | 91,5 | 2 |
-| 91,8 | Finca Martelo Reserva 2021 | 229 | 92,6 | 5 |
-| 91,5 | Pétalos 2023 | 219 | 92,0 | 3 |
-| 89,2 | Juliusspital Silvaner 2025 | 209 | 91,0 | 1 |
-| 88,8 | Allram Grüner Veltliner 2025 | 189 | 90,0 | 1 |
-| 88,8 | Soave Montesei 2025 | 159 | 89,0 | 1 |
-| 88,7 | Dievole Novecento Riserva 2022 | 275 | 92,0 | 1 |
-| 88,6 | Penfolds Bin 311 2025 | 279 | 92,0 | 1 |
+| 92,2 | Finca Martelo Reserva 2021 | 229 | 93,0 | 5 |
+| 91,1 | Caprai Montefalco Rosso 2023 | 179 | 90,4 | 3 |
+| 90,8 | Pétalos 2023 | 219 | 91,3 | 4 |
+| 89,8 | Juliusspital Silvaner 2025 | 209 | 90,1 | 2 |
+| 89,5 | Penfolds Bin 311 2025 | 279 | 91,4 | 2 |
+| 89,3 | Cairanne Le Goeuil 2025 | 179 | 88,7 | 2 |
+| 89,2 | Penfolds Bin 8 2024 | 229 | 90,0 | 2 |
+| 89,2 | Kühn Quarz & Schiefer 2023 | 251 | 90,5 | 2 |
+| 89,2 | Soave Montesei 2025 | 159 | 87,8 | 2 |
+| 89,1 | Allram Grüner Veltliner 2025 | 189 | 88,8 | 2 |
 
-Valda: Finca Martelo, Pétalos, Caprai, Juliusspital, Dievole. Dievole före Allram/Soave för högre snitt och för att provaren köper den själv. Cristal 2018 (98, 2 799 kr) nämns i ingressen men är inget värdeköp.
+Valda: de fem översta. Cristal 2018 (Vinbanken 98, Munskänkarna 18,5, 2 799 kr) nämns i ingressen men är inget värdeköp. Munskänkarnas egen symbol "Fynd i sin prisklass" gick bara till Finca Martelo, vilket stärker nr 1.
 
 ## 4. Publicering
 
@@ -59,6 +61,6 @@ Valda: Finca Martelo, Pétalos, Caprai, Juliusspital, Dievole. Dievole före All
 
 ## 5. Att lösa innan det blir en schemalagd rutin
 
-- När ska körningen gå? Vinbanken publicerar mån–tis, Munskänkarnas hitlista torsdag. Förslag: tisdag kväll för utkast, torsdag för komplettering.
+- När ska körningen gå? Munskänkarna provar lördag och publicerar före släppet, Vinbanken publicerar mån–tis. Förslag: tisdag kväll för utkast.
 - Fler internationella betyg kräver fler handlarsidor per vin (tidskrävande). Kan begränsas till de 8–10 vinerna med högst svenska betyg.
 - Wine Table och Finewines är blockerade härifrån. Kan testas från Robins dator.

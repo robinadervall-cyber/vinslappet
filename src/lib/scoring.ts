@@ -3,11 +3,12 @@ import type { CriticScore, Wine } from "./types";
 export const BUDGET_LIMIT_SEK = 200;
 
 /**
- * Räknar om ett betyg till 100-skala. 20-skalan mappas som 50 + 2,5 × betyg, så att 16 ≈ 90,
- * 18 = 95 och 20 = 100. Det motsvarar hur 20-poängsbetyg brukar jämföras med 100-poängsbetyg.
+ * Räknar om ett betyg till 100-skala. 20-skalan mappas som 65 + betyg × 5/3, så att 12 = 85,
+ * 15 = 90, 18 = 95 och 20 ≈ 98. Det följer Munskänkarnas egna band ("bra till mycket bra",
+ * "högklassigt", "exceptionellt") och hur 20-poängsbetyg brukar jämföras med 100-poängsbetyg.
  */
 export function toHundred({ score, scale }: CriticScore): number {
-  return scale === 100 ? score : 50 + score * 2.5;
+  return scale === 100 ? score : 65 + (score * 5) / 3;
 }
 
 /** Genomsnittligt betyg på 100-skala, eller null om inga betyg finns. */

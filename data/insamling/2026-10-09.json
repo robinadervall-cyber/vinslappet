@@ -1,6 +1,6 @@
 {
  "releaseDate": "2026-10-09",
- "collectedAt": "2026-10-15T20:00:44+00:00",
+ "collectedAt": "2026-10-15T20:16:46+00:00",
  "sources": {
   "vinbanken": [
    "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937",
@@ -119,7 +119,7 @@
    },
    "bottles": 16200,
    "avg": 87.4,
-   "value": 90.4
+   "value": 88.5
   },
   {
    "sbNumber": "9263101",
@@ -167,7 +167,7 @@
    },
    "bottles": 7800,
    "avg": 91.7,
-   "value": 90.0
+   "value": 91.1
   },
   {
    "sbNumber": "9222601",
@@ -216,7 +216,7 @@
    },
    "bottles": 13800,
    "avg": 91.2,
-   "value": 89.1
+   "value": 90.4
   },
   {
    "sbNumber": "9047901",
@@ -266,7 +266,7 @@
    },
    "bottles": 4800,
    "avg": 92.7,
-   "value": 86.6
+   "value": 90.4
   },
   {
    "sbNumber": "9552701",
@@ -304,7 +304,7 @@
     "source": "Vinbanken"
    },
    "avg": 91.0,
-   "value": 88.5
+   "value": 89.1
   },
   {
    "sbNumber": "9467501",
@@ -396,7 +396,7 @@
    },
    "bottles": 8400,
    "avg": 92.0,
-   "value": 88.6
+   "value": 90.7
   },
   {
    "sbNumber": "9458701",
@@ -446,7 +446,7 @@
    },
    "bottles": 7200,
    "avg": 87.9,
-   "value": 89.6
+   "value": 88.5
   },
   {
    "sbNumber": "16001",
@@ -513,7 +513,7 @@
    },
    "bottles": 4200,
    "avg": 87.5,
-   "value": 88.8
+   "value": 88.0
   },
   {
    "sbNumber": "9003801",
@@ -557,7 +557,7 @@
    },
    "bottles": 1200,
    "avg": 92.1,
-   "value": 88.7
+   "value": 90.8
   },
   {
    "sbNumber": "9467401",
@@ -609,7 +609,7 @@
    },
    "bottles": 3600,
    "avg": 88.2,
-   "value": 89.5
+   "value": 88.7
   },
   {
    "sbNumber": "9302901",
@@ -642,7 +642,7 @@
     }
    },
    "avg": 86.7,
-   "value": 85.8
+   "value": 85.4
   },
   {
    "sbNumber": "9436201",
@@ -688,7 +688,7 @@
    },
    "bottles": 6000,
    "avg": 89.5,
-   "value": 90.5
+   "value": 89.9
   },
   {
    "sbNumber": "9457101",
@@ -738,7 +738,7 @@
    },
    "bottles": 3000,
    "avg": 90.1,
-   "value": 89.3
+   "value": 89.8
   },
   {
    "sbNumber": "9445301",
@@ -788,7 +788,7 @@
    },
    "bottles": 2400,
    "avg": 90.1,
-   "value": 88.8
+   "value": 89.6
   },
   {
    "sbNumber": "9418101",
@@ -832,7 +832,7 @@
    },
    "bottles": 1800,
    "avg": 87.9,
-   "value": 88.5
+   "value": 88.1
   },
   {
    "sbNumber": "9421901",
@@ -876,7 +876,7 @@
    },
    "bottles": 1200,
    "avg": 90.0,
-   "value": 87.7
+   "value": 89.1
   },
   {
    "sbNumber": "9268001",
@@ -925,7 +925,7 @@
    },
    "bottles": 2400,
    "avg": 90.1,
-   "value": 89.1
+   "value": 89.7
   },
   {
    "sbNumber": "9036201",
@@ -970,7 +970,7 @@
    },
    "bottles": 1200,
    "avg": 92.1,
-   "value": 86.9
+   "value": 90.2
   },
   {
    "sbNumber": "9132401",
@@ -1039,7 +1039,7 @@
    },
    "bottles": 1800,
    "avg": 88.8,
-   "value": 89.1
+   "value": 88.9
   },
   {
    "sbNumber": "9414901",
@@ -1088,7 +1088,7 @@
    },
    "bottles": 1200,
    "avg": 92.1,
-   "value": 88.1
+   "value": 90.6
   },
   {
    "sbNumber": "9422801",
@@ -1177,7 +1177,7 @@
    },
    "bottles": 720,
    "avg": 94.2,
-   "value": 83.9
+   "value": 90.3
   },
   {
    "sbNumber": "9416101",
@@ -1227,7 +1227,7 @@
    },
    "bottles": 1200,
    "avg": 90.0,
-   "value": 88.5
+   "value": 89.4
   },
   {
    "sbNumber": "9514701",
@@ -1272,7 +1272,7 @@
    },
    "bottles": 480,
    "avg": 91.8,
-   "value": 88.9
+   "value": 90.7
   },
   {
    "sbNumber": "9274001",
@@ -1341,7 +1341,7 @@
    },
    "bottles": 240,
    "avg": 92.5,
-   "value": 85.7
+   "value": 90.0
   },
   {
    "sbNumber": "9567901",
@@ -1403,7 +1403,7 @@
    },
    "bottles": 600,
    "avg": 90.4,
-   "value": 87.2
+   "value": 89.2
   },
   {
    "sbNumber": "9061101",
@@ -1486,7 +1486,7 @@
    },
    "bottles": 360,
    "avg": 90.4,
-   "value": 87.6
+   "value": 89.3
   },
   {
    "sbNumber": "9415701",
@@ -1536,7 +1536,7 @@
    },
    "bottles": 300,
    "avg": 92.6,
-   "value": 85.8
+   "value": 90.1
   },
   {
    "sbNumber": "9423301",
@@ -1586,7 +1586,7 @@
    },
    "bottles": 480,
    "avg": 90.9,
-   "value": 88.8
+   "value": 90.1
   },
   {
    "sbNumber": "9404201",
@@ -1652,7 +1652,7 @@
    },
    "bottles": 624,
    "avg": 90.4,
-   "value": 88.9
+   "value": 89.8
   },
   {
    "sbNumber": "9439301",
@@ -1701,7 +1701,7 @@
    },
    "bottles": 624,
    "avg": 90.6,
-   "value": 88.9
+   "value": 90.0
   },
   {
    "sbNumber": "9430901",
@@ -1729,7 +1729,7 @@
     }
    },
    "avg": 90.8,
-   "value": 85.2
+   "value": 87.8
   },
   {
    "sbNumber": "9032202",
@@ -1772,7 +1772,7 @@
    },
    "bottles": 240,
    "avg": 93.8,
-   "value": 89.1
+   "value": 91.2
   },
   {
    "sbNumber": "9270501",
@@ -1812,7 +1812,7 @@
    },
    "bottles": 480,
    "avg": 91.7,
-   "value": 87.7
+   "value": 90.2
   }
  ]
 }

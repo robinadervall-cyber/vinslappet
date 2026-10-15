@@ -24,6 +24,7 @@ export async function POST(request: Request) {
       return Response.json({ error: "Adressen gick inte att registrera. Kontrollera stavningen." }, { status: 400 });
     }
     console.error("Prenumeration misslyckades", e);
-    return Response.json({ error: "Något gick fel, försök igen om en stund." }, { status: 502 });
+    const reason = e instanceof ButtondownError ? `${e.status}${e.code ? ` ${e.code}` : ""}` : "nätverk";
+    return Response.json({ error: `Något gick fel, försök igen om en stund. (${reason})` }, { status: 502 });
   }
 }

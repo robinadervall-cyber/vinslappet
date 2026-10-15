@@ -32,7 +32,12 @@ async function call<T>(path: string, init: RequestInit = {}): Promise<T> {
     cache: "no-store",
   });
   const text = await res.text();
-  const data = text ? JSON.parse(text) : null;
+  let data = null;
+  try {
+    data = text ? JSON.parse(text) : null;
+  } catch {
+    // Buttondown svarar ibland med HTML vid fel, då används bara statuskoden.
+  }
   if (!res.ok) {
     throw new ButtondownError(
       data?.detail ?? `Buttondown svarade ${res.status}`,

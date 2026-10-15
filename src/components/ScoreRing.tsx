@@ -25,7 +25,15 @@ export function ScoreRing({ score }: { score: CriticScore }) {
         {formatScore(score)}
         <span className={styles.scale}>/{score.scale}</span>
       </span>
-      <figcaption className={styles.source}>{score.source}</figcaption>
+      <figcaption className={styles.source}>
+        {score.url ? (
+          <a href={score.url} className={styles.sourceLink}>
+            {score.source}
+          </a>
+        ) : (
+          score.source
+        )}
+      </figcaption>
     </figure>
   );
 }

@@ -4,8 +4,10 @@ export interface CriticScore {
   /** Källa, t.ex. "Wine Advocate" eller "Guía Peñín". */
   source: string;
   score: number;
-  /** Skalans maxvärde: 100 för Parker/Peñín, 20 för Jancis Robinson. */
+  /** Skalans maxvärde: 100 för Parker/Peñín, 20 för Jancis Robinson och Munskänkarna. */
   scale: 100 | 20;
+  /** Sidan där betyget hämtades. */
+  url?: string;
 }
 
 export interface Wine {

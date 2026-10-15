@@ -1,0 +1,73 @@
+.example {
+  margin: 0 0 28px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--amber-text);
+  background: var(--amber-soft);
+  border-radius: 10px;
+}
+
+.hero {
+  margin-bottom: 36px;
+}
+
+.kicker {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.title {
+  margin: 0 0 14px;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(34px, 6vw, 52px);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.intro {
+  max-width: 62ch;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-soft);
+}
+
+.stats {
+  display: flex;
+  gap: 32px;
+  margin: 24px 0 0;
+}
+
+.stats dt {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.stats dd {
+  margin: 2px 0 0;
+  font-weight: 650;
+}
+
+.stats dd::first-letter {
+  text-transform: uppercase;
+}
+
+.picks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup {
+  margin-top: 48px;
+  padding: 28px;
+  background: var(--surface-sunk);
+  border-radius: 18px;
+}

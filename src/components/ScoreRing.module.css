@@ -1,0 +1,60 @@
+.ring {
+  position: relative;
+  width: 76px;
+  margin: 0;
+  text-align: center;
+}
+
+.ring svg {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto;
+}
+
+.track {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 5;
+}
+
+.arc {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 650;
+  font-size: 17px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.long {
+  font-size: 14px;
+}
+
+.scale {
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--muted);
+  align-self: flex-end;
+  margin-bottom: 21px;
+}
+
+.source {
+  margin-top: 6px;
+  font-size: 11px;
+  line-height: 1.25;
+  color: var(--muted);
+}

@@ -1,0 +1,45 @@
+.title {
+  margin: 0 0 28px;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: grid;
+  gap: 4px;
+  padding: 20px 22px;
+  text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.item:hover {
+  border-color: var(--border-strong);
+}
+
+.date {
+  font-size: 13px;
+  color: var(--muted);
+  text-transform: capitalize;
+}
+
+.name {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 22px;
+}
+
+.meta {
+  font-size: 14px;
+  color: var(--muted);
+}

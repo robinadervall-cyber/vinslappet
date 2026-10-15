@@ -1,0 +1,1107 @@
+{
+ "releaseDate": "2026-10-02",
+ "collectedAt": "2026-10-15T19:28:38+00:00",
+ "sources": {
+  "vinbanken": [
+   "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923",
+   "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+  ],
+  "munskankarna": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+  "finewines": "https://www.finewines.se/threads/tillfaelligt-sortiment-20261002.9348/",
+  "bkwine": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/"
+ },
+ "unmatched": {
+  "vinbanken": [
+   {
+    "nr": "95376",
+    "name": "Webbsläpp 1 oktober Barolo Bussia Arnaldo Rivera 2021",
+    "score": 94,
+    "scale": 100,
+    "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923",
+    "price": 649
+   },
+   {
+    "nr": "94067",
+    "name": "Köp nu! Dönnhoff Westhofener Riesling Trocken 2024",
+    "score": 90,
+    "scale": 100,
+    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
+    "price": 279
+   },
+   {
+    "nr": "91312",
+    "name": "Köp nu! Cordier Pouilly-Fuissé Vielles Vignes 2025",
+    "score": 92,
+    "scale": 100,
+    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
+    "price": 400
+   },
+   {
+    "nr": "95236",
+    "name": "Puligny-Montrachet 2024 Maison Louis Jadot",
+    "score": 93,
+    "scale": 100,
+    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
+    "price": 899
+   },
+   {
+    "nr": "95225",
+    "name": "Chassagne-Montrachet Premier Cru Morgeot 2024Domaine Domaine Louis Jadot",
+    "score": 94,
+    "scale": 100,
+    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
+    "price": 1095
+   },
+   {
+    "nr": "94998",
+    "name": "Meursault Premier Cru Perrières 2024 Domaine Louis Jadot",
+    "score": 94,
+    "scale": 100,
+    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
+    "price": 1395
+   },
+   {
+    "nr": "94584",
+    "name": "Köp nu! Hirsch Chardonnay 2024",
+    "score": 95,
+    "scale": 100,
+    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
+    "price": 899
+   }
+  ]
+ },
+ "coverage": {
+  "wines": 32,
+  "vinbanken": 15,
+  "munskankarna": 29,
+  "finewines": 0,
+  "bkwine": 28
+ },
+ "wines": [
+  {
+   "sbNumber": "9508301",
+   "short": "95083",
+   "name": "Zestos Old Vine Garnacha",
+   "producer": "Compañía de Vinos del Atlántico",
+   "vintage": 2025,
+   "country": "Spanien",
+   "region": "Vinos de Madrid",
+   "grapes": [
+    "Garnacha"
+   ],
+   "type": "Rött vin",
+   "price": 135.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24391164/24391164_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Fynd i sin prisklass"
+    },
+    "BKWine": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "avg": 88.1,
+   "value": 90.4
+  },
+  {
+   "sbNumber": "9020201",
+   "short": "90202",
+   "name": "Seppeltsfield Barossa Shiraz",
+   "producer": "Seppeltfields",
+   "vintage": 2024,
+   "country": "Australien",
+   "region": "Adelaide",
+   "grapes": [
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 189.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24396050/24396050_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 89.2,
+   "value": 89.5
+  },
+  {
+   "sbNumber": "9472101",
+   "short": "94721",
+   "name": "Maria de Maria Rigol Ordi Gran Reserva Brut Nature Organic",
+   "producer": "Maria Rigol Ordi",
+   "vintage": 2020,
+   "country": "Spanien",
+   "region": "Cava",
+   "grapes": [
+    "Xarel-lo"
+   ],
+   "type": "Mousserande vin",
+   "price": 225.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/45332369/45332369_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "avg": 89.7,
+   "value": 89.0
+  },
+  {
+   "sbNumber": "9025901",
+   "short": "90259",
+   "name": "Wild Yeast Chardonnay Springfield Estate",
+   "producer": "Springfield Estate",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Breede River Valley",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 209.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24475995/24475995_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 89.4,
+   "value": 89.1
+  },
+  {
+   "sbNumber": "9297401",
+   "short": "92974",
+   "name": "Château La Branne",
+   "producer": "Château la Branne",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Médoc",
+   "grapes": [
+    "Cabernet sauvignon",
+    "Merlot",
+    "Petit verdot"
+   ],
+   "type": "Rött vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/38778240/38778240_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 89.6,
+   "value": 89.6
+  },
+  {
+   "sbNumber": "9501701",
+   "short": "95017",
+   "name": "Crozes-Hermitage Yann Chave",
+   "producer": "Yann Chave",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Crozes-Hermitage",
+   "grapes": [
+    "Syrah"
+   ],
+   "type": "Rött vin",
+   "price": 259.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24471824/24471824_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "avg": 90.9,
+   "value": 89.4
+  },
+  {
+   "sbNumber": "9513701",
+   "short": "95137",
+   "name": "Nino Negri Giùen Rosso di Valtellina Nebbiolo",
+   "producer": "Nino Negri",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Valtellina",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 169.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65394447/65394447_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "avg": 88.3,
+   "value": 89.3
+  },
+  {
+   "sbNumber": "9016301",
+   "short": "90163",
+   "name": "Stein am Rain Grüner Veltliner Federspiel",
+   "producer": "Weingut Josef Jamek",
+   "vintage": 2025,
+   "country": "Österrike",
+   "region": "Wachau",
+   "grapes": [
+    "Grüner veltliner"
+   ],
+   "type": "Vitt vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24475992/24475992_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 88,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 88.8,
+   "value": 88.8
+  },
+  {
+   "sbNumber": "9503501",
+   "short": "95035",
+   "name": "Sancerre Beau Roy Domaine Reverdy-Ducroux",
+   "producer": "Domaine Reverdy-Ducroux",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Sancerre",
+   "grapes": [
+    "Sauvignon blanc"
+   ],
+   "type": "Vitt vin",
+   "price": 251.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/62230450/62230450_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 90.4,
+   "value": 89.1
+  },
+  {
+   "sbNumber": "9442201",
+   "short": "94422",
+   "name": "Barbera d'Alba Mauro Veglio",
+   "producer": "Mauro Veglio",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Barbera d'Alba",
+   "grapes": [
+    "Barbera"
+   ],
+   "type": "Rött vin",
+   "price": 209.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/37098692/37098692_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 89.6,
+   "value": 89.3
+  },
+  {
+   "sbNumber": "9131201",
+   "short": "91312",
+   "name": "Pouilly-Fuissé Vieilles Vignes Domaine Cordier",
+   "producer": "Domaine Cordier",
+   "vintage": 2025,
+   "country": "Frankrike",
+   "region": "Mâconnais",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 399.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/24465267/24465267_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 91.7,
+   "value": 87.7
+  },
+  {
+   "sbNumber": "9034301",
+   "short": "90343",
+   "name": "Glup Carignan",
+   "producer": "Longavi",
+   "vintage": 2024,
+   "country": "Chile",
+   "region": "Maule",
+   "grapes": [
+    "Carignan"
+   ],
+   "type": "Rött vin",
+   "price": 179.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64768412/64768412_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 12.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 87.1,
+   "value": 87.7
+  },
+  {
+   "sbNumber": "9325001",
+   "short": "93250",
+   "name": "Pagliarese Chianti Classico",
+   "producer": "Fèlsina Spa",
+   "vintage": 2023,
+   "country": "Italien",
+   "region": "Chianti Classico",
+   "grapes": [
+    "Sangiovese"
+   ],
+   "type": "Rött vin",
+   "price": 209.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/62201372/62201372_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Fynd i sin prisklass"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 90.4,
+   "value": 90.1
+  },
+  {
+   "sbNumber": "9001401",
+   "short": "90014",
+   "name": "Montefalco Sagrantino Antonelli",
+   "producer": "Antonelli San Marco",
+   "vintage": 2020,
+   "country": "Italien",
+   "region": "Sagrantino di Montefalco",
+   "grapes": [
+    "Sagrantino"
+   ],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/62667021/62667021_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "avg": 90.3,
+   "value": 89.5
+  },
+  {
+   "sbNumber": "9415901",
+   "short": "94159",
+   "name": "Langhe Nebbiolo Figli Luigi Oddero",
+   "producer": "Vigneti Luigi Oddero & Figli SSA",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Langhe",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 219.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/62856041/62856041_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 89.6,
+   "value": 89.1
+  },
+  {
+   "sbNumber": "9404401",
+   "short": "94044",
+   "name": "Wayfinder Chardonnay",
+   "producer": "Wayfinder",
+   "vintage": 2025,
+   "country": "Australien",
+   "region": "South West Australia",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64795707/64795707_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 89.1,
+   "value": 89.1
+  },
+  {
+   "sbNumber": "9529901",
+   "short": "95299",
+   "name": "Saint Pourcain Les Gravoches Les Terres d'Ocre",
+   "producer": "Les Terres d'Ocre",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Saint-Pourçain",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65942132/65942132_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 90.0,
+   "value": 89.2
+  },
+  {
+   "sbNumber": "9426401",
+   "short": "94264",
+   "name": "Domaine Giraud Lirac Vieilles Vignes",
+   "producer": "Domaine Giraud",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Lirac",
+   "grapes": [
+    "Grenache",
+    "Mourvèdre",
+    "Syrah"
+   ],
+   "type": "Rött vin",
+   "price": 239.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65767826/65767826_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 89.7,
+   "value": 88.7
+  },
+  {
+   "sbNumber": "9378101",
+   "short": "93781",
+   "name": "Monte del Frá Sexaginta Custoza Superiore",
+   "producer": "Azienda Agricola Monte del Frà s.s.",
+   "vintage": 2021,
+   "country": "Italien",
+   "region": "Custoza",
+   "grapes": [
+    "Cortese",
+    "Garganega",
+    "Trebbiano toscano"
+   ],
+   "type": "Vitt vin",
+   "price": 249.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/62201386/62201386_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 90.0,
+   "value": 88.7
+  },
+  {
+   "sbNumber": "9538401",
+   "short": "95384",
+   "name": "Cadre Stone Blossom Sauvignon blanc",
+   "producer": "Cadre",
+   "vintage": 2024,
+   "country": "USA",
+   "region": "Central Coast",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 289.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/65160678/65160678_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 90.1,
+   "value": 88.0
+  },
+  {
+   "sbNumber": "9407801",
+   "short": "94078",
+   "name": "Crystallum Peter Max Pinot Noir",
+   "producer": "Crystallum Wines",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Western Cape",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 369.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64825561/64825561_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 91.8,
+   "value": 88.3
+  },
+  {
+   "sbNumber": "9457201",
+   "short": "94572",
+   "name": "Crystallum The Agnes Chardonnay",
+   "producer": "Crystallum Wines",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Western Cape",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 349.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    }
+   },
+   "avg": 91.4,
+   "value": 88.2
+  },
+  {
+   "sbNumber": "9450301",
+   "short": "94503",
+   "name": "Craven Wines The Firs Vineyard Syrah",
+   "producer": "Craven Wines",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Coastal Region",
+   "grapes": [
+    "Syrah"
+   ],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9437301",
+   "short": "94373",
+   "name": "Kopke Colheita White",
+   "producer": "Kopke",
+   "vintage": 2008,
+   "country": "Portugal",
+   "region": "Porto",
+   "grapes": [],
+   "type": "Starkvin",
+   "price": 499.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64795847/64795847_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 17.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 92.9,
+   "value": 87.6
+  },
+  {
+   "sbNumber": "9383501",
+   "short": "93835",
+   "name": "Côte de Nuit-Villages Le Vaucrain Domaine Louis Jadot",
+   "producer": "Domaine Louis Jadot",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Côte de Nuits",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 425.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "avg": 91.8,
+   "value": 87.5
+  },
+  {
+   "sbNumber": "9442701",
+   "short": "94427",
+   "name": "Cien Lanzas Cenicientos 4 Monos",
+   "producer": "4Monos Viticultores",
+   "vintage": 2022,
+   "country": "Spanien",
+   "region": "Vinos de Madrid",
+   "grapes": [
+    "Garnacha",
+    "Cariñena"
+   ],
+   "type": "Rött vin",
+   "price": 259.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/64795875/64795875_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "avg": 90.9,
+   "value": 89.4
+  },
+  {
+   "sbNumber": "9413601",
+   "short": "94136",
+   "name": "Campolargo Brut Rosé",
+   "producer": "Campolargo",
+   "vintage": 2022,
+   "country": "Portugal",
+   "region": "Bairrada",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Mousserande vin",
+   "price": 259.0,
+   "volume": 750.0,
+   "image": "https://product-cdn.systembolaget.se/productimages/66757572/66757572_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "avg": 88.3,
+   "value": 86.8
+  },
+  {
+   "sbNumber": "9408201",
+   "short": "94082",
+   "name": "Graham's Tawny 20 Years",
+   "producer": "Graham's",
+   "vintage": null,
+   "country": "Portugal",
+   "region": null,
+   "grapes": [],
+   "type": "Starkvin",
+   "price": 559.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9430401",
+   "short": "94304",
+   "name": "Lötter Van Loggerenberg",
+   "producer": "Lukas Van Loggerenberg Wines",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Coastal Region",
+   "grapes": [
+    "Cinsault"
+   ],
+   "type": "Rött vin",
+   "price": 379.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9420101",
+   "short": "94201",
+   "name": "Beaune Premier Cru Clos des Couchereaux Louis Jadot",
+   "producer": "Louis Jadot",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Côte de Beaune",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 539.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 93,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 17.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "avg": 92.9,
+   "value": 87.2
+  },
+  {
+   "sbNumber": "9457501",
+   "short": "94575",
+   "name": "Crystallum Mabalel Pinot Noir",
+   "producer": "Crystallum Wines",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Hemel-en-Aarde Valley",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 469.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9271101",
+   "short": "92711",
+   "name": "Tinta Negra Dos Villões Dos Profetas",
+   "producer": "Villoes Dos Profetas",
+   "vintage": 2024,
+   "country": "Portugal",
+   "region": "Madeirense",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  }
+ ]
+}

@@ -14,7 +14,7 @@ export const releases: Release[] = [
     title: "Starkt släpp med tre röda fynd runt 200 kronor",
     strength: "starkt",
     intro:
-      "37 viner släpps i det tillfälliga sortimentet och nivån är hög, även om de svenska provarna inte alltid är överens om vilka flaskor som sticker ut. Vi har valt fem flaskor där betygen är höga och priset rimligt, med en Rioja som har fått höga betyg från sex håll. Vill du unna dig något större är Cristal 2018 släppets högst betygsatta vin, men till 2 799 kronor.",
+      "37 viner släpps i det tillfälliga sortimentet och nivån är hög, även om de svenska provarna inte alltid är överens om vilka flaskor som sticker ut. Vi har valt fem flaskor där betygen är höga och priset rimligt, med en Rioja som har fått höga betyg från sju håll. Vill du unna dig något större är Cristal 2018 släppets högst betygsatta vin, men till 2 799 kronor.",
     isExample: false,
     picks: [
       {
@@ -67,6 +67,7 @@ export const releases: Release[] = [
             scale: 100,
             url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
           },
+          { source: "BKWine", score: 15.5, scale: 20, url: "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/" },
         ],
         verdict:
           "Släppets mest samstämmigt höga betyg, och det till 229 kronor. Mörk frukt, läder och tobak från en stark Rioja-årgång. Går att dricka nu men håller gott in på 2030-talet.",
@@ -88,9 +89,10 @@ export const releases: Release[] = [
           { source: "Vinbanken", score: 92, scale: 100, url: "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-16-oktober-6947" },
           { source: "Munskänkarna", score: 16, scale: 20, url: "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-16-oktober-2026" },
           { source: "Finewines", score: 91, scale: 100, url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/" },
+          { source: "BKWine", score: 16.5, scale: 20, url: "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/" },
         ],
         verdict:
-          "Släppets lagringsvin. Kraftfull tannat med mörka bär, mocka, tobak och peppar, men med fin balans. Alla tre svenska provarna ger den högt, och den håller gott in på 2030-talet.",
+          "Släppets lagringsvin. Kraftfull tannat med mörka bär, mocka, tobak och peppar, men med fin balans. Alla fyra svenska provare ger den högt, BKWine med plus för prisvärdhet, och den håller gott in på 2030-talet.",
       },
       {
         id: "9231901",
@@ -130,6 +132,7 @@ export const releases: Release[] = [
             scale: 100,
             url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
           },
+          { source: "BKWine", score: 15.5, scale: 20, url: "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/" },
         ],
         verdict:
           "Veckans fynd under 200 kronor. Djup och kraftfull med plommon, mörka körsbär och en touch av tjära. Finewines provare tycker att den är lite eldig, men övriga betyg är höga. Gör sig bäst till höstgryta med vilt och svamp.",
@@ -166,9 +169,10 @@ export const releases: Release[] = [
             scale: 100,
             url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
           },
+          { source: "BKWine", score: 16, scale: 20, url: "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/" },
         ],
         verdict:
-          "Stram och frisk torr Riesling med citrus, persika och en stenig mineralitet. Alla tre svenska provarna ger den högt betyg. Fin redan nu, men vinner på något år i källaren.",
+          "Stram och frisk torr Riesling med citrus, persika och en stenig mineralitet. Alla fyra svenska provare ger den högt betyg. Fin redan nu, men vinner på något år i källaren.",
       },
       {
         id: "9435901",
@@ -214,6 +218,7 @@ export const releases: Release[] = [
             scale: 100,
             url: "https://www.finewines.se/threads/tillfaelligt-sortiment-20261016.9354/",
           },
+          { source: "BKWine", score: 15, scale: 20, url: "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/" },
         ],
         verdict:
           "Ett av Spaniens säkraste värdeköp. Aromatisk och frisk med violer och röda bär, mer elegans än tyngd. Bara 960 flaskor, så det kan ta slut snabbt.",
@@ -225,35 +230,35 @@ export const releases: Release[] = [
         vintage: 2024,
         priceSek: 229,
         sbNumber: "9227601",
-        note: "Svalt och fräscht med mörk frukt. Vinbanken 90, Munskänkarna 15, Finewines 88–90.",
+        note: "Svalt och fräscht med mörk frukt. Vinbanken 90, Munskänkarna 15, Finewines 88–90, BKWine 15,5.",
       },
       {
         name: "Penfolds Bin 311 Chardonnay",
         vintage: 2025,
         priceSek: 279,
         sbNumber: "9441801",
-        note: "Mycket chardonnay för pengarna. Vinbanken 92, Munskänkarna 15,5, Finewines 88–90.",
+        note: "Mycket chardonnay för pengarna. Vinbanken 92, Munskänkarna 15,5, Finewines 88–90, BKWine 16.",
       },
       {
         name: "Penfolds Bin 2 Shiraz Mataro",
         vintage: 2024,
         priceSek: 199,
         sbNumber: "9407401",
-        note: "Släppets billigaste Penfolds, fräsch och balanserad. Munskänkarna 14,5, Finewines 87–89.",
+        note: "Släppets billigaste Penfolds, fräsch och balanserad. Munskänkarna 14,5, Finewines 87–89, BKWine 15.",
       },
       {
-        name: "Soave Classico Montesei, Le Battistelle",
+        name: "Allram Grüner Veltliner Strass",
         vintage: 2025,
-        priceSek: 159,
-        sbNumber: "9481001",
-        note: "Stram och frisk vit för lite pengar. Vinbanken 89, Munskänkarna 13, Finewines 85–87.",
+        priceSek: 189,
+        sbNumber: "9465501",
+        note: "Grüner veltliner från Kamptal som Wine Table kallar ett riktigt toppenköp. Vinbanken 90, Munskänkarna 13,5, Finewines 85–87.",
       },
       {
         name: "Aalto",
         vintage: 2024,
         priceSek: 529,
         sbNumber: "9512801",
-        note: "Finewines favorit bland de röda, elegant Ribera del Duero. Munskänkarna 16, Finewines 92–94.",
+        note: "Finewines favorit bland de röda, elegant Ribera del Duero. Munskänkarna 16, Finewines 92–94, BKWine 16,5.",
       },
     ],
   },

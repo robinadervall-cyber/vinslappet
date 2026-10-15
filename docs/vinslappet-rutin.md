@@ -17,9 +17,9 @@ Första manuella körningen gjordes 2026-10-15 för släppet fredag 16 oktober 2
 
 | Källa | Nåbar | Vad den gav |
 |---|---|---|
-| Vinbanken.se | Ja, öppet | Två artiklar om 16 okt (röda + mousserande/vitt) med 100-poängsbetyg, fyndmarkering och provarens egna köp. Bäst täckning: 20 av 37 viner. Publiceras måndag–tisdag före släppet. |
+| Vinbanken.se | Ja, öppet | Två artiklar om 16 okt (röda + mousserande/vitt) med 100-poängsbetyg, fyndmarkering och provarens egna köp. Bäst täckning: 18 av 37 viner. Publiceras måndag–tisdag före släppet. |
 | Munskänkarna (Vinlocus) | Ja, öppet | Egen provning per släpp: `/sv/vinlocus/tillfalligt-sortiment-<d>-<månad>-<år>` (t.ex. `tillfalligt-sortiment-16-oktober-2026`). 20-poängsbetyg plus prisvärdhetssymbol (Fynd i sin prisklass, Mer än prisvärt, Prisvärt, Ej prisvärt). 34 av 37 viner. Provas lördagen före släppet. Hitlistan (`/hitlista-<datum>/`) är ett mindre urval. Tips från Robin. |
-| Wine Table | Nej | 403 mot både curl och WebFetch. Syns i sökresultat, men inget om 16 okt ännu. |
+| Wine Table | Nej (Cloudflare-kontroll) | Artikel per släpp, t.ex. `/artiklar/tillfalligt-sortiment-systembolaget-16-oktober-2026/`. Ger inga poäng, bara text. Robin klistrar in texten. Används som kvalitativ signal (+ / 0 / −) och som stöd i motiveringar, inte i snittet. |
 | Finewines.se (forum) | Ja, med webbläsar-User-Agent | Tråd per släpp, t.ex. `/threads/tillfaelligt-sortiment-20261016.9354/`. Patrik Sellin provar hela släppet ca tre veckor före och anger intervall (88-90p), vi använder mittvärdet. 33 viner. Kräver en full webbläsar-User-Agent i anropet, annars 403. Trådens id går inte att räkna ut, sök på forumet eller webben. Tips från Robin. |
 | Wine Advocate (Parker), Peñín, Suckling, Vinous, Decanter | Indirekt | Egna sidor kräver inloggning. Betyg hittades via vinhandlare som citerar dem (bodeboca.it, hedonism.co.uk). Varje betyg länkas till sidan där det hittades. |
 | Falstaff | Indirekt | 403 mot curl, men sidan syns i webbsök med betyg. |
@@ -66,6 +66,12 @@ Från och med 16 okt: Claude tar fram 10 kandidater rangordnade enligt modellen 
 - Släppet läggs i `src/data/releases.ts` på en gren, aldrig direkt på main.
 - Vercel bygger en förhandsversion per gren. Robin godkänner, sedan merge till main.
 - Motiveringar skrivs med egna ord utifrån provningsnoterna, inga kopierade texter.
+
+## Wine Table 16 okt (inklistrad av Robin, kvalitativ signal)
+
+- Tydligt positiv (+): Cristal, Château Montus ("magnifik kvalitet"), Kühn Quarz & Schiefer ("stort och elegant"), Juliusspital, Allram ("riktigt toppenköp"), Faiveley Gevrey, Gigondas La Louisiane, Pétalos, Son Antem.
+- Neutral (0): Finca Martelo, Penfolds-vinerna, Dievole, Aalto, Soave, Turonia, Le Riche, Nittardi.
+- Ljummen eller negativ (−): Caprai ("relativt enkelt men välgjort"), Cairanne ("inte helt överens med vinet i årets tappning").
 
 ## 6. Att lösa innan det blir en schemalagd rutin
 

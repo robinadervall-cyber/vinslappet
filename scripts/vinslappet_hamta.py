@@ -81,11 +81,11 @@ def sb_key() -> str:
     return SB_KEY_FALLBACK
 
 
-def sb_release(date: str) -> list[dict]:
+def sb_release(date: str, first: str | None = None) -> list[dict]:
     key, wines, page = sb_key(), [], 1
     while True:
         q = urllib.parse.urlencode({
-            "size": 30, "page": page, "productLaunch.min": date, "productLaunch.max": date,
+            "size": 30, "page": page, "productLaunch.min": first or date, "productLaunch.max": date,
             "assortmentText": "Tillfälligt sortiment",
         })
         data = json.loads(get(f"{SB_SEARCH}?{q}", {
@@ -124,7 +124,9 @@ def vinbanken(date: str, d: dt.date) -> tuple[list[dict], list[str]]:
     Vinbanken skriver ibland fel artikelnummer, så matchningen mot Systembolaget görs i match_vinbanken.
     """
     label = f"{d.day}-{MONTHS[d.month - 1]}"
-    cat = get("https://vinbanken.se/kategorier/nyheter-systembolaget/tillfalligt-sortiment-systembolaget")
+    base = "https://vinbanken.se/kategorier/nyheter-systembolaget/tillfalligt-sortiment-systembolaget"
+    # Äldre släpp (ungefär sex veckor bakåt) ligger på nästa sida i kategorin.
+    cat = get(base) + get(base + "?page=2")
     urls = sorted({"https://vinbanken.se" + u for u in re.findall(r'href="(/artiklar/[^"]*tillfalligt-sortiment-' + label + r'-\d+)"', cat)})
     entries = []
     for url in urls:
@@ -148,7 +150,8 @@ def match_vinbanken(wines: list[dict], entries: list[dict]) -> list[dict]:
     """Kopplar Vinbankens betyg till viner. Nummer och pris måste stämma, annars pris och namnord."""
     unmatched = []
     for e in entries:
-        hit = next((w for w in wines if w["short"] == e["nr"] and w["price"] == e["price"]), None)
+        # Priset kan ha justerats några kronor sedan artikeln skrevs.
+        hit = next((w for w in wines if w["short"] == e["nr"] and abs(w["price"] - e["price"]) <= max(5, w["price"] * 0.03)), None)
         if not hit:
             words = {x.lower() for x in re.findall(r"\w{4,}", e["name"])}
             cands = [w for w in wines if w["price"] == e["price"]
@@ -219,9 +222,14 @@ def bkwine(date: str, d: dt.date) -> tuple[dict, str]:
         cols = dict(re.findall(r'(?s)<td class="column-(\d)">(.*?)</td>', row))
         if cols.get("5", "").strip() != date:
             continue
+        # Äldre rapporter (t.o.m. september 2026) har en enklare tabell: betyg, namn, nr, pris, datum.
+        old = re.fullmatch(r"\s*(\d+(?:,\d+)?)\s*", cols.get("1", "")), re.fullmatch(r"\s*(\d{5})(?:\d{2})?\s*", cols.get("3", ""))
+        if all(old):
+            found.setdefault(old[1].group(1), []).append((num(old[0].group(1)), ""))
+            continue
         # Oftast kort artikelnummer (90679), ibland hela (9220801).
         nr = re.search(r"(\d{5})(?:\d{2})?<br />\s*[\d ]+ kr", cols.get("2", ""))
-        sc = re.search(r"(\d+,\d) p, ([^,]+),", html.unescape(cols.get("3", "")))
+        sc = re.search(r"(\d+,\d)\s*p, ([^,<]+)", html.unescape(cols.get("3", "")))
         if nr and sc:
             found.setdefault(nr.group(1), []).append((num(sc.group(1)), sc.group(2).strip()))
             win = re.search(r"(nu|\d+)\s*-\s*(\d+) år", html.unescape(cols.get("3", "")))
@@ -232,7 +240,7 @@ def bkwine(date: str, d: dt.date) -> tuple[dict, str]:
             bottles = re.search(r"(\d[\d ]*) st\b", html.unescape(cols.get("4", "")))
             if bottles:
                 extra.setdefault("bottles", {})[nr.group(1)] = int(bottles.group(1).replace(" ", ""))
-    scores = {nr: {"score": round(sum(x for x, _ in v) / len(v), 2), "scale": 20, "url": url, "value": v[0][1]}
+    scores = {nr: {"score": round(sum(x for x, _ in v) / len(v), 2), "scale": 20, "url": url, "value": next((x for _, x in v if x), "")}
               for nr, v in found.items()}
     return scores, url
 
@@ -280,9 +288,12 @@ def next_friday(today: dt.date) -> dt.date:
 
 
 def main() -> None:
-    d = dt.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else next_friday(dt.date.today())
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    d = dt.date.fromisoformat(args[0]) if args else next_friday(dt.date.today())
     date = d.isoformat()
-    wines = sb_release(date)
+    # --med-torsdag: ta även med viner som lanseras dagen före (ofta dyrare, lottade viner).
+    first = (d - dt.timedelta(days=1)).isoformat() if "--med-torsdag" in sys.argv else None
+    wines = sb_release(date, first)
     if not wines:
         sys.exit(f"Inga viner i tillfälligt sortiment för {date} hos Systembolaget.")
 

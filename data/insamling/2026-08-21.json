@@ -1,0 +1,1540 @@
+{
+ "releaseDate": "2026-08-21",
+ "collectedAt": "2026-10-16T06:52:10+00:00",
+ "sources": {
+  "vinbanken": [
+   "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870",
+   "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+  ],
+  "munskankarna": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+  "finewines": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260821.9327/",
+  "bkwine": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/"
+ },
+ "unmatched": {
+  "vinbanken": []
+ },
+ "coverage": {
+  "wines": 37,
+  "vinbanken": 17,
+  "munskankarna": 30,
+  "finewines": 0,
+  "bkwine": 28
+ },
+ "wines": [
+  {
+   "sbNumber": "9046101",
+   "short": "90461",
+   "name": "Megyer Furmint",
+   "producer": "Pajzos Zrt",
+   "vintage": 2024,
+   "country": "Ungern",
+   "region": "Tokaj",
+   "grapes": [
+    "Furmint"
+   ],
+   "type": "Vitt vin",
+   "price": 165.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till smakrika, gärna grillade rätter av fisk eller till ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Pizza"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/24397984/24397984_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 12.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 12.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "-"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2027,
+    "source": "BKWine"
+   },
+   "bottles": 7200,
+   "avg": 85.4,
+   "value": 85.8
+  },
+  {
+   "sbNumber": "9128401",
+   "short": "91284",
+   "name": "Cirelli Rosato",
+   "producer": "CIRELLI LA COLLINA BIOLOGICA SRL",
+   "vintage": 2025,
+   "country": "Italien",
+   "region": "Abruzzerna",
+   "grapes": [],
+   "type": "Mousserande vin",
+   "price": 149.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som sällskapsdryck eller till rätter av ljust kött, gärna sallader.",
+   "foodSymbols": [
+    "Fläsk",
+    "Fågel",
+    "Grönsaker",
+    "Sällskapsdryck"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62871130/62871130_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 12.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 12.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2027,
+    "source": "BKWine"
+   },
+   "bottles": 5400,
+   "avg": 85.4,
+   "value": 86.0
+  },
+  {
+   "sbNumber": "9562801",
+   "short": "95628",
+   "name": "La Piade Vinsobres Domaine Chaume Arnaud",
+   "producer": "Domaine Chaume Arnaud",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Vinsobres",
+   "grapes": [
+    "Grenache",
+    "Syrah",
+    "Mourvèdre",
+    "Cinsault"
+   ],
+   "type": "Rött vin",
+   "price": 169.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till smakrika vegetariska rätter eller till rätter av lamm- eller nötkött, gärna pizza.",
+   "foodSymbols": [
+    "Grönsaker",
+    "Lamm",
+    "Nöt",
+    "Pizza"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/24386649/24386649_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    },
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 15600,
+   "avg": 88.9,
+   "value": 89.3
+  },
+  {
+   "sbNumber": "9220601",
+   "short": "92206",
+   "name": "Éclat de Granite Domaine Sérol",
+   "producer": "Domaine Sérol",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Côte Roannaise",
+   "grapes": [
+    "Gamay"
+   ],
+   "type": "Rött vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt, eller till rätter av ljust kött, gärna småplock eller kallskuret.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606128/64606128_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2030,
+    "to": 2036,
+    "source": "BKWine"
+   },
+   "bottles": 3600,
+   "avg": 88.8,
+   "value": 88.8
+  },
+  {
+   "sbNumber": "9506301",
+   "short": "95063",
+   "name": "Sela Bodegas Roda",
+   "producer": "Bodegas Roda",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Rioja",
+   "grapes": [
+    "Tempranillo",
+    "Garnacha"
+   ],
+   "type": "Rött vin",
+   "price": 239.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/37097911/37097911_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2029,
+    "to": 2031,
+    "source": "BKWine"
+   },
+   "bottles": 6000,
+   "avg": 89.6,
+   "value": 89.2
+  },
+  {
+   "sbNumber": "9526201",
+   "short": "95262",
+   "name": "Il Poggione Brunello di Montalcino",
+   "producer": "Il Poggione",
+   "vintage": 2021,
+   "country": "Italien",
+   "region": "Brunello di Montalcino",
+   "grapes": [
+    "Sangiovese"
+   ],
+   "type": "Rött vin",
+   "price": 379.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/65147368/65147368_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 94,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    },
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "bottles": 6000,
+   "avg": 92.7,
+   "value": 91.3
+  },
+  {
+   "sbNumber": "9508701",
+   "short": "95087",
+   "name": "Altos de Luzon Monastrell",
+   "producer": "Bodegas Luzon",
+   "vintage": 2023,
+   "country": "Spanien",
+   "region": "Jumilla",
+   "grapes": [
+    "Monastrell"
+   ],
+   "type": "Rött vin",
+   "price": 170.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64088655/64088655_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2028,
+    "to": 2030,
+    "source": "BKWine"
+   },
+   "bottles": 7200,
+   "avg": 87.5,
+   "value": 87.9
+  },
+  {
+   "sbNumber": "9584201",
+   "short": "95842",
+   "name": "Château Lavillotte Saint-Estèphe",
+   "producer": "Château Lavillotte",
+   "vintage": 2020,
+   "country": "Frankrike",
+   "region": "Haut-Médoc",
+   "grapes": [
+    "Cabernet sauvignon",
+    "Merlot"
+   ],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/55331321/55331321_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Mer än prisvärt"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "avg": 89.6,
+   "value": 89.3
+  },
+  {
+   "sbNumber": "9382401",
+   "short": "93824",
+   "name": "Tahbilk Museum Marsanne",
+   "producer": "Tahbilk",
+   "vintage": 2019,
+   "country": "Australien",
+   "region": "Central Victoria",
+   "grapes": [
+    "Marsanne"
+   ],
+   "type": "Vitt vin",
+   "price": 185.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till smakrika rätter av fisk eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/61966646/61966646_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2038,
+    "source": "Vinbanken"
+   },
+   "bottles": 3000,
+   "avg": 89.8,
+   "value": 90.0
+  },
+  {
+   "sbNumber": "9382501",
+   "short": "93825",
+   "name": "Tahbilk Old Vines Cabernet Shiraz",
+   "producer": "Tahbilk",
+   "vintage": 2022,
+   "country": "Australien",
+   "region": "Central Victoria",
+   "grapes": [
+    "Cabernet sauvignon",
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 249.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, gärna grillat.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/61966649/61966649_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    },
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 2400,
+   "avg": 91.2,
+   "value": 90.7
+  },
+  {
+   "sbNumber": "9323301",
+   "short": "93233",
+   "name": "Jim Barry Lodge Hill Shiraz",
+   "producer": "Jim Barry",
+   "vintage": 2023,
+   "country": "Australien",
+   "region": "Adelaide",
+   "grapes": [
+    "Shiraz"
+   ],
+   "type": "Rött vin",
+   "price": 169.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, gärna grillat eller hamburgare.",
+   "foodSymbols": [
+    "Grillat",
+    "Hamburgare",
+    "Lamm",
+    "Nöt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/51771973/51771973_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    },
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2030,
+    "source": "Vinbanken"
+   },
+   "bottles": 6600,
+   "avg": 88.9,
+   "value": 89.3
+  },
+  {
+   "sbNumber": "9364901",
+   "short": "93649",
+   "name": "Coriole Negroamaro",
+   "producer": "Coriole Vineyards",
+   "vintage": 2025,
+   "country": "Australien",
+   "region": "Fleurieu",
+   "grapes": [
+    "Negroamaro"
+   ],
+   "type": "Rött vin",
+   "price": 189.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/61965574/61965574_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    },
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 1600,
+   "avg": 88.3,
+   "value": 88.4
+  },
+  {
+   "sbNumber": "9353501",
+   "short": "93535",
+   "name": "Granville Basalt Chardonnay",
+   "producer": "Granville Wines",
+   "vintage": 2024,
+   "country": "USA",
+   "region": "Willamette Valley",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 399.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till smakrika rätter av fisk eller till rätter av ljust kött, eller till lättare rätter av lammkött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Lamm"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62766736/62766736_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    },
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 1200,
+   "avg": 91.2,
+   "value": 89.7
+  },
+  {
+   "sbNumber": "9478101",
+   "short": "94781",
+   "name": "Domaine de la Roche Honneur Diamant Prestige",
+   "producer": "Domaine de la Roche Honneur",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Touraine",
+   "grapes": [
+    "Cabernet franc"
+   ],
+   "type": "Rött vin",
+   "price": 230.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/65772716/65772716_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9511701",
+   "short": "95117",
+   "name": "Fulcrand Cabanon Blanc Sec L'Estabel",
+   "producer": "L'Estabel",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Languedoc",
+   "grapes": [
+    "Clairette"
+   ],
+   "type": "Vitt vin",
+   "price": 126.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur, gärna pizza.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Pizza",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62239842/62239842_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 87,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    },
+    "Munskänkarna": {
+     "score": 11.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2027,
+    "source": "Vinbanken"
+   },
+   "bottles": 6600,
+   "avg": 86.5,
+   "value": 87.5
+  },
+  {
+   "sbNumber": "9322701",
+   "short": "93227",
+   "name": "Domaine de Sacy Sancerre Blanc",
+   "producer": "Domaine de Sacy",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Sancerre",
+   "grapes": [
+    "Sauvignon blanc"
+   ],
+   "type": "Vitt vin",
+   "price": 249.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62766723/62766723_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2029,
+    "to": 2032,
+    "source": "BKWine"
+   },
+   "bottles": 2400,
+   "avg": 90.0,
+   "value": 89.5
+  },
+  {
+   "sbNumber": "9211901",
+   "short": "92119",
+   "name": "The Ahrens family Soils of Paarl White",
+   "producer": "Ahrens Family Wines",
+   "vintage": 2024,
+   "country": "Sydafrika",
+   "region": "Coastal Region",
+   "grapes": [
+    "Grenache blanc",
+    "Marsanne",
+    "Roussanne",
+    "Verdelho",
+    "Chenin blanc"
+   ],
+   "type": "Vitt vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64087945/64087945_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9222101",
+   "short": "92221",
+   "name": "Tokaj-Hétszolo Pezsgo Brut",
+   "producer": "Tokaj-Hétszolo",
+   "vintage": 2021,
+   "country": "Ungern",
+   "region": "Tokaj",
+   "grapes": [
+    "Furmint"
+   ],
+   "type": "Mousserande vin",
+   "price": 249.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som aperitif eller till rätter av fisk eller skaldjur, gärna sallader.",
+   "foodSymbols": [
+    "Aperitif",
+    "Fisk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606148/64606148_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "BKWine"
+   },
+   "bottles": 600,
+   "avg": 89.6,
+   "value": 89.1
+  },
+  {
+   "sbNumber": "9520201",
+   "short": "95202",
+   "name": "Weingut Schlipf Schneider Weil Am Rhein Spätburgunder",
+   "producer": "Weingut am Schlipf Schneider",
+   "vintage": 2023,
+   "country": "Tyskland",
+   "region": "Baden",
+   "grapes": [
+    "Spätburgunder"
+   ],
+   "type": "Rött vin",
+   "price": 259.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariska rätter, till stekt fisk eller till rätter av ljust kött.\n\n",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/65010315/65010315_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "drink": {
+    "from": 2031,
+    "to": 2034,
+    "source": "BKWine"
+   },
+   "bottles": 720,
+   "avg": 90.4,
+   "value": 89.8
+  },
+  {
+   "sbNumber": "9277101",
+   "short": "92771",
+   "name": "Supernova Mantonegro",
+   "producer": "Ca’n Verdura Viticultors, S.L.U",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Mallorca",
+   "grapes": [
+    "Manto negro"
+   ],
+   "type": "Rött vin",
+   "price": 242.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/61446013/61446013_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2030,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 720,
+   "avg": 89.2,
+   "value": 88.8
+  },
+  {
+   "sbNumber": "9375401",
+   "short": "93754",
+   "name": "Savadonnay Croix & Curbet",
+   "producer": "Croix & Curbet",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Côtes du Jura",
+   "grapes": [
+    "Chardonnay",
+    "Savagnin"
+   ],
+   "type": "Vitt vin",
+   "price": 300.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till rätter av fisk eller ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/61966631/61966631_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 600,
+   "avg": 90.9,
+   "value": 90.0
+  },
+  {
+   "sbNumber": "9438401",
+   "short": "94384",
+   "name": "Akaet valle del malpaso",
+   "producer": "TITEROK-AKAET S.L.",
+   "vintage": 2023,
+   "country": "Spanien",
+   "region": "Lanzarote",
+   "grapes": [
+    "Malvasía"
+   ],
+   "type": "Vitt vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till smakrika rätter av fisk eller till ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62230228/62230228_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 600,
+   "avg": 89.8,
+   "value": 88.9
+  },
+  {
+   "sbNumber": "9208001",
+   "short": "92080",
+   "name": "Kutch McDougall Ranch Pinot Noir",
+   "producer": "Kutch Wines",
+   "vintage": 2023,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 669.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/60857864/60857864_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 94,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "avg": 94.0,
+   "value": 89.9
+  },
+  {
+   "sbNumber": "9526601",
+   "short": "95266",
+   "name": "Fleurie Lafarge-Vial Michel Lafarge",
+   "producer": "Michel Lafarge",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Beaujolais",
+   "grapes": [
+    "Gamay"
+   ],
+   "type": "Rött vin",
+   "price": 380.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/65147374/65147374_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9495401",
+   "short": "94954",
+   "name": "Chablis 1er Cru Montée de Tonnerre Samuel Billaud",
+   "producer": "Samuel Billaud",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": null,
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 769.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/60188436/60188436_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9426001",
+   "short": "94260",
+   "name": "Chateau Haut-Bages Libéral",
+   "producer": "Chateau Haut Bages Liberal",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Haut-Médoc",
+   "grapes": [
+    "Cabernet sauvignon",
+    "Merlot"
+   ],
+   "type": "Rött vin",
+   "price": 431.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/62230183/62230183_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 93,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    },
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2035,
+    "source": "Vinbanken"
+   },
+   "bottles": 120,
+   "avg": 92.4,
+   "value": 90.7
+  },
+  {
+   "sbNumber": "9225101",
+   "short": "92251",
+   "name": "Greywacke Wild Sauvignon",
+   "producer": "Greywacke Vineyards",
+   "vintage": 2024,
+   "country": "Nya Zeeland",
+   "region": "Marlborough",
+   "grapes": [
+    "Sauvignon blanc"
+   ],
+   "type": "Vitt vin",
+   "price": 259.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/62112178/62112178_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2030,
+    "source": "Vinbanken"
+   },
+   "avg": 92.0,
+   "value": 89.9
+  },
+  {
+   "sbNumber": "9229701",
+   "short": "92297",
+   "name": "Kutch Falstaff Vineyard Pinot Noir",
+   "producer": "Kutch Wines",
+   "vintage": 2023,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 669.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/60857867/60857867_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 94,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-21-augusti-6870"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "avg": 94.0,
+   "value": 89.9
+  },
+  {
+   "sbNumber": "9056901",
+   "short": "90569",
+   "name": "Cascina Luisin Barbaresco Asili",
+   "producer": "Cascina Luisin",
+   "vintage": 2021,
+   "country": "Italien",
+   "region": "Barbaresco",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 449.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62201289/62201289_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2031,
+    "to": 2036,
+    "source": "BKWine"
+   },
+   "bottles": 900,
+   "avg": 90.8,
+   "value": 89.0
+  },
+  {
+   "sbNumber": "9264501",
+   "short": "92645",
+   "name": "Gaja Sito Moresco",
+   "producer": "Gaja",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Langhe",
+   "grapes": [
+    "Barbera",
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 499.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/24393999/24393999_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 17.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
+    }
+   },
+   "drink": {
+    "from": 2033,
+    "to": 2041,
+    "source": "BKWine"
+   },
+   "bottles": 2000,
+   "avg": 92.5,
+   "value": 90.5
+  },
+  {
+   "sbNumber": "9209501",
+   "short": "92095",
+   "name": "Etna Bianco",
+   "producer": "Azienda Agricola Giovanni Rosso di Rosso Davide",
+   "vintage": 2025,
+   "country": "Italien",
+   "region": "Etna",
+   "grapes": [
+    "Carricante"
+   ],
+   "type": "Vitt vin",
+   "price": 179.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/65330528/65330528_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2028,
+    "source": "BKWine"
+   },
+   "bottles": 4800,
+   "avg": 87.9,
+   "value": 88.1
+  },
+  {
+   "sbNumber": "9412801",
+   "short": "94128",
+   "name": "Friedrich Becker Schweigen Chardonnay",
+   "producer": "Friedrich Becker",
+   "vintage": 2022,
+   "country": "Tyskland",
+   "region": "Pfalz",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till smakrika rätter av fisk eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/59718565/59718565_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9389901",
+   "short": "93899",
+   "name": "Chocolate No 4 Bodegas Izadi",
+   "producer": "Bodegas Izadi",
+   "vintage": null,
+   "country": "Spanien",
+   "region": "Rioja",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 12-14°C till smakrika, gärna grillade rätter av fisk eller till ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62030728/62030728_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 360,
+   "avg": 90.7,
+   "value": 89.8
+  },
+  {
+   "sbNumber": "9202001",
+   "short": "92020",
+   "name": "Kutch Bohan Vineyard Pinot Noir",
+   "producer": "Kutch Wines",
+   "vintage": 2023,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 579.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/60857861/60857861_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9011501",
+   "short": "90115",
+   "name": "Louis Roederer Blanc de Blancs",
+   "producer": "Louis Roederer",
+   "vintage": 2019,
+   "country": "Frankrike",
+   "region": "Champagne",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Mousserande vin",
+   "price": 999.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som aperitif eller till rätter av fisk eller skaldjur.",
+   "foodSymbols": [
+    "Aperitif",
+    "Fisk",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64087483/64087483_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 96,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-21-augusti-6869"
+    },
+    "Munskänkarna": {
+     "score": 17.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 17.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2035,
+    "source": "Vinbanken"
+   },
+   "bottles": 360,
+   "avg": 94.5,
+   "value": 91.0
+  },
+  {
+   "sbNumber": "9110701",
+   "short": "91107",
+   "name": "Cascina Luisin Barbera d’Alba Superiore Axilium",
+   "producer": "Cascina Luisin",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Barbera d'Alba",
+   "grapes": [
+    "Barbera"
+   ],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av fläsk-, lamm- eller nötkött, gärna grillat.",
+   "foodSymbols": [
+    "Fläsk",
+    "Lamm",
+    "Nöt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62201292/62201292_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-21-augusti-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/augusti-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2036,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
+   "avg": 89.6,
+   "value": 89.3
+  },
+  {
+   "sbNumber": "9347001",
+   "short": "93470",
+   "name": "Château Brane-Cantenac",
+   "producer": "Chateau Brane Cantenac",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Haut-Médoc",
+   "grapes": [
+    "Cabernet franc",
+    "Cabernet sauvignon",
+    "Carmenère",
+    "Merlot"
+   ],
+   "type": "Rött vin",
+   "price": 713.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/61835364/61835364_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  }
+ ]
+}

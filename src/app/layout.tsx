@@ -20,7 +20,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="brand">
               Vinsläppet
             </Link>
-            <Link href="/arkiv">Tidigare släpp</Link>
+            <span className="navLinks">
+              <Link href="/butik">Min butik</Link>
+              <Link href="/arkiv">Tidigare släpp</Link>
+            </span>
           </nav>
           <main>{children}</main>
           <footer className="footer">

@@ -1,6 +1,6 @@
 {
  "releaseDate": "2026-10-02",
- "collectedAt": "2026-10-15T20:17:01+00:00",
+ "collectedAt": "2026-10-16T06:54:24+00:00",
  "sources": {
   "vinbanken": [
    "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923",
@@ -13,18 +13,6 @@
  "unmatched": {
   "vinbanken": [
    {
-    "nr": "95376",
-    "name": "Webbsläpp 1 oktober Barolo Bussia Arnaldo Rivera 2021",
-    "score": 94,
-    "scale": 100,
-    "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923",
-    "price": 649,
-    "drink": [
-     2027,
-     2034
-    ]
-   },
-   {
     "nr": "94067",
     "name": "Köp nu! Dönnhoff Westhofener Riesling Trocken 2024",
     "score": 90,
@@ -34,18 +22,6 @@
     "drink": [
      2026,
      2030
-    ]
-   },
-   {
-    "nr": "91312",
-    "name": "Köp nu! Cordier Pouilly-Fuissé Vielles Vignes 2025",
-    "score": 92,
-    "scale": 100,
-    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
-    "price": 400,
-    "drink": [
-     2026,
-     2031
     ]
    },
    {
@@ -83,24 +59,12 @@
      2026,
      2035
     ]
-   },
-   {
-    "nr": "94584",
-    "name": "Köp nu! Hirsch Chardonnay 2024",
-    "score": 95,
-    "scale": 100,
-    "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924",
-    "price": 899,
-    "drink": [
-     2026,
-     2036
-    ]
    }
   ]
  },
  "coverage": {
-  "wines": 32,
-  "vinbanken": 15,
+  "wines": 50,
+  "vinbanken": 18,
   "munskankarna": 29,
   "finewines": 0,
   "bkwine": 28
@@ -605,6 +569,11 @@
    ],
    "image": "https://product-cdn.systembolaget.se/productimages/24465267/24465267_400.png",
    "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    },
     "Munskänkarna": {
      "score": 16.0,
      "scale": 20,
@@ -619,13 +588,13 @@
     }
    },
    "drink": {
-    "from": 2029,
-    "to": 2033,
-    "source": "BKWine"
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
    },
    "bottles": 3600,
-   "avg": 91.7,
-   "value": 90.2
+   "avg": 91.8,
+   "value": 90.3
   },
   {
    "sbNumber": "9034301",
@@ -717,6 +686,51 @@
    "value": 90.3
   },
   {
+   "sbNumber": "9415901",
+   "short": "94159",
+   "name": "Langhe Nebbiolo Figli Luigi Oddero",
+   "producer": "Vigneti Luigi Oddero & Figli SSA",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Langhe",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 219.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till smakrika vegetariska rätter eller till rätter av fläsk- eller lammkött, exempelvis gräddbaserad pasta.",
+   "foodSymbols": [
+    "Fläsk",
+    "Grönsaker",
+    "Lamm",
+    "Pasta"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62856041/62856041_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Prisvärt"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2029,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 4200,
+   "avg": 89.6,
+   "value": 89.4
+  },
+  {
    "sbNumber": "9001401",
    "short": "90014",
    "name": "Montefalco Sagrantino Antonelli",
@@ -765,51 +779,6 @@
    "bottles": 4600,
    "avg": 90.3,
    "value": 90.0
-  },
-  {
-   "sbNumber": "9415901",
-   "short": "94159",
-   "name": "Langhe Nebbiolo Figli Luigi Oddero",
-   "producer": "Vigneti Luigi Oddero & Figli SSA",
-   "vintage": 2024,
-   "country": "Italien",
-   "region": "Langhe",
-   "grapes": [
-    "Nebbiolo"
-   ],
-   "type": "Rött vin",
-   "price": 219.0,
-   "volume": 750.0,
-   "usage": "Serveras vid 16-18°C till smakrika vegetariska rätter eller till rätter av fläsk- eller lammkött, exempelvis gräddbaserad pasta.",
-   "foodSymbols": [
-    "Fläsk",
-    "Grönsaker",
-    "Lamm",
-    "Pasta"
-   ],
-   "image": "https://product-cdn.systembolaget.se/productimages/62856041/62856041_400.png",
-   "scores": {
-    "Munskänkarna": {
-     "score": 14.0,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
-     "value": "Prisvärt"
-    },
-    "BKWine": {
-     "score": 15.5,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "(+)"
-    }
-   },
-   "drink": {
-    "from": 2029,
-    "to": 2033,
-    "source": "BKWine"
-   },
-   "bottles": 4200,
-   "avg": 89.6,
-   "value": 89.4
   },
   {
    "sbNumber": "9404401",
@@ -1202,49 +1171,80 @@
    "value": 90.9
   },
   {
-   "sbNumber": "9383501",
-   "short": "93835",
-   "name": "Côte de Nuit-Villages Le Vaucrain Domaine Louis Jadot",
-   "producer": "Domaine Louis Jadot",
-   "vintage": 2024,
+   "sbNumber": "9066701",
+   "short": "90667",
+   "name": "l'Ermite Ermitage M. Chapoutier",
+   "producer": "M.Chapoutier",
+   "vintage": 2023,
    "country": "Frankrike",
-   "region": "Côte de Nuits",
-   "grapes": [
-    "Pinot noir"
-   ],
+   "region": "Hermitage",
+   "grapes": [],
    "type": "Rött vin",
-   "price": 425.0,
+   "price": 3569.0,
    "volume": 750.0,
    "usage": null,
    "foodSymbols": [],
    "image": null,
-   "scores": {
-    "Vinbanken": {
-     "score": 92,
-     "scale": 100,
-     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
-    },
-    "Munskänkarna": {
-     "score": 16.0,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
-     "value": "Mer än prisvärt"
-    },
-    "BKWine": {
-     "score": 16.0,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "(=)"
-    }
-   },
-   "drink": {
-    "from": 2026,
-    "to": 2032,
-    "source": "Vinbanken"
-   },
-   "bottles": 720,
-   "avg": 91.8,
-   "value": 90.2
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9067101",
+   "short": "90671",
+   "name": "Le Pavillon Ermitage M.Chapoutier",
+   "producer": "M.Chapoutier",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Hermitage",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 3399.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9181001",
+   "short": "91810",
+   "name": " Le Méal Rouge Ermitage M.Chapoutier",
+   "producer": "M.Chapoutier",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Hermitage",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 2649.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9220301",
+   "short": "92203",
+   "name": "Barbe Rac Châteauneuf-du-Pape M.Chapoutier",
+   "producer": "M.Chapoutier",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Châteauneuf-du-Pape",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 899.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
   },
   {
    "sbNumber": "9442701",
@@ -1296,6 +1296,51 @@
    "bottles": 630,
    "avg": 90.9,
    "value": 90.3
+  },
+  {
+   "sbNumber": "9383501",
+   "short": "93835",
+   "name": "Côte de Nuit-Villages Le Vaucrain Domaine Louis Jadot",
+   "producer": "Domaine Louis Jadot",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Côte de Nuits",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 425.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    },
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-2-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 720,
+   "avg": 91.8,
+   "value": 90.2
   },
   {
    "sbNumber": "9413601",
@@ -1444,6 +1489,25 @@
    "value": null
   },
   {
+   "sbNumber": "9463801",
+   "short": "94638",
+   "name": "Crystallum Ferrum Chardonnay",
+   "producer": "Crystallum Wines",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Cape South Coast",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 449.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
    "sbNumber": "9271101",
    "short": "92711",
    "name": "Tinta Negra Dos Villões Dos Profetas",
@@ -1454,6 +1518,277 @@
    "grapes": [],
    "type": "Rött vin",
    "price": 299.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9458401",
+   "short": "94584",
+   "name": "Hirsch Chardonnay",
+   "producer": "Hirsch Vineyards",
+   "vintage": 2024,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 899.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 95,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-2-oktober-6924"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2036,
+    "source": "Vinbanken"
+   },
+   "avg": 95.0,
+   "value": 90.2
+  },
+  {
+   "sbNumber": "9532901",
+   "short": "95329",
+   "name": "Scharzhof Egon Müller",
+   "producer": "Egon Müller",
+   "vintage": 2025,
+   "country": "Tyskland",
+   "region": "Mosel",
+   "grapes": [
+    "Riesling"
+   ],
+   "type": "Vitt vin",
+   "price": 699.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9533201",
+   "short": "95332",
+   "name": "Le Gallais Wiltinger braune Kupp Kabinett Egon Müller",
+   "producer": "Egon Müller",
+   "vintage": 2025,
+   "country": "Tyskland",
+   "region": "Mosel",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 899.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9458101",
+   "short": "94581",
+   "name": "Hirsch Reserve Pinot Noir",
+   "producer": "Hirsch Vineyards",
+   "vintage": 2023,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 1179.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9460101",
+   "short": "94601",
+   "name": "Hirsch Raschen Ridge Pinot Noir",
+   "producer": "Hirsch Vineyards",
+   "vintage": 2023,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 1279.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9370701",
+   "short": "93707",
+   "name": "Barbaresco Giacosa Mauro Molino",
+   "producer": "Mauro Molino",
+   "vintage": 2023,
+   "country": "Italien",
+   "region": "Barbaresco",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 548.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9379401",
+   "short": "93794",
+   "name": "Barolo Conca Mauro Molino",
+   "producer": "Mauro Molino",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Barolo",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 878.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9537601",
+   "short": "95376",
+   "name": "Barolo Bussia Arnaldo Rivera",
+   "producer": "Arnaldo Rivera",
+   "vintage": 2021,
+   "country": "Italien",
+   "region": "Barolo",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 649.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {
+    "Vinbanken": {
+     "score": 94,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-2-oktober-6923"
+    }
+   },
+   "drink": {
+    "from": 2027,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "avg": 94.0,
+   "value": 90.0
+  },
+  {
+   "sbNumber": "9538801",
+   "short": "95388",
+   "name": "Barolo Vignarionda Arnaldo Rivera",
+   "producer": "Arnaldo Rivera",
+   "vintage": 2021,
+   "country": "Italien",
+   "region": "Barolo",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 799.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9538901",
+   "short": "95389",
+   "name": "Barolo Rocche di Castiglione Arnaldo Rivera",
+   "producer": "Arnaldo Rivera",
+   "vintage": 2021,
+   "country": "Italien",
+   "region": "Barolo",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 799.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9455801",
+   "short": "94558",
+   "name": "Corton-Charlemagne Grand Cru Domaine de Héritieres Louis Jadot",
+   "producer": "Domaine de Héritieres Louis Jadot",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Côte de Beaune",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 2995.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9561901",
+   "short": "95619",
+   "name": "Corton-Pougets Grand Cru Louis Jadot Domaine de Héritiers",
+   "producer": "Maison Louis Jadot/Domaine des Héritiers",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Côte de Beaune",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 1359.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9291901",
+   "short": "92919",
+   "name": "Barolo Cristina Prandi",
+   "producer": "Cristina Prandi",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Piemonte",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 739.0,
    "volume": 750.0,
    "usage": null,
    "foodSymbols": [],

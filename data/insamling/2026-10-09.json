@@ -1,6 +1,6 @@
 {
  "releaseDate": "2026-10-09",
- "collectedAt": "2026-10-15T20:16:46+00:00",
+ "collectedAt": "2026-10-16T06:54:39+00:00",
  "sources": {
   "vinbanken": [
    "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937",
@@ -348,6 +348,56 @@
    "value": 88.3
   },
   {
+   "sbNumber": "9458701",
+   "short": "94587",
+   "name": "Rústico Cinsault Viña Bouchon",
+   "producer": "Viña Bouchon",
+   "vintage": 2024,
+   "country": "Chile",
+   "region": "Valle del Itata",
+   "grapes": [
+    "Cinsault"
+   ],
+   "type": "Rött vin",
+   "price": 149.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till buffé eller till smakrika vegetariska rätter eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/44996315/44996315_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 88,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937"
+    },
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "bottles": 7200,
+   "avg": 87.9,
+   "value": 88.5
+  },
+  {
    "sbNumber": "9231701",
    "short": "92317",
    "name": "Psi",
@@ -397,56 +447,6 @@
    "bottles": 8400,
    "avg": 92.0,
    "value": 90.7
-  },
-  {
-   "sbNumber": "9458701",
-   "short": "94587",
-   "name": "Rústico Cinsault Viña Bouchon",
-   "producer": "Viña Bouchon",
-   "vintage": 2024,
-   "country": "Chile",
-   "region": "Valle del Itata",
-   "grapes": [
-    "Cinsault"
-   ],
-   "type": "Rött vin",
-   "price": 149.0,
-   "volume": 750.0,
-   "usage": "Serveras vid cirka 16°C till buffé eller till smakrika vegetariska rätter eller till rätter av ljust kött.",
-   "foodSymbols": [
-    "Buffémat",
-    "Fläsk",
-    "Fågel",
-    "Grönsaker"
-   ],
-   "image": "https://product-cdn.systembolaget.se/productimages/44996315/44996315_400.png",
-   "scores": {
-    "Vinbanken": {
-     "score": 88,
-     "scale": 100,
-     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-9-oktober-6937"
-    },
-    "Munskänkarna": {
-     "score": 13.0,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
-     "value": "Mer än prisvärt"
-    },
-    "BKWine": {
-     "score": 14.5,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "(+)"
-    }
-   },
-   "drink": {
-    "from": 2026,
-    "to": 2029,
-    "source": "Vinbanken"
-   },
-   "bottles": 7200,
-   "avg": 87.9,
-   "value": 88.5
   },
   {
    "sbNumber": "16001",
@@ -516,48 +516,37 @@
    "value": 88.0
   },
   {
-   "sbNumber": "9003801",
-   "short": "90038",
-   "name": "Chablis Côte de Lechet Premier Cru Bernard Defaix",
-   "producer": "Domaine Bernard Defaix",
+   "sbNumber": "9302901",
+   "short": "93029",
+   "name": "Scala Cirò Rosso",
+   "producer": "Società Agricola Scala",
    "vintage": 2024,
-   "country": "Frankrike",
-   "region": "Chablis",
+   "country": "Italien",
+   "region": "Cirò",
    "grapes": [
-    "Chardonnay"
+    "Gaglioppo",
+    "Magliocco"
    ],
-   "type": "Vitt vin",
-   "price": 359.0,
+   "type": "Rött vin",
+   "price": 179.0,
    "volume": 750.0,
-   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur.",
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, exempelvis pizza.",
    "foodSymbols": [
-    "Fisk",
-    "Grönsaker",
-    "Skaldjur"
+    "Lamm",
+    "Nöt",
+    "Pizza"
    ],
-   "image": "https://product-cdn.systembolaget.se/productimages/46553961/46553961_400.png",
+   "image": "https://product-cdn.systembolaget.se/productimages/64084538/64084538_400.png",
    "scores": {
     "Munskänkarna": {
-     "score": 16.0,
+     "score": 13.0,
      "scale": 20,
      "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
-     "value": "Mer än prisvärt"
-    },
-    "BKWine": {
-     "score": 16.5,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "+"
+     "value": "Prisvärt"
     }
    },
-   "drink": {
-    "from": 2028,
-    "to": 2033,
-    "source": "BKWine"
-   },
-   "bottles": 1200,
-   "avg": 92.1,
-   "value": 90.8
+   "avg": 86.7,
+   "value": 85.4
   },
   {
    "sbNumber": "9467401",
@@ -612,37 +601,48 @@
    "value": 88.7
   },
   {
-   "sbNumber": "9302901",
-   "short": "93029",
-   "name": "Scala Cirò Rosso",
-   "producer": "Società Agricola Scala",
+   "sbNumber": "9003801",
+   "short": "90038",
+   "name": "Chablis Côte de Lechet Premier Cru Bernard Defaix",
+   "producer": "Domaine Bernard Defaix",
    "vintage": 2024,
-   "country": "Italien",
-   "region": "Cirò",
+   "country": "Frankrike",
+   "region": "Chablis",
    "grapes": [
-    "Gaglioppo",
-    "Magliocco"
+    "Chardonnay"
    ],
-   "type": "Rött vin",
-   "price": 179.0,
+   "type": "Vitt vin",
+   "price": 359.0,
    "volume": 750.0,
-   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, exempelvis pizza.",
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur.",
    "foodSymbols": [
-    "Lamm",
-    "Nöt",
-    "Pizza"
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
    ],
-   "image": "https://product-cdn.systembolaget.se/productimages/64084538/64084538_400.png",
+   "image": "https://product-cdn.systembolaget.se/productimages/46553961/46553961_400.png",
    "scores": {
     "Munskänkarna": {
-     "score": 13.0,
+     "score": 16.0,
      "scale": 20,
      "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
-     "value": "Prisvärt"
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "+"
     }
    },
-   "avg": 86.7,
-   "value": 85.4
+   "drink": {
+    "from": 2028,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
+   "avg": 92.1,
+   "value": 90.8
   },
   {
    "sbNumber": "9436201",
@@ -741,6 +741,50 @@
    "value": 89.8
   },
   {
+   "sbNumber": "9418101",
+   "short": "94181",
+   "name": "Vinum Gamay Noir",
+   "producer": "Radford Dale",
+   "vintage": 2025,
+   "country": "Sydafrika",
+   "region": "Coastal Region",
+   "grapes": [
+    "Gamay"
+   ],
+   "type": "Rött vin",
+   "price": 179.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 14-16°C till vegetariskt eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64795760/64795760_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
+     "value": "Mer än prisvärt"
+    },
+    "BKWine": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2027,
+    "to": 2029,
+    "source": "BKWine"
+   },
+   "bottles": 1800,
+   "avg": 87.9,
+   "value": 88.1
+  },
+  {
    "sbNumber": "9445301",
    "short": "94453",
    "name": "Raúl Pérez Ultreia Godello",
@@ -789,94 +833,6 @@
    "bottles": 2400,
    "avg": 90.1,
    "value": 89.6
-  },
-  {
-   "sbNumber": "9418101",
-   "short": "94181",
-   "name": "Vinum Gamay Noir",
-   "producer": "Radford Dale",
-   "vintage": 2025,
-   "country": "Sydafrika",
-   "region": "Coastal Region",
-   "grapes": [
-    "Gamay"
-   ],
-   "type": "Rött vin",
-   "price": 179.0,
-   "volume": 750.0,
-   "usage": "Serveras vid 14-16°C till vegetariskt eller till rätter av ljust kött.",
-   "foodSymbols": [
-    "Fläsk",
-    "Fågel",
-    "Grönsaker"
-   ],
-   "image": "https://product-cdn.systembolaget.se/productimages/64795760/64795760_400.png",
-   "scores": {
-    "Munskänkarna": {
-     "score": 13.5,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
-     "value": "Mer än prisvärt"
-    },
-    "BKWine": {
-     "score": 14.0,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "(=)"
-    }
-   },
-   "drink": {
-    "from": 2027,
-    "to": 2029,
-    "source": "BKWine"
-   },
-   "bottles": 1800,
-   "avg": 87.9,
-   "value": 88.1
-  },
-  {
-   "sbNumber": "9421901",
-   "short": "94219",
-   "name": "Il Provinciale Langhe Nebbiolo",
-   "producer": "San Fereolo",
-   "vintage": 2021,
-   "country": "Italien",
-   "region": "Langhe",
-   "grapes": [
-    "Nebbiolo"
-   ],
-   "type": "Rött vin",
-   "price": 299.0,
-   "volume": 750.0,
-   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor och stekar.",
-   "foodSymbols": [
-    "Lamm",
-    "Nöt",
-    "Vilt"
-   ],
-   "image": "https://product-cdn.systembolaget.se/productimages/62856053/62856053_400.png",
-   "scores": {
-    "Munskänkarna": {
-     "score": 14.0,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
-     "value": "Ej prisvärt"
-    },
-    "BKWine": {
-     "score": 16.0,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "(+)"
-    }
-   },
-   "drink": {
-    "from": 2028,
-    "to": 2034,
-    "source": "BKWine"
-   },
-   "bottles": 1200,
-   "avg": 90.0,
-   "value": 89.1
   },
   {
    "sbNumber": "9268001",
@@ -928,6 +884,50 @@
    "value": 89.7
   },
   {
+   "sbNumber": "9421901",
+   "short": "94219",
+   "name": "Il Provinciale Langhe Nebbiolo",
+   "producer": "San Fereolo",
+   "vintage": 2021,
+   "country": "Italien",
+   "region": "Langhe",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor och stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62856053/62856053_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2028,
+    "to": 2034,
+    "source": "BKWine"
+   },
+   "bottles": 1200,
+   "avg": 90.0,
+   "value": 89.1
+  },
+  {
    "sbNumber": "9036201",
    "short": "90362",
    "name": "Pouilly-Fuissé Premier Cru La Frérie Auvigue",
@@ -971,32 +971,6 @@
    "bottles": 1200,
    "avg": 92.1,
    "value": 90.2
-  },
-  {
-   "sbNumber": "9132401",
-   "short": "91324",
-   "name": "Fuoricasa Cordero di Montezemolo",
-   "producer": "Cordero di Montezemolo",
-   "vintage": 2025,
-   "country": "Italien",
-   "region": "Langhe",
-   "grapes": [
-    "Pelaverga"
-   ],
-   "type": "Rött vin",
-   "price": 199.0,
-   "volume": 750.0,
-   "usage": "Serveras vid 14-16°C till vegetariskt eller till rätter av ljust kött, exempelvis en buffé.",
-   "foodSymbols": [
-    "Buffémat",
-    "Fläsk",
-    "Fågel",
-    "Grönsaker"
-   ],
-   "image": "https://product-cdn.systembolaget.se/productimages/64606060/64606060_400.png",
-   "scores": {},
-   "avg": null,
-   "value": null
   },
   {
    "sbNumber": "9060701",
@@ -1091,6 +1065,32 @@
    "value": 90.6
   },
   {
+   "sbNumber": "9132401",
+   "short": "91324",
+   "name": "Fuoricasa Cordero di Montezemolo",
+   "producer": "Cordero di Montezemolo",
+   "vintage": 2025,
+   "country": "Italien",
+   "region": "Langhe",
+   "grapes": [
+    "Pelaverga"
+   ],
+   "type": "Rött vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 14-16°C till vegetariskt eller till rätter av ljust kött, exempelvis en buffé.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606060/64606060_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
    "sbNumber": "9422801",
    "short": "94228",
    "name": "Weingut Stefan Müller Tandem Riesling",
@@ -1178,6 +1178,27 @@
    "bottles": 720,
    "avg": 94.2,
    "value": 90.3
+  },
+  {
+   "sbNumber": "9274001",
+   "short": "92740",
+   "name": "CU Bikicki",
+   "producer": "BIKICKI",
+   "vintage": 2023,
+   "country": "Serbien",
+   "region": null,
+   "grapes": [
+    "Pinot grigio"
+   ],
+   "type": "Vitt vin",
+   "price": 240.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606147/64606147_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
   },
   {
    "sbNumber": "9416101",
@@ -1275,27 +1296,6 @@
    "value": 90.7
   },
   {
-   "sbNumber": "9274001",
-   "short": "92740",
-   "name": "CU Bikicki",
-   "producer": "BIKICKI",
-   "vintage": 2023,
-   "country": "Serbien",
-   "region": null,
-   "grapes": [
-    "Pinot grigio"
-   ],
-   "type": "Vitt vin",
-   "price": 240.0,
-   "volume": 750.0,
-   "usage": null,
-   "foodSymbols": [],
-   "image": "https://product-cdn.systembolaget.se/productimages/64606147/64606147_400.png",
-   "scores": {},
-   "avg": null,
-   "value": null
-  },
-  {
    "sbNumber": "9115101",
    "short": "91151",
    "name": "Ravazzol Amarone della Valpolicella Classico",
@@ -1365,47 +1365,6 @@
    "value": null
   },
   {
-   "sbNumber": "9468201",
-   "short": "94682",
-   "name": "Domaine le Sang des Cailloux Lopy",
-   "producer": "Domaine le Sang de Cailloux",
-   "vintage": 2024,
-   "country": "Frankrike",
-   "region": "Vacqueyras",
-   "grapes": [
-    "Grenache",
-    "Syrah"
-   ],
-   "type": "Rött vin",
-   "price": 349.0,
-   "volume": 750.0,
-   "usage": null,
-   "foodSymbols": [],
-   "image": "https://product-cdn.systembolaget.se/productimages/66757608/66757608_400.png",
-   "scores": {
-    "Munskänkarna": {
-     "score": 14.5,
-     "scale": 20,
-     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
-     "value": "Ej prisvärt"
-    },
-    "BKWine": {
-     "score": 16.0,
-     "scale": 20,
-     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
-     "value": "="
-    }
-   },
-   "drink": {
-    "from": 2030,
-    "to": 2033,
-    "source": "BKWine"
-   },
-   "bottles": 600,
-   "avg": 90.4,
-   "value": 89.2
-  },
-  {
    "sbNumber": "9061101",
    "short": "90611",
    "name": "Barbadillo Oloroso En Rama Criadera Selection",
@@ -1447,6 +1406,47 @@
    "bottles": 500,
    "avg": 90.8,
    "value": 90.8
+  },
+  {
+   "sbNumber": "9468201",
+   "short": "94682",
+   "name": "Domaine le Sang des Cailloux Lopy",
+   "producer": "Domaine le Sang de Cailloux",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Vacqueyras",
+   "grapes": [
+    "Grenache",
+    "Syrah"
+   ],
+   "type": "Rött vin",
+   "price": 349.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/66757608/66757608_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-9-oktober-2026",
+     "value": "Ej prisvärt"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/oktober-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2030,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 600,
+   "avg": 90.4,
+   "value": 89.2
   },
   {
    "sbNumber": "9114601",

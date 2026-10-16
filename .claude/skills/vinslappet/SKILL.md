@@ -25,6 +25,8 @@ Skriptet hämtar släppets viner från Systembolaget och betyg från Vinbanken, 
 - Om en källa saknas (inte publicerad än, eller nätfel): säg det i meddelandet till Robin, kör inte om i en loop.
 - Om skriptet skriver "Kunde inte matcha Vinbanken": matcha för hand mot JSON-filen.
 - Systembolaget är facit för vilka viner som släpps. Viner i källorna som inte finns hos Systembolaget ignoreras.
+- Uppdatera sedan betygsregistret för sidan "Flaskor från min butik" (`/butik`): `python3 scripts/bygg_betygsregister.py`. Det läser alla filer i `data/insamling/` och följer med i släppets PR.
+- `--med-torsdag` tar även med viner som lanseras dagen före (ofta dyrare, lottade viner). Används för registret bakåt, inte i veckans kandidatlista utan att Robin bett om det.
 
 ## 2. Internationella betyg
 

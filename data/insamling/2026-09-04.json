@@ -1,0 +1,1718 @@
+{
+ "releaseDate": "2026-09-04",
+ "collectedAt": "2026-10-16T06:52:37+00:00",
+ "sources": {
+  "vinbanken": [
+   "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889",
+   "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+  ],
+  "munskankarna": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+  "finewines": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+  "bkwine": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/"
+ },
+ "unmatched": {
+  "vinbanken": []
+ },
+ "coverage": {
+  "wines": 44,
+  "vinbanken": 19,
+  "munskankarna": 31,
+  "finewines": 32,
+  "bkwine": 19
+ },
+ "wines": [
+  {
+   "sbNumber": "9406901",
+   "short": "94069",
+   "name": "Aurente Chardonnay",
+   "producer": "Lungarotti",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Torgiano",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till rätter av fisk eller ljust kött, gärna grillat.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Grillat"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/56065660/56065660_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 12.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Ej prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "86–88"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2027,
+    "to": 2030,
+    "source": "BKWine"
+   },
+   "bottles": 4200,
+   "avg": 87.6,
+   "value": 87.6
+  },
+  {
+   "sbNumber": "9214901",
+   "short": "92149",
+   "name": "Soltész Egri Csillag Selection",
+   "producer": "Ostorosbor Zrt",
+   "vintage": 2025,
+   "country": "Ungern",
+   "region": "Eger",
+   "grapes": [
+    "Királyleányka",
+    "Muscat ottonel",
+    "Olaszrizling",
+    "Chardonnay",
+    "Furmint"
+   ],
+   "type": "Vitt vin",
+   "price": 125.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller kyckling, exempelvis pizza.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grönsaker",
+    "Pizza"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/24603221/24603221_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 88,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Fynd i sin prisklass"
+    },
+    "Finewines": {
+     "score": 85.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "84–86"
+    },
+    "BKWine": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2028,
+    "source": "Vinbanken"
+   },
+   "bottles": 8400,
+   "avg": 86.6,
+   "value": 87.6
+  },
+  {
+   "sbNumber": "9339801",
+   "short": "93398",
+   "name": "Temjanika Luda Mara",
+   "producer": "Vinarska Vizba Tikves AD Kavadarci",
+   "vintage": 2025,
+   "country": "Nordmakedonien",
+   "region": "Tikvesh",
+   "grapes": [
+    "Tamjanika"
+   ],
+   "type": "Vitt vin",
+   "price": 141.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt, eller till rätter av fisk eller skaldjur, exempelvis tomatbaserad pasta.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Pasta",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/35898823/35898823_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 87,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Fynd i sin prisklass"
+    },
+    "Finewines": {
+     "score": 84.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "83–85"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2027,
+    "source": "Vinbanken"
+   },
+   "avg": 86.2,
+   "value": 87.0
+  },
+  {
+   "sbNumber": "9203801",
+   "short": "92038",
+   "name": "Navaherreros Garnacha",
+   "producer": "Bodegas Bernabeleva",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Vinos de Madrid",
+   "grapes": [
+    "Garnacha"
+   ],
+   "type": "Rött vin",
+   "price": 217.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till smakrika vegetariska rätter eller till rätter av ljust kött, exempelvis pizza.",
+   "foodSymbols": [
+    "Fläsk",
+    "Fågel",
+    "Grönsaker",
+    "Pizza"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/18204519/18204519_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "86–88"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2030,
+    "source": "Vinbanken"
+   },
+   "avg": 89.1,
+   "value": 88.9
+  },
+  {
+   "sbNumber": "9323102",
+   "short": "93231",
+   "name": "Fontanafredda Barolo Serralunga d'Alba",
+   "producer": "Fontanafredda",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Barolo",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 199.0,
+   "volume": 375.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/48497319/48497319_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "87–89"
+    }
+   },
+   "avg": 89.4,
+   "value": 87.9
+  },
+  {
+   "sbNumber": "9530001",
+   "short": "95300",
+   "name": "Cannonau di Sardegna Sileno Ferruccio Deiana",
+   "producer": "Az. Ferruccio Deiana",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Cannonau di Sardegna",
+   "grapes": [
+    "Cannonau"
+   ],
+   "type": "Rött vin",
+   "price": 159.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av fläsk- eller lammkött, exempelvis pizza.",
+   "foodSymbols": [
+    "Fläsk",
+    "Grönsaker",
+    "Lamm",
+    "Pizza"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/46449957/46449957_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 89,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Fynd i sin prisklass"
+    },
+    "Finewines": {
+     "score": 84.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "83–85"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "avg": 87.4,
+   "value": 87.9
+  },
+  {
+   "sbNumber": "9514301",
+   "short": "95143",
+   "name": "Les Gadilles Rasteau M.Chapoutier",
+   "producer": "M.Chapoutier",
+   "vintage": 2024,
+   "country": "Frankrike",
+   "region": "Rasteau",
+   "grapes": [
+    "Grenache noir",
+    "Syrah",
+    "Mourvèdre"
+   ],
+   "type": "Rött vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62418360/62418360_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "87–89"
+    },
+    "BKWine": {
+     "score": 13.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(-)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 9000,
+   "avg": 88.5,
+   "value": 88.5
+  },
+  {
+   "sbNumber": "9273801",
+   "short": "92738",
+   "name": "Heinrich Leithaberg Blaufränkisch",
+   "producer": "Weingut Heinrich",
+   "vintage": 2019,
+   "country": "Österrike",
+   "region": "Leithaberg",
+   "grapes": [
+    "Blaufränkisch"
+   ],
+   "type": "Rött vin",
+   "price": 200.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av ljust kött.",
+   "foodSymbols": [
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/61446010/61446010_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "87–89"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "BKWine"
+   },
+   "bottles": 4800,
+   "avg": 89.3,
+   "value": 89.3
+  },
+  {
+   "sbNumber": "9214601",
+   "short": "92146",
+   "name": "L’Archetipo Susumante",
+   "producer": "L’Archetipo",
+   "vintage": 2025,
+   "country": "Italien",
+   "region": "Salento",
+   "grapes": [
+    "Susumaniello"
+   ],
+   "type": "Mousserande vin",
+   "price": 179.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som sällskapsdryck eller till rätter av fisk eller kyckling, gärna sallader.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel",
+    "Grönsaker",
+    "Sällskapsdryck"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62855952/62855952_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 82.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "81–83"
+    }
+   },
+   "avg": 84.3,
+   "value": 84.5
+  },
+  {
+   "sbNumber": "9216301",
+   "short": "92163",
+   "name": "Hoof & Lur Moschofilero",
+   "producer": "Troupis Winery",
+   "vintage": 2025,
+   "country": "Grekland",
+   "region": "Arcadia",
+   "grapes": [
+    "Moschofilero"
+   ],
+   "type": "Rosévin",
+   "price": 190.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som sällskapsdryck, gärna med salta snacks.",
+   "foodSymbols": [
+    "Snacks",
+    "Sällskapsdryck"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/65870478/65870478_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 12.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Ej prisvärt"
+    },
+    "Finewines": {
+     "score": 83.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "82–84"
+    }
+   },
+   "avg": 84.4,
+   "value": 84.5
+  },
+  {
+   "sbNumber": "9047601",
+   "short": "90476",
+   "name": "Battenfeld Spanier Spätburgunder",
+   "producer": "Battenfeld Spanier",
+   "vintage": 2024,
+   "country": "Tyskland",
+   "region": "Rheinhessen",
+   "grapes": [
+    "Spätburgunder"
+   ],
+   "type": "Rött vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av ljust kött, exempelvis en buffé eller till småplock.",
+   "foodSymbols": [
+    "Buffémat",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/65126360/65126360_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Fynd i sin prisklass"
+    },
+    "Finewines": {
+     "score": 86.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "85–87"
+    },
+    "BKWine": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 3600,
+   "avg": 89.0,
+   "value": 89.0
+  },
+  {
+   "sbNumber": "9132101",
+   "short": "91321",
+   "name": "Bollinger PN AYC21",
+   "producer": "Bollinger",
+   "vintage": null,
+   "country": "Frankrike",
+   "region": "Champagne",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Mousserande vin",
+   "price": 1199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som aperitif eller till rätter av fisk eller skaldjur.",
+   "foodSymbols": [
+    "Aperitif",
+    "Fisk",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62098715/62098715_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 95,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 18.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": null
+    },
+    "Finewines": {
+     "score": 92.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "91–93"
+    },
+    "BKWine": {
+     "score": 17.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2027,
+    "to": 2036,
+    "source": "Vinbanken"
+   },
+   "bottles": 1200,
+   "avg": 94.0,
+   "value": 90.1
+  },
+  {
+   "sbNumber": "9285001",
+   "short": "92850",
+   "name": "Château de Camensac",
+   "producer": "Château Camensac",
+   "vintage": 2012,
+   "country": "Frankrike",
+   "region": "Haut-Médoc",
+   "grapes": [
+    "Cabernet sauvignon",
+    "Merlot"
+   ],
+   "type": "Rött vin",
+   "price": 399.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64087957/64087957_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9438001",
+   "short": "94380",
+   "name": "Le Busche Chardonnay Umani Ronchi",
+   "producer": "Azienda Vinicola Umani Ronchi Spa",
+   "vintage": 2023,
+   "country": "Italien",
+   "region": "Marche",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till smakrika rätter av fisk eller till rätter av ljust kött, gärna grillat.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Grillat"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/59732373/59732373_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 84.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "83–85"
+    },
+    "BKWine": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2029,
+    "source": "Vinbanken"
+   },
+   "avg": 87.9,
+   "value": 87.9
+  },
+  {
+   "sbNumber": "9262601",
+   "short": "92626",
+   "name": "Langhe Nebbiolo  A Mont",
+   "producer": "Paolo Conterno",
+   "vintage": 2024,
+   "country": "Italien",
+   "region": "Langhe",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 181.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 16-18°C till rätter av lamm- eller nötkött eller till smakrika vegetariska rätter, exempelvis pizza eller gräddbaserad pasta.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Pasta",
+    "Pizza"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/34716909/34716909_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "86–88"
+    }
+   },
+   "avg": 87.7,
+   "value": 87.9
+  },
+  {
+   "sbNumber": "9244701",
+   "short": "92447",
+   "name": "Riesling Burgweg Weingut Philipp Kuhn",
+   "producer": "Weingut Philipp Kuhn",
+   "vintage": 2024,
+   "country": "Tyskland",
+   "region": "Pfalz",
+   "grapes": [
+    "Riesling"
+   ],
+   "type": "Vitt vin",
+   "price": 280.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till rätter av fisk eller kyckling.",
+   "foodSymbols": [
+    "Fisk",
+    "Fågel"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62201326/62201326_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 15.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "87–89"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "bottles": 1380,
+   "avg": 90.2,
+   "value": 89.5
+  },
+  {
+   "sbNumber": "9181501",
+   "short": "91815",
+   "name": "Ata Rangi Crimson",
+   "producer": "Ata Rangi",
+   "vintage": 2025,
+   "country": "Nya Zeeland",
+   "region": "Martinborough",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 249.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 16°C till vegetariskt eller till rätter av stekt fisk eller till ljust kött.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Grönsaker"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/60142724/60142724_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "87–89"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "avg": 89.4,
+   "value": 88.9
+  },
+  {
+   "sbNumber": "9124201",
+   "short": "91242",
+   "name": "Langhe Arneis Cordero di Montezemolo",
+   "producer": "Cordero di Montezemolo",
+   "vintage": 2025,
+   "country": "Italien",
+   "region": "Langhe",
+   "grapes": [
+    "Arneis"
+   ],
+   "type": "Vitt vin",
+   "price": 199.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C till vegetariskt eller till rätter av fisk eller skaldjur.",
+   "foodSymbols": [
+    "Fisk",
+    "Grönsaker",
+    "Skaldjur"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606053/64606053_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 90,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "88–90"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2028,
+    "source": "Vinbanken"
+   },
+   "avg": 89.1,
+   "value": 89.1
+  },
+  {
+   "sbNumber": "9257301",
+   "short": "92573",
+   "name": "Weingut Prinz Jungfer Riesling Kabinett",
+   "producer": "Weingut Prinz",
+   "vintage": 2024,
+   "country": "Tyskland",
+   "region": "Rheingau",
+   "grapes": [
+    "Riesling"
+   ],
+   "type": "Vitt vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 8-10°C som sällskapsdryck, gärna med salta snacks, eller till rätter av fisk eller skaldjur, gärna med kryddstark asiatisk smaksättning.",
+   "foodSymbols": [
+    "Kryddstarkt",
+    "Skaldjur",
+    "Snacks",
+    "Sällskapsdryck"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/62201329/62201329_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "88–90"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 720,
+   "avg": 90.0,
+   "value": 89.7
+  },
+  {
+   "sbNumber": "9282101",
+   "short": "92821",
+   "name": "Little Sister Grüner Veltliner",
+   "producer": "Weingut Sommer",
+   "vintage": 2024,
+   "country": "Österrike",
+   "region": null,
+   "grapes": [
+    "Grüner veltliner"
+   ],
+   "type": "Vitt vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64087954/64087954_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "86–88"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2030,
+    "source": "Vinbanken"
+   },
+   "bottles": 720,
+   "avg": 89.3,
+   "value": 89.0
+  },
+  {
+   "sbNumber": "9317001",
+   "short": "93170",
+   "name": "Greywacke Pinot Noir",
+   "producer": "Greywacke Vineyards",
+   "vintage": 2024,
+   "country": "Nya Zeeland",
+   "region": "Marlborough",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/62112181/62112181_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "avg": 92.0,
+   "value": 89.6
+  },
+  {
+   "sbNumber": "9111801",
+   "short": "91118",
+   "name": "Bodegas Bernabeleva Manchomuelas",
+   "producer": "Bodegas Bernabeleva",
+   "vintage": 2024,
+   "country": "Spanien",
+   "region": "Vinos de Madrid",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 250.0,
+   "volume": 750.0,
+   "usage": "Serveras vid 10-12°C till rätter av fisk eller ljust kött, gärna grillat.",
+   "foodSymbols": [
+    "Fisk",
+    "Fläsk",
+    "Fågel",
+    "Grillat"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/60857852/60857852_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/vita-viner-i-tillfalligt-sortiment-4-september-6890"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "88–90"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2030,
+    "source": "Vinbanken"
+   },
+   "avg": 89.7,
+   "value": 89.2
+  },
+  {
+   "sbNumber": "9054701",
+   "short": "90547",
+   "name": "Bründlmayer Langenlois Alte Reben Grüner Veltliner",
+   "producer": "Weingut Bründlmayer",
+   "vintage": 2024,
+   "country": "Österrike",
+   "region": "Kamptal",
+   "grapes": [
+    "Grüner veltliner"
+   ],
+   "type": "Vitt vin",
+   "price": 369.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/66508270/66508270_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "88–90"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "="
+    }
+   },
+   "drink": {
+    "from": 2034,
+    "to": 2040,
+    "source": "BKWine"
+   },
+   "bottles": 600,
+   "avg": 90.8,
+   "value": 89.5
+  },
+  {
+   "sbNumber": "9516201",
+   "short": "95162",
+   "name": "Triebaumer Blaufränkish Rust",
+   "producer": "Weingut Günter + Regina Triebaumer",
+   "vintage": 2024,
+   "country": "Österrike",
+   "region": "Burgenland",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 229.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/60857961/60857961_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 88.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "87–89"
+    },
+    "BKWine": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2030,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 600,
+   "avg": 89.1,
+   "value": 88.8
+  },
+  {
+   "sbNumber": "9276901",
+   "short": "92769",
+   "name": "Sancerre Les Chasseignes Domaine Du Pré Sémelé",
+   "producer": "Scev Julien Et Clement Raimbault – Domaine Du Pre Semele",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": null,
+   "grapes": [
+    "Sauvignon blanc"
+   ],
+   "type": "Vitt vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606183/64606183_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9380201",
+   "short": "93802",
+   "name": "Château Gruaud Larose",
+   "producer": "Château Gruaud Larose",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Haut-Médoc",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 940.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/61966643/61966643_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9422401",
+   "short": "94224",
+   "name": "Hudelot Noellat Bourgogne Pinot Noir",
+   "producer": "Domaine Hudelot-Noellat",
+   "vintage": 2022,
+   "country": "Frankrike",
+   "region": "Bourgogne",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 599.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/65942087/65942087_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9300001",
+   "short": "93000",
+   "name": "Brancaia Gran Selezione Casa Brancaia",
+   "producer": "Casa Brancaia",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Chianti Classico",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 649.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/65996072/65996072_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9359501",
+   "short": "93595",
+   "name": "Brancaia Il Blu Casa Brancaia",
+   "producer": "Casa Brancaia",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Toscana",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 749.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/65996073/65996073_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9290301",
+   "short": "92903",
+   "name": "Hirsch San Andreas Fault Pinot Noir",
+   "producer": "Hirsch Vineyards",
+   "vintage": 2023,
+   "country": "USA",
+   "region": null,
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 849.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606225/64606225_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9215401",
+   "short": "92154",
+   "name": "Nino Negri 5 Stelle Sfursat",
+   "producer": "Nino Negri",
+   "vintage": 2022,
+   "country": "Italien",
+   "region": "Valtellina",
+   "grapes": [
+    "Nebbiolo"
+   ],
+   "type": "Rött vin",
+   "price": 599.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor och stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/60583169/60583169_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 94,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Ej prisvärt"
+    },
+    "Finewines": {
+     "score": 92.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "91–93"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2034,
+    "source": "Vinbanken"
+   },
+   "avg": 92.3,
+   "value": 89.9
+  },
+  {
+   "sbNumber": "9290001",
+   "short": "92900",
+   "name": "Chateau Latour",
+   "producer": "Château Latour",
+   "vintage": 2019,
+   "country": "Frankrike",
+   "region": null,
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 7664.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": null,
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9057001",
+   "short": "90570",
+   "name": "Guado al Tasso Marchesi Antinori",
+   "producer": "Marchesi Antinori",
+   "vintage": 2023,
+   "country": "Italien",
+   "region": "Bolgheri",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 1349.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/65845263/65845263_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9242001",
+   "short": "92420",
+   "name": "Gigondas Domaine Raspail-Ay",
+   "producer": "Domaine Raspail-Ay",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Gigondas",
+   "grapes": [
+    "Grenache",
+    "Syrah",
+    "Mourvèdre"
+   ],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grytor eller stekar.",
+   "foodSymbols": [
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/64988966/64988966_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 92,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 14.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Ej prisvärt"
+    },
+    "Finewines": {
+     "score": 87.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "86–88"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2031,
+    "source": "Vinbanken"
+   },
+   "avg": 89.4,
+   "value": 88.5
+  },
+  {
+   "sbNumber": "9122201",
+   "short": "91222",
+   "name": "Ata Rangi Pinot Noir",
+   "producer": "Ata Rangi",
+   "vintage": 2022,
+   "country": "Nya Zeeland",
+   "region": "Martinborough",
+   "grapes": [
+    "Pinot noir"
+   ],
+   "type": "Rött vin",
+   "price": 501.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/60142700/60142700_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9279401",
+   "short": "92794",
+   "name": "Espera Nat Cool",
+   "producer": "Rodrigo Martins Consulting",
+   "vintage": 2024,
+   "country": "Portugal",
+   "region": null,
+   "grapes": [
+    "Castelão"
+   ],
+   "type": "Rött vin",
+   "price": 230.0,
+   "volume": 1000.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606222/64606222_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 13.0,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Prisvärt"
+    },
+    "Finewines": {
+     "score": 83.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "82–84"
+    },
+    "BKWine": {
+     "score": 14.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2028,
+    "source": "BKWine"
+   },
+   "bottles": 900,
+   "avg": 86.0,
+   "value": 86.3
+  },
+  {
+   "sbNumber": "9394001",
+   "short": "93940",
+   "name": "Hirsch East Ridge Pinot Noir",
+   "producer": "Hirsch Vineyards",
+   "vintage": 2023,
+   "country": "USA",
+   "region": null,
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 1179.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64768500/64768500_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9398601",
+   "short": "93986",
+   "name": "Hirsch West Ridge Pinot Noir",
+   "producer": "Hirsch Vineyards",
+   "vintage": 2023,
+   "country": "USA",
+   "region": "North Coast",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 1179.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64768927/64768927_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9449001",
+   "short": "94490",
+   "name": "Trimbach Clos Sainte Hune Riesling",
+   "producer": "Trimbach",
+   "vintage": 2020,
+   "country": "Frankrike",
+   "region": "Alsace",
+   "grapes": [],
+   "type": "Vitt vin",
+   "price": 3299.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64795905/64795905_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9483601",
+   "short": "94836",
+   "name": "Biserno",
+   "producer": "Biserno",
+   "vintage": 2023,
+   "country": "Italien",
+   "region": "Toscana",
+   "grapes": [],
+   "type": "Rött vin",
+   "price": 1297.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/65396013/65396013_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9211201",
+   "short": "92112",
+   "name": "Château Malescasse Cru Bourgeois Exceptionnel",
+   "producer": "Chateau Malescasse",
+   "vintage": 2020,
+   "country": "Frankrike",
+   "region": "Haut-Médoc",
+   "grapes": [
+    "Merlot",
+    "Cabernet sauvignon",
+    "Petit verdot"
+   ],
+   "type": "Rött vin",
+   "price": 299.0,
+   "volume": 750.0,
+   "usage": "Serveras vid cirka 18°C till rätter av mörkt kött, gärna grillat.",
+   "foodSymbols": [
+    "Grillat",
+    "Lamm",
+    "Nöt",
+    "Vilt"
+   ],
+   "image": "https://product-cdn.systembolaget.se/productimages/63914137/63914137_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 91,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    },
+    "Munskänkarna": {
+     "score": 15.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 89.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "88–90"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(+)"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2032,
+    "source": "Vinbanken"
+   },
+   "bottles": 1200,
+   "avg": 90.6,
+   "value": 89.7
+  },
+  {
+   "sbNumber": "9278101",
+   "short": "92781",
+   "name": "Au Bon Climat Sandford & Benedict Chardonnay",
+   "producer": "Au Bon Climat",
+   "vintage": 2023,
+   "country": "USA",
+   "region": "Central Coast",
+   "grapes": [
+    "Chardonnay"
+   ],
+   "type": "Vitt vin",
+   "price": 489.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64606219/64606219_400.png",
+   "scores": {
+    "Munskänkarna": {
+     "score": 16.5,
+     "scale": 20,
+     "url": "https://www.munskankarna.se/sv/vinlocus/tillfalligt-sortiment-4-september-2026",
+     "value": "Mer än prisvärt"
+    },
+    "Finewines": {
+     "score": 90.0,
+     "scale": 100,
+     "url": "https://www.finewines.se/threads/tillfaelligt-sortiment-20260904.9326/",
+     "range": "89–91"
+    },
+    "BKWine": {
+     "score": 16.0,
+     "scale": 20,
+     "url": "https://www.bkwine.com/sv/utvalt/nyhetsutslapp-nya-viner/september-2026-systembolagets-nyheter-hela-provningen/",
+     "value": "(=)"
+    }
+   },
+   "drink": {
+    "from": 2028,
+    "to": 2033,
+    "source": "BKWine"
+   },
+   "bottles": 180,
+   "avg": 91.4,
+   "value": 89.5
+  },
+  {
+   "sbNumber": "9396401",
+   "short": "93964",
+   "name": "Amour de Deutz",
+   "producer": "Champagne Deutz",
+   "vintage": 2015,
+   "country": "Frankrike",
+   "region": "Champagne",
+   "grapes": [],
+   "type": "Mousserande vin",
+   "price": 2150.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/64768503/64768503_400.png",
+   "scores": {},
+   "avg": null,
+   "value": null
+  },
+  {
+   "sbNumber": "9374301",
+   "short": "93743",
+   "name": "Château Giscours",
+   "producer": "Château Giscours",
+   "vintage": 2023,
+   "country": "Frankrike",
+   "region": "Haut-Médoc",
+   "grapes": [
+    "Cabernet franc",
+    "Cabernet sauvignon",
+    "Merlot",
+    "Petit verdot"
+   ],
+   "type": "Rött vin",
+   "price": 627.0,
+   "volume": 750.0,
+   "usage": null,
+   "foodSymbols": [],
+   "image": "https://product-cdn.systembolaget.se/productimages/61966634/61966634_400.png",
+   "scores": {
+    "Vinbanken": {
+     "score": 95,
+     "scale": 100,
+     "url": "https://vinbanken.se/artiklar/roda-viner-i-tillfalligt-sortiment-4-september-6889"
+    }
+   },
+   "drink": {
+    "from": 2026,
+    "to": 2038,
+    "source": "Vinbanken"
+   },
+   "avg": 95.0,
+   "value": 91.0
+  }
+ ]
+}

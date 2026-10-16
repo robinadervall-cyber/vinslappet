@@ -9,8 +9,12 @@ export function ClickTracker() {
     const onClick = (e: MouseEvent) => {
       const a = (e.target as Element | null)?.closest?.('a[href^="https://www.systembolaget.se/"]');
       if (!a) return;
-      const nr = a.getAttribute("href")!.replace(/\D/g, "");
-      track("Till Systembolaget", { nr, sida: location.pathname });
+      const url = new URL(a.getAttribute("href")!);
+      if (url.pathname.startsWith("/sortiment/")) {
+        track("Hela släppet", { sida: location.pathname });
+        return;
+      }
+      track("Till Systembolaget", { nr: url.pathname.replace(/\D/g, ""), sida: location.pathname });
     };
     document.addEventListener("click", onClick);
     return () => document.removeEventListener("click", onClick);

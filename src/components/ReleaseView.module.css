@@ -118,3 +118,32 @@
   line-height: 1.5;
   color: var(--text-soft);
 }
+
+.toSb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  margin-top: 32px;
+}
+
+.toSbButton {
+  padding: 12px 20px;
+  font-weight: 600;
+  color: var(--on-accent);
+  background: var(--accent);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.toSbButton:hover {
+  background: var(--accent-hover);
+}
+
+.toSbNote {
+  flex: 1 1 260px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}

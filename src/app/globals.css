@@ -90,6 +90,17 @@ a {
   gap: 20px;
 }
 
+@media (max-width: 480px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 6px 16px;
+  }
+
+  .navLinks {
+    gap: 16px;
+  }
+}
+
 .nav a {
   text-decoration: none;
   color: var(--muted);

@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from "@vercel/analytics";
 import Link from "next/link";
 import { useState } from "react";
 import type { Store } from "@/lib/systembolaget";
@@ -40,7 +41,10 @@ export function StorePicker({ stores, selected }: { stores: Store[]; selected?: 
               <Link
                 href={`/butik?butik=${s.id}`}
                 className={s.id === selected ? styles.hitActive : styles.hit}
-                onClick={() => setQuery("")}
+                onClick={() => {
+                  track("Butik vald", { butik: s.id, ort: s.city });
+                  setQuery("");
+                }}
               >
                 <span className={styles.city}>{s.city}</span> {s.name}
               </Link>

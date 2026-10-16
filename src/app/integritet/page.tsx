@@ -7,7 +7,7 @@ export default function Privacy() {
   return (
     <article className={styles.page}>
       <h1 className={styles.title}>Integritetspolicy</h1>
-      <p className={styles.updated}>Senast uppdaterad 15 oktober 2026</p>
+      <p className={styles.updated}>Senast uppdaterad 16 oktober 2026</p>
 
       <p>
         Vinsläppet drivs av Robin Adervall, som är personuppgiftsansvarig. Här beskriver vi vilka
@@ -35,10 +35,18 @@ export default function Privacy() {
 
       <h2>Webbplatsen</h2>
       <p>
-        Webbplatsen använder inga cookies och ingen besöksstatistik. Den drivs hos Vercel, som likt
-        alla webbhotell tillfälligt loggar tekniska uppgifter som IP-adress för drift och säkerhet.
-        Flaskbilderna hämtas direkt från Systembolagets bildserver, så Systembolaget ser att din
-        webbläsare laddar dem.
+        Webbplatsen använder inga cookies. Den drivs hos Vercel, som likt alla webbhotell tillfälligt
+        loggar tekniska uppgifter som IP-adress för drift och säkerhet. Flaskbilderna hämtas direkt
+        från Systembolagets bildserver, så Systembolaget ser att din webbläsare laddar dem.
+      </p>
+      <p>
+        Vi mäter besök med Vercel Web Analytics för att se hur många som använder sajten, vilka sidor
+        som läses och varifrån besökarna kommer. Vi räknar även klick på länkar till Systembolaget,
+        vilken butik som väljs i Min butik och anmälningar till nyhetsbrevet. Statistiken sätter inga
+        cookies och sparar inga uppgifter som identifierar dig: en besökare känns igen med ett
+        anonymt värde som räknas fram ur förfrågan och raderas efter ett dygn. Vi ser bara
+        sammanräknade siffror. Den rättsliga grunden är vårt berättigade intresse av att förbättra
+        sajten.
       </p>
 
       <h2>Var uppgifterna finns</h2>

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import Link from "next/link";
+import { ClickTracker } from "@/components/ClickTracker";
 import "./globals.css";
 
 const serif = Fraunces({ variable: "--font-serif", subsets: ["latin"] });
@@ -37,6 +39,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </p>
           </footer>
         </div>
+        <Analytics />
+        <ClickTracker />
       </body>
     </html>
   );

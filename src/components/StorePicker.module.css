@@ -9,12 +9,7 @@
   font-weight: 600;
 }
 
-.row {
-  display: flex;
-  gap: 8px;
-}
-
-.select {
+.input {
   flex: 1;
   min-width: 0;
   padding: 12px 14px;
@@ -25,17 +20,36 @@
   border-radius: 10px;
 }
 
-.button {
-  padding: 12px 20px;
-  font: inherit;
-  font-weight: 600;
-  color: var(--on-accent);
-  background: var(--accent);
-  border: 0;
+.hits {
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 10px;
-  cursor: pointer;
 }
 
-.button:hover {
-  background: var(--accent-hover);
+.hit,
+.hitActive {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.hit:hover,
+.hit:focus-visible,
+.hitActive {
+  background: var(--surface-sunk);
+}
+
+.city {
+  font-weight: 600;
+}
+
+.none {
+  padding: 10px 12px;
+  font-size: 14px;
+  color: var(--muted);
 }

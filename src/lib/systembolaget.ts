@@ -48,7 +48,7 @@ export async function getStores(): Promise<Store[]> {
       const city = titleCase(s.city!);
       return {
         id: s.siteId,
-        name: s.alias ? `${s.alias}, ${s.address}` : s.address!,
+        name: s.alias ? `${s.alias.replace(/\p{Lu}{3,}/gu, titleCase)}, ${s.address}` : s.address!,
         city,
         county: s.county ?? "",
       };

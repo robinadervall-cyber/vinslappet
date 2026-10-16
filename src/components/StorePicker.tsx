@@ -1,46 +1,54 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import Link from "next/link";
+import { useState } from "react";
 import type { Store } from "@/lib/systembolaget";
 import styles from "./StorePicker.module.css";
 
-/** Butiksval. Fungerar som vanligt formulär utan JavaScript, byter sida direkt med. */
+const norm = (s: string) => s.toLocaleLowerCase("sv").normalize("NFD").replace(/[̀-ͯ]/g, "");
+
+/** Butikssök: skriv ort, butiksnamn eller adress och välj bland träffarna. */
 export function StorePicker({ stores, selected }: { stores: Store[]; selected?: string }) {
-  const router = useRouter();
-  const counties = [...new Set(stores.map((s) => s.county))].sort((a, b) => a.localeCompare(b, "sv"));
+  const [query, setQuery] = useState("");
+  const words = norm(query).split(/\s+/).filter(Boolean);
+  const hits = words.length
+    ? stores.filter((s) => {
+        const text = norm(`${s.city} ${s.name} ${s.county}`);
+        return words.every((w) => text.includes(w));
+      })
+    : [];
 
   return (
-    <form action="/butik" className={styles.form}>
-      <label htmlFor="butik" className={styles.label}>
-        Välj din butik
+    <div className={styles.form}>
+      <label htmlFor="butik-sok" className={styles.label}>
+        Sök din butik
       </label>
-      <div className={styles.row}>
-        <select
-          id="butik"
-          name="butik"
-          defaultValue={selected ?? ""}
-          className={styles.select}
-          onChange={(e) => e.target.value && router.push(`/butik?butik=${e.target.value}`)}
-        >
-          <option value="" disabled>
-            Ort och butik
-          </option>
-          {counties.map((county) => (
-            <optgroup key={county} label={county}>
-              {stores
-                .filter((s) => s.county === county)
-                .map((s) => (
-                  <option key={s.id} value={s.id}>
-                    {s.city}: {s.name}
-                  </option>
-                ))}
-            </optgroup>
+      <input
+        id="butik-sok"
+        type="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Ort, butik eller adress, t.ex. Sundsvall"
+        autoComplete="off"
+        className={styles.input}
+      />
+      {words.length > 0 && (
+        <ul className={styles.hits}>
+          {hits.length === 0 && <li className={styles.none}>Ingen butik matchar.</li>}
+          {hits.slice(0, 12).map((s) => (
+            <li key={s.id}>
+              <Link
+                href={`/butik?butik=${s.id}`}
+                className={s.id === selected ? styles.hitActive : styles.hit}
+                onClick={() => setQuery("")}
+              >
+                <span className={styles.city}>{s.city}</span> {s.name}
+              </Link>
+            </li>
           ))}
-        </select>
-        <button type="submit" className={styles.button}>
-          Visa
-        </button>
-      </div>
-    </form>
+          {hits.length > 12 && <li className={styles.none}>{hits.length - 12} till, skriv mer för att begränsa.</li>}
+        </ul>
+      )}
+    </div>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from "@vercel/analytics";
 import Link from "next/link";
 import { useState } from "react";
 import styles from "./SignupForm.module.css";
@@ -31,7 +32,10 @@ export function SignupForm() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email: form.get("email"), consent: form.get("consent") === "on" }),
           });
-          if (res.ok) return setState({ kind: "done" });
+          if (res.ok) {
+            track("Prenumeration");
+            return setState({ kind: "done" });
+          }
           const data = await res.json().catch(() => null);
           setState({ kind: "error", message: data?.error ?? "Något gick fel, försök igen om en stund." });
         } catch {

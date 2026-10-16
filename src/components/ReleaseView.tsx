@@ -1,4 +1,4 @@
-import { formatPrice, formatReleaseDate, systembolagetUrl } from "@/lib/scoring";
+import { formatPrice, formatReleaseDate, systembolagetReleaseUrl, systembolagetUrl } from "@/lib/scoring";
 import type { Release } from "@/lib/types";
 import { SignupForm } from "./SignupForm";
 import { WineCard } from "./WineCard";
@@ -53,6 +53,19 @@ export function ReleaseView({ release }: { release: Release }) {
               </li>
             ))}
           </ol>
+        </section>
+      )}
+
+      {!release.isExample && (
+        <section className={styles.toSb}>
+          <a href={systembolagetReleaseUrl(release.releaseDate)} className={styles.toSbButton}>
+            Hela släppet hos Systembolaget
+          </a>
+          <p className={styles.toSbNote}>
+            Öppnar alla viner som släpps {formatReleaseDate(release.releaseDate)} i en lista. Systembolaget kan inte
+            visa bara våra{" "}
+            {release.picks.length + (release.bubblers?.length ?? 0)}, så leta efter namnen ovan i listan.
+          </p>
         </section>
       )}
 

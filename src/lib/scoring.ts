@@ -44,12 +44,17 @@ export function formatReleaseDate(iso: string): string {
   });
 }
 
-/** Länk till varan hos Systembolaget utifrån artikelnumret. */
 /** "4 200 flaskor" med svenskt tusentalsavstånd. */
 export function formatBottles(n: number): string {
   return `${n.toLocaleString("sv-SE")} flaskor`;
 }
 
+/** Länk till varan hos Systembolaget utifrån artikelnumret. */
 export function systembolagetUrl(sbNumber: string): string {
   return `https://www.systembolaget.se/${sbNumber.replace(/\D/g, "")}`;
+}
+
+/** Systembolagets lista över allt i tillfälligt sortiment som släpps ett visst datum. */
+export function systembolagetReleaseUrl(releaseDate: string): string {
+  return `https://www.systembolaget.se/sortiment/tillfalligt-sortiment/?saljstart-fran=${releaseDate}&saljstart-till=${releaseDate}`;
 }

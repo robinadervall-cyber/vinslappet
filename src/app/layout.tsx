@@ -23,6 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <span className="navLinks">
               <Link href="/butik">Min butik</Link>
               <Link href="/arkiv">Tidigare släpp</Link>
+              <Link href="/om">Om</Link>
             </span>
           </nav>
           <main>{children}</main>
